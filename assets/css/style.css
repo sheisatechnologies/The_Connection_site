@@ -288,7 +288,7 @@ nav .ri-menu-line {
 .overlay-four {
   position: absolute;
   width: 100%;
-  height: 1500px;
+  height: 700px;
   background-image: url(../images/bg-image-home-01.jpg);
   /* background-attachment: fixed; */
   background-position: center;
@@ -301,10 +301,11 @@ nav .ri-menu-line {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 120%;
+  height: 100%;
   background-image: url(../images/home-mask-1.png);
   background-size: cover;
   background-position: center;
+  margin-top: 80px;
   /* transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s; */
 }
 
@@ -337,14 +338,15 @@ nav .ri-menu-line {
 /* -----fifth-section----- */
 .fifth-section {
   position: relative;
-  height: 1080px;
+  height: 800px;
   margin-top: 5vh;
+  margin-top: 60px;
 }
 
 .overlay-fifth {
   position: absolute;
   width: 70%;
-  height: 1500px;
+  height: 700px;
   background-image: url(../images/bg-image-home-02.jpg);
   /* background-attachment: fixed; */
   background-position: top;
@@ -355,7 +357,7 @@ nav .ri-menu-line {
   position: absolute;
   top: 0%;
   width: 100%;
-  height: 1300px;
+  height: 100%;
   background-image: url(../images/home-mask-2.png);
   background-size: cover;
   background-position: center;

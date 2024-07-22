@@ -762,6 +762,7 @@ nav .ri-menu-line {
   .overlay-fifth {
     height: 362px;
     z-index: 5;
+    width: 100%;
     background-image: url(../images/five-resp.png);
   }
   .overlay-five-png {

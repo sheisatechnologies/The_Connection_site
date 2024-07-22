@@ -25,7 +25,7 @@ mm.add("(max-width: 799px)", () => {
 
     window.addEventListener("scroll", function () {
         let offset = window.scrollY;
-        parallax2.style.backgroundPositionY = offset * 0.18 + "px";
+        parallax2.style.backgroundPositionY = offset * 0.19 + "px";
     });
 
 

@@ -288,15 +288,15 @@ nav .ri-menu-line {
 
 .overlay-four {
   position: absolute;
-  width: 100%;
-  height: 700px;
-  background-image: url(../images/bg-image-home-01.jpg);
-  background-attachment: fixed !important;
-  background-position: bottom;
-  background-size: contain;
-  /* background-repeat: no-repeat; */
-  /* transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s; */
-  background-position-y: -174.4px !important;
+    
+    width: 70%;
+    right: 0;
+    height: 700px;
+    background-image: url(../images/bg-image-home-01.jpg);
+    /* background-attachment: fixed; */
+    background-position: top;
+    background-size: cover;
+  
 }
 
 .overlay-four-png {

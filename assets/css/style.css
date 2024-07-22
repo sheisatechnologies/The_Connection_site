@@ -281,6 +281,7 @@ nav .ri-menu-line {
 
 .fourth-section {
   position: relative;
+  height: 800px;
   /* background-position: center;
   background-attachment: fixed; */
 }
@@ -288,13 +289,14 @@ nav .ri-menu-line {
 .overlay-four {
   position: absolute;
   width: 100%;
-    height: 700px;
+  height: 700px;
   background-image: url(../images/bg-image-home-01.jpg);
-  /* background-attachment: fixed; */
-  background-position: center;
-  background-size: cover;
+  background-attachment: fixed !important;
+  background-position: bottom;
+  background-size: contain;
   /* background-repeat: no-repeat; */
   /* transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s; */
+  background-position-y: -174.4px !important;
 }
 
 .overlay-four-png {
@@ -935,3 +937,8 @@ nav {
 .no-desk {
   display: none;
 }
+
+
+
+
+

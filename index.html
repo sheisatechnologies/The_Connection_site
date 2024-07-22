@@ -9,6 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/aos.min.css" >
   </head>
   <body>
     <div id="main-gc">
@@ -146,10 +147,11 @@
       <!-- <div class="fix-back"></div> -->
       <div class="fourth-section section">
         <div class="bg-four-top"></div>
-        <div id="parallax2" class="parallax-item overlay-four"></div>
+        <div id="parallax2" data-aos="fade-up"
+        data-aos-duration="3000" class="parallax-item overlay-four"></div>
         <!-- <div class="overlay-four d-flex">
         </div> -->
-        <div class="overlay-four-png"></div>
+        <div   class="overlay-four-png"></div>
         <div class="bg-four-btm d-flex-c">
           <h1 class="mainHeading">The <br />Campus</h1>
           <p class="mainP">
@@ -161,7 +163,7 @@
       </div>
       <div class="fifth-section section">
         <!-- <div class="bg-four-top"></div> -->
-        <div id="parallax3" class="parallax-item overlay-fifth"></div>
+        <div id="parallax3" data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="0" class="parallax-item overlay-fifth"></div>
         <!-- <div class="overlay-fifth">
         </div> -->
         <div class="overlay-five-png"></div>
@@ -267,5 +269,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/aos.min.js"></script>
   </body>
 </html>

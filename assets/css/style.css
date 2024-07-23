@@ -577,6 +577,16 @@ nav .ri-menu-line {
 }
 
 @media (max-width: 799px) {
+
+
+  .res-img{
+
+    display: block !important;
+    width: 100%;
+    height: 70%;
+  }
+
+
   .video-mobile video {
     width: 100%;
     height: auto;
@@ -721,17 +731,19 @@ nav .ri-menu-line {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 900px;
+    height: 1300px;
     padding: 30px 0;
+    
   }
   .overlay-four {
-    /* display: none; */
+    display: none;
     height: 400px;
     background-position: center;
     background-size: 180%;
     /* background-repeat: no-repeat; */
   }
   .overlay-four-png {
+    display: none;
     width: 100%;
     height: 469px;
     background-image: url(../images/bg-mask-home-01-a.png);
@@ -943,6 +955,9 @@ nav {
 }
 
 
+.res-img{
 
+  display: none;
+}
 
 

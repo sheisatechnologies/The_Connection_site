@@ -105,6 +105,64 @@ mm4.add("(min-width: 800px)", () => {
     })
 });
 
+
+// mm4.add("(min-width: 800px)", () => {
+//     let tl = gsap.timeline({
+//         scrollTrigger: {
+//             trigger: '.overlay-four',
+//             start: '0% 10%',
+//             end: '0% 60%',
+//             scrub: true,
+//             markers: true,
+//             duration: 6000,
+//             ease: 'power3.inOut',
+//             repeat:-1
+//         }
+//     });
+//     tl.to(".overlay-four", {
+//         y: -200,
+//     })
+// });
+
+
+gsap.to('.overlay-four',{y:-100,
+// scale:0.5,
+delay:1,
+scrollTrigger:{
+    
+    trigger:'.overlay-four-png', 
+    start:'top top',
+     marker:true, 
+     scrub:true}
+
+
+
+
+
+});
+
+
+
+
+gsap.to('.overlay-four',{y:-100,
+    // scale:0.5,
+    delay:1,
+    scrollTrigger:{
+        
+        trigger:'.fourth-section', 
+        start:'top top',
+         marker:true, 
+         scrub:true}
+    
+    
+    
+    
+    
+    });
+
+
+
+
 mm4.add("(max-width: 799px)", () => {
     let tl = gsap.timeline({
         scrollTrigger: {
@@ -121,12 +179,12 @@ mm4.add("(max-width: 799px)", () => {
 });
 
 
-const parallax = document.getElementById("parallax");
+// const parallax = document.getElementById("parallax");
 
-// Parallax Effect for DIV 1
-window.addEventListener("scroll", function () {
-    let offset = window.scrollY;
-    parallax.style.backgroundPositionY = offset * 0.5 + "px";
-    // DIV 1 background will move slower than other elements on scroll.
-});
+// // Parallax Effect for DIV 1
+// window.addEventListener("scroll", function () {
+//     let offset = window.scrollY;
+//     parallax.style.backgroundPositionY = offset * 0.5 + "px";
+//     // DIV 1 background will move slower than other elements on scroll.
+// });
 

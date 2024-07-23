@@ -67,6 +67,24 @@ mm2.add("(min-width: 800px)", () => {
 
 });
 
+
+
+let mm4 = gsap.matchMedia();
+mm4.add("(max-width: 799px)", () => {
+    let tl = gsap.timeline({
+        scrollTrigger: {
+            trigger: '.fifth-section',
+            start: '0% 50%',
+            end: '100% 50%',
+            scrub: true,
+            // markers: true,
+        }
+    });
+    tl.to(".overlay-five-png",{
+        y: 500,
+    })
+});
+
 // mm.add("(max-width: 799px)", () => {
 //     // mobile setup code here...
 //   });
@@ -189,20 +207,6 @@ gsap.to('.overlay-four',{y:-100,
 
 
 
-mm4.add("(max-width: 799px)", () => {
-    let tl = gsap.timeline({
-        scrollTrigger: {
-            trigger: '.fifth-section',
-            start: '0% 50%',
-            end: '100% 50%',
-            scrub: true,
-            markers: true,
-        }
-    });
-    tl.to(".overlay-five-png",{
-        y: 500,
-    })
-});
 
 
 

@@ -9,6 +9,20 @@ document.querySelector("#nav-menu").addEventListener("click", function () {
 
 let mm = gsap.matchMedia();
 
+
+mm.add("(min-width: 800px)", () => {
+    const parallax2 = document.getElementById("parallax");
+
+
+    window.addEventListener("scroll", function () {
+        let offset = window.scrollY;
+        parallax2.style.backgroundPositionY = offset * 0.8 + "px";
+    });
+
+});
+
+
+
 mm.add("(min-width: 800px)", () => {
     const parallax2 = document.getElementById("parallax2");
 
@@ -23,6 +37,8 @@ mm.add("(min-width: 800px)", () => {
 
 
 
+
+
 mm.add("(max-width: 799px)", () => {
     const parallax2 = document.getElementById("parallax2");
 
@@ -33,6 +49,8 @@ mm.add("(max-width: 799px)", () => {
 
 
 });
+
+
 
 
 
@@ -188,11 +206,11 @@ mm4.add("(max-width: 799px)", () => {
 
 
 
-const parallax = document.getElementById("parallax");
+// const parallax = document.getElementById("parallax");
 
-// Parallax Effect for DIV 1
-window.addEventListener("scroll", function () {
-    let offset = window.scrollY;
-    parallax.style.backgroundPositionY = offset * 0.5 + "px";
-    // DIV 1 background will move slower than other elements on scroll.
-});
+// // Parallax Effect for DIV 1
+// window.addEventListener("scroll", function () {
+//     let offset = window.scrollY;
+//     parallax.style.backgroundPositionY = offset * 0.5 + "px";
+//     // DIV 1 background will move slower than other elements on scroll.
+// });

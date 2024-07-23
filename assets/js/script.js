@@ -20,12 +20,15 @@ mm.add("(min-width: 800px)", () => {
 
 });
 
+
+
+
 mm.add("(max-width: 799px)", () => {
     const parallax2 = document.getElementById("parallax2");
 
     window.addEventListener("scroll", function () {
         let offset = window.scrollY;
-        parallax2.style.backgroundPositionY = offset * 0.19 + "px";
+        parallax2.style.backgroundPositionY = offset * 0.9 + "px";
     });
 
 
@@ -184,6 +187,7 @@ mm4.add("(max-width: 799px)", () => {
 });
 
 
+
 const parallax = document.getElementById("parallax");
 
 // Parallax Effect for DIV 1
@@ -192,4 +196,3 @@ window.addEventListener("scroll", function () {
     parallax.style.backgroundPositionY = offset * 0.5 + "px";
     // DIV 1 background will move slower than other elements on scroll.
 });
-

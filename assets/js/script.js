@@ -184,12 +184,12 @@ mm4.add("(max-width: 799px)", () => {
 });
 
 
-// const parallax = document.getElementById("parallax");
+const parallax = document.getElementById("parallax");
 
-// // Parallax Effect for DIV 1
-// window.addEventListener("scroll", function () {
-//     let offset = window.scrollY;
-//     parallax.style.backgroundPositionY = offset * 0.5 + "px";
-//     // DIV 1 background will move slower than other elements on scroll.
-// });
+// Parallax Effect for DIV 1
+window.addEventListener("scroll", function () {
+    let offset = window.scrollY;
+    parallax.style.backgroundPositionY = offset * 0.5 + "px";
+    // DIV 1 background will move slower than other elements on scroll.
+});
 

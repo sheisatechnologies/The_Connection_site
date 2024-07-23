@@ -16,7 +16,7 @@ mm.add("(min-width: 800px)", () => {
 
     window.addEventListener("scroll", function () {
         let offset = window.scrollY;
-        parallax2.style.backgroundPositionY = offset * 0.8 + "px";
+        parallax2.style.backgroundPositionY = offset * 0.5 + "px";
     });
 
 });

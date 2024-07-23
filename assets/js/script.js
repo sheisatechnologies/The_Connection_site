@@ -88,22 +88,22 @@ mm3.add("(max-width: 799px)", () => {
 
 */
 
-let mm4 = gsap.matchMedia();
+// let mm4 = gsap.matchMedia();
 
-mm4.add("(min-width: 800px)", () => {
-    let tl = gsap.timeline({
-        scrollTrigger: {
-            trigger: '.fifth-section',
-            start: '0% 80%',
-            end: '100% 0%',
-            scrub: true,
-            // markers: true,
-        }
-    });
-    tl.to(".overlay-five-png", {
-        y: -100,
-    })
-});
+// mm4.add("(min-width: 800px)", () => {
+//     let tl = gsap.timeline({
+//         scrollTrigger: {
+//             trigger: '.fifth-section',
+//             start: '0% 80%',
+//             end: '100% 0%',
+//             scrub: true,
+//             // markers: true,
+//         }
+//     });
+//     tl.to(".overlay-five-png", {
+//         y: -100,
+//     })
+// });
 
 
 // mm4.add("(min-width: 800px)", () => {
@@ -125,40 +125,45 @@ mm4.add("(min-width: 800px)", () => {
 // });
 
 
-gsap.to('.overlay-four',{y:-100,
-// scale:0.5,
-delay:1,
-scrollTrigger:{
+// gsap.to('.overlay-four',{y:-100,
+// // scale:0.5,
+// delay:1,
+// scrollTrigger:{
     
-    trigger:'.overlay-four-png', 
-    start:'top top',
-     marker:true, 
-     scrub:true}
+//     trigger:'.overlay-four-png', 
+//     start:'top top',
+//      marker:true, 
+//      scrub:true}
 
 
 
 
 
-});
+// });
 
 
 
 
 gsap.to('.overlay-four',{y:-100,
-    // scale:0.5,
+    // scale:1.5,
     delay:1,
     scrollTrigger:{
         
-        trigger:'.fourth-section', 
-        start:'top top',
-         marker:true, 
-         scrub:true}
+        trigger:'.overlay-four-png', 
+    start:'top top',
+     marker:true, 
+     scrub:true}
     
     
     
     
     
     });
+
+
+
+
+
 
 
 
@@ -170,12 +175,12 @@ mm4.add("(max-width: 799px)", () => {
             start: '0% 50%',
             end: '100% 50%',
             scrub: true,
-            // markers: true,
+            markers: true,
         }
     });
-    // tl.to(".overlay-five-png",{
-    //     y: -50,
-    // })
+    tl.to(".overlay-five-png",{
+        y: 500,
+    })
 });
 
 

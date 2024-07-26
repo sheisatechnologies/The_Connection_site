@@ -195,7 +195,7 @@ nav .ri-menu-line {
   top: 0;
   width: 100%;
   height: 864px;
-  padding: 0vw 5vw;
+  padding: 0vw 140px;
 }
 
 .cards-third {
@@ -203,11 +203,12 @@ nav .ri-menu-line {
   width: 100%;
   height: 100%;
   gap: 7vw;
+  margin-top: -10px;
 }
 
 .card-p-third {
   width: 22vw;
-  height: 100%;
+  height: 80%;
   align-items: start;
   justify-content: start;
   gap: 5vh;
@@ -216,7 +217,7 @@ nav .ri-menu-line {
 .child-card-third {
   position: relative;
   width: 100%;
-  height: 50%;
+  height: 400px;
   background-size: cover;
   background-position: center;
   margin-top: 10px;
@@ -307,7 +308,7 @@ nav .ri-menu-line {
   background-image: url(../images/home-mask-1.png);
   background-size: cover;
   background-position: center;
-  margin-top: 80px;
+  margin-top: 160px;
   /* transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s; */
 }
 
@@ -325,7 +326,7 @@ nav .ri-menu-line {
   height: 60%;
   gap: 2vh;
   z-index: 5;
-  margin-top: 120px;
+  margin-top: 205px;
 }
 
 .bg-four-btm p {
@@ -363,7 +364,7 @@ nav .ri-menu-line {
   top: 0%;
   width: 100%;
   height: 100%;
-  background-image: url(../images/home-mask-2.png);
+  background-image: url(../images/home-mask-newbury.png);
   background-size: cover;
   background-position: center;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s;
@@ -382,6 +383,7 @@ nav .ri-menu-line {
   width: 100%;
   height: 90%;
   gap: 2vh;
+  margin-top: 145px;
   /* background-color: #80eee8; */
 }
 
@@ -396,16 +398,17 @@ nav .ri-menu-line {
   background: transparent;
   overflow: hidden;
   height: 756px;
+ margin-top: 0px;
 }
 
 .bg-six {
 
   width: 120%;
     height: 1620px;
-    background-image: url(../images/section6.png);
+    background-image: url(../images/lab-bg-image-desktop.jpg);
     background-position: center;
     background-size: cover;
-    background-image: url(../images/section6.png);
+    background-image: url(../images/lab-bg-image-desktop.jpg);
 
 }
 
@@ -415,6 +418,39 @@ nav .ri-menu-line {
 
 .sixth-section p {
   color: #fff;
+}
+
+.box1{
+  width: 70px;
+    height: 140px;
+    position: absolute;
+    bottom: 140px;
+    background-color: white;
+    right: 0;
+}
+.box2{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 70px;
+    background-color: white;
+    right: 70px;
+}
+.no-phon-box3{
+    width: 74px;
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    background-color: white;
+    left: 140px;
+}
+.no-phon-box4{
+  width: 560px;
+  height: 70px;
+  position: absolute;
+  top: 0px;
+  background-color: white;
+  left: 740px;
 }
 
 .footer {
@@ -778,6 +814,7 @@ nav .ri-menu-line {
   }
   .btn {
     padding: 5vw 10vw;
+    margin-left: 4px !important;
   }
   .fifth-section {
     display: flex;
@@ -837,6 +874,7 @@ nav .ri-menu-line {
     height: 10vh;
     background-color: #004c48;
     color: #fff;
+    display: none;
   }
   .download-brochure a {
     color: #fff;

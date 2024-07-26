@@ -248,7 +248,7 @@ nav .ri-menu-line {
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: 10px 20px;
+  padding: 20px 40px;
 
   background-color: #e2e5dc;
 }
@@ -261,7 +261,7 @@ nav .ri-menu-line {
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: 1vw 2vw;
+  padding: 20px 40px;
   color: #e2e5dc !important;
   background-color: var(--clr-blue);
 }

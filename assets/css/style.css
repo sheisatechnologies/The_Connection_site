@@ -116,7 +116,7 @@ nav .ri-menu-line {
 
 .btn {
   font-size: 18px;
-  padding: 1vw 2vw;
+  padding: 10px 20px;
   background-color: #f7ebda;
 }
 
@@ -159,7 +159,7 @@ nav .ri-menu-line {
   background-position: top;
   background-repeat: no-repeat;
   justify-content: flex-start;
-  padding: 0px 10vw;
+  padding: 0px 140px;
   /* font-size: 2.5rem; */
   margin-top: -19px;
 }
@@ -368,6 +368,7 @@ nav .ri-menu-line {
   right: 0;
   top: 0;
   top: -330px;
+  background-color: white;
 }
 
 
@@ -477,7 +478,7 @@ nav .ri-menu-line {
 .footer h1 {
   align-self: flex-start;
   font-weight: 600;
-  font-size: 2vw;
+  font-size: 30px;
 }
 
 .btm-footer {

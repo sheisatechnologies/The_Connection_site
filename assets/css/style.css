@@ -308,7 +308,7 @@ nav .ri-menu-line {
   background-image: url(../images/home-mask-1.png);
   background-size: cover;
   background-position: center;
-  margin-top: 160px;
+  /* margin-top: 160px; */
   /* transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s; */
 }
 

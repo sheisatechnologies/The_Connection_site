@@ -356,15 +356,23 @@ nav .ri-menu-line {
   background-size: cover;
 }
 
+.union_mask{
 
+  width: 200px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  top: -330px;
+}
 
 
 .overlay-five-png {
   position: absolute;
   top: 0%;
-  width: 100%;
+  width: 90%;
   height: 100%;
-  background-image: url(../images/new_mask/home-mask-2b.png);
+  background-image: url(../images/new_mask/home-mask-2nd.png);
   background-size: cover;
   background-position: center;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s;

@@ -856,6 +856,7 @@ nav .ri-menu-line {
     z-index: 5;
     width: 100%;
     height: 450px;
+    background-position-y: 0px !important;
     background-image: url(../images/new_mask/home-tiles-mobile-2.jpg);
   }
   .overlay-five-png {

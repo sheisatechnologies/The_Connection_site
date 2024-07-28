@@ -419,12 +419,14 @@ nav .ri-menu-line {
 
   width: 120%;
     height: 1620px;
-    background-image: url(../images/lab-bg-image-desktop.jpg);
+   
     background-position: center;
     background-size: cover;
-    background-image: url(../images/lab-bg-image-desktop.jpg);
+    background-image: url(../images/lab-bg-image-desktop-new.jpg);
 
 }
+
+
 
 .sixth-section h1 {
   color: #fff;
@@ -818,7 +820,9 @@ nav .ri-menu-line {
   .bg-six {
     position: absolute;
     top: 0;
-    height: 190vh;
+    height: 100vh;
+    background-image: url(../images/lab-bg-image-mobile.jpg);
+    
   }
   .sixth-section .bg-four-btm a {
     margin-left: -10vw;

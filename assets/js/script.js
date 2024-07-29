@@ -10,7 +10,7 @@ document.querySelector("#nav-menu").addEventListener("click", function () {
 let mm = gsap.matchMedia();
 
 
-mm.add("(min-width: 800px)", () => {
+mm.add("(min-width: 1000px)", () => {
     const parallax2 = document.getElementById("parallax");
 
 

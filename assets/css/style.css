@@ -418,7 +418,7 @@ nav .ri-menu-line {
 .bg-six {
 
   width: 120%;
-    height: 1620px;
+  height: 2000px;
    
     background-position: center;
     background-size: cover;
@@ -1064,25 +1064,7 @@ nav {
 
   .bg-six {
     width: 120%;
-    height: 120vh;
-    
-}
-}
-@media (max-width:2000px){
-
-  .bg-six {
-    width: 120%;
-    height: 140vh;
-    
-}
-}
-
-
-@media (max-width:1440px){
-
-  .bg-six {
-    width: 120%;
-    height: 1600px;
+    height: 2500px;
     
 }
 }

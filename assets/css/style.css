@@ -330,7 +330,7 @@ nav .ri-menu-line {
   height: 60%;
   gap: 20px;
   z-index: 5;
-  margin-top: 235px;
+  margin-top: -50px;
 }
 
 .bg-four-btm p {
@@ -820,7 +820,8 @@ nav .ri-menu-line {
   .bg-six {
     position: absolute;
     top: 0;
-    height: 100vh;
+    width: 100% !important;
+    height: 100vh !important;
     background-image: url(../images/lab-bg-image-mobile.jpg);
     
   }
@@ -886,7 +887,7 @@ nav .ri-menu-line {
     position: relative;
     align-items: end;
     height: 504px;
-    background-image: url(../images/six-resp.png);
+    background-image: url(../images/lab-bg-image-mobile.jpg);
     background-size: cover;
     padding-bottom: 100px;
   }

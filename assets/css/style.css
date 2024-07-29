@@ -1033,3 +1033,30 @@ nav {
 }
 
 
+@media (min-width:2000px){
+
+  .bg-six {
+    width: 120%;
+    height: 120vh;
+    
+}
+}
+@media (max-width:2000px){
+
+  .bg-six {
+    width: 120%;
+    height: 100vh;
+    
+}
+}
+
+
+@media (max-width:1440px){
+
+  .bg-six {
+    width: 120%;
+    height: 1600px;
+    
+}
+}
+

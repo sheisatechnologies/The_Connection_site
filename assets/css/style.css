@@ -631,7 +631,29 @@ nav .ri-menu-line {
 
 @media (max-width: 799px) {
 
+  .box1, .box2{
 
+    display: none;
+  }
+
+  .no-phon-box3{
+
+    display: none;
+  }
+
+
+  .lab-box-phon{
+    
+
+    margin-top: -50px !important;
+  }
+
+
+  #parallax{
+
+
+    display: none;
+  }
   .res-img{
 
     display: block !important;
@@ -1046,7 +1068,7 @@ nav {
 
   .bg-six {
     width: 120%;
-    height: 100vh;
+    height: 140vh;
     
 }
 }

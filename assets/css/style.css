@@ -474,7 +474,7 @@ nav .ri-menu-line {
   width: 100%;
   height: 600px;
   background-color: #f7ebda;
-  padding: 60px 70px;
+  padding: 4rem 4rem;
   /* padding-left: 5vw; */
 }
 
@@ -1017,16 +1017,14 @@ nav .ri-menu-line {
 }
 
 
- 
-
-
-
-
-
-
-
 
 }
+
+
+
+
+
+
 
 .video-desktop video {
   width: 100%;

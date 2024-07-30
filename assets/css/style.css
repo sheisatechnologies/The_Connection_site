@@ -196,7 +196,7 @@ nav .ri-menu-line {
   top: 0;
   width: 100%;
   height: 864px;
-  padding: 0vw 140px;
+  padding: 0vw 145px;
 }
 
 .cards-third {
@@ -204,7 +204,7 @@ nav .ri-menu-line {
   width: 100%;
   height: 100%;
   gap: 40px;
-  margin-top: -10px;
+  margin-top: -12px;
 }
 
 .card-p-third {
@@ -364,11 +364,11 @@ nav .ri-menu-line {
 .union_mask{
 
   width: 200px;
-  height: 100%;
-  position: absolute;
-  right: 0;
-  top: 0;
-  top: -330px;
+    height: 30%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    top: 0px;
   
 }
 
@@ -472,7 +472,7 @@ nav .ri-menu-line {
 .footer {
   position: relative;
   width: 100%;
-  height: 490px;
+  height: 600px;
   background-color: #f7ebda;
   padding: 60px 70px;
   /* padding-left: 5vw; */
@@ -493,8 +493,8 @@ nav .ri-menu-line {
   align-items: start;
   justify-content: space-between;
   width: 25%;
-  height: 100%;
-  gap: 5vh;
+  height: 70%;
+  gap: 10rem;
   /* background-color: orange; */
 }
 
@@ -525,6 +525,7 @@ nav .ri-menu-line {
   align-items: start;
   gap: 0.3vw;
   padding-bottom: 10px;
+  margin-bottom: -1.5rem;
 }
 
 .footer a {
@@ -532,7 +533,7 @@ nav .ri-menu-line {
 }
 
 .lft-footer p {
-  margin-top: 60px;
+  margin-top: -0.5rem;
 }
 
 .line {
@@ -938,7 +939,7 @@ nav .ri-menu-line {
   }
   .footer {
     position: relative;
-    height: 1020px;
+    height: auto;
     flex-direction: column-reverse;
     padding: 5vw 10vw;
   }
@@ -946,14 +947,14 @@ nav .ri-menu-line {
     font-size: 15px;
   }
   .btm-footer {
-    height: 110vh;
+    height: 100%;
     justify-content: space-between;
     flex-direction: column-reverse;
-    gap: 0vh;
+    gap: 20px;
   }
   .lft-footer {
     width: 100%;
-    height: 30vh;
+    height: auto;
   }
   .cntr-footer {
     width: 100%;
@@ -1000,7 +1001,7 @@ nav .ri-menu-line {
   .footer .responsive {
     position: absolute;
     font-size: 6vw;
-    bottom: 270px;
+    bottom: 320px;
     width: 100%;
   }
   .respo-line {

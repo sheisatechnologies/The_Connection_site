@@ -196,7 +196,7 @@ nav .ri-menu-line {
   top: 0;
   width: 100%;
   height: 864px;
-  padding: 0vw 145px;
+  padding: 0vw 144px;
 }
 
 .cards-third {
@@ -204,7 +204,7 @@ nav .ri-menu-line {
   width: 100%;
   height: 100%;
   gap: 40px;
-  margin-top: -12px;
+  margin-top: -0.7rem;
 }
 
 .card-p-third {
@@ -364,7 +364,7 @@ nav .ri-menu-line {
 .union_mask{
 
   width: 200px;
-    height: 30%;
+  height: 210px;
     position: absolute;
     right: 0;
     top: 0;
@@ -472,7 +472,7 @@ nav .ri-menu-line {
 .footer {
   position: relative;
   width: 100%;
-  height: 600px;
+  /* height: 600px; */
   background-color: #f7ebda;
   padding: 4rem 4rem;
   /* padding-left: 5vw; */
@@ -486,16 +486,17 @@ nav .ri-menu-line {
 
 .btm-footer {
   width: 100%;
-  height: 540px;
+  /* height: 540px; */
 }
 
 .lft-footer {
   align-items: start;
   justify-content: space-between;
   width: 25%;
-  height: 70%;
+  /* height: 70%; */
   gap: 10rem;
   /* background-color: orange; */
+  margin-top: 85px;
 }
 
 .cntr-footer {
@@ -524,17 +525,18 @@ nav .ri-menu-line {
 .links-lft {
   align-items: start;
   gap: 0.3vw;
-  padding-bottom: 10px;
-  margin-bottom: -1.5rem;
+  /* padding-bottom: 10px; */
+  /* margin-bottom: 142px; */
+  margin-top: 31px;
 }
 
 .footer a {
   text-decoration: none;
 }
 
-.lft-footer p {
+/* .lft-footer p {
   margin-top: -0.5rem;
-}
+} */
 
 .line {
   width: 100%;
@@ -631,6 +633,13 @@ nav .ri-menu-line {
 }
 
 @media (max-width: 799px) {
+
+  .links-lft {
+    align-items: start;
+    gap: 0.3vw;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
 
   .box1, .box2{
 
@@ -955,6 +964,8 @@ nav .ri-menu-line {
   .lft-footer {
     width: 100%;
     height: auto;
+    gap: 2.5rem;
+    margin-top: -30px;
   }
   .cntr-footer {
     width: 100%;
@@ -1001,7 +1012,7 @@ nav .ri-menu-line {
   .footer .responsive {
     position: absolute;
     font-size: 6vw;
-    bottom: 320px;
+    bottom: 250px;
     width: 100%;
   }
   .respo-line {
@@ -1058,6 +1069,13 @@ nav {
 
   margin-top: -50px;
 }
+
+.new_foot{
+
+  margin-top: -20px;
+}
+
+
 
 @media (min-width:2000px){
 

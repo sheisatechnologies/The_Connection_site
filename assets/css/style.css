@@ -255,6 +255,7 @@ nav .ri-menu-line {
 
 .child-card-third h3 a {
   text-decoration: none;
+  font-weight: normal;
 }
 
 .child-card-third h3 a:hover {
@@ -363,7 +364,7 @@ nav .ri-menu-line {
 
 .union_mask{
 
-  width: 200px;
+  width: 280px;
   height: 210px;
     position: absolute;
     right: 0;

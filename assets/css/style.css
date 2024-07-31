@@ -160,7 +160,7 @@ nav .ri-menu-line {
 
 .second-section {
   height: 650px;
-  background-image: url(../images/home-images/new_mask/section-2.jpg);
+  background-image: url(../images/home/section-2.jpg);
   background-size: 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -236,17 +236,17 @@ nav .ri-menu-line {
 }
 
 .child-img-1 {
-  background-image: url(../images/home-images/img1.jpg);
+  background-image: url(../images/home/img1.jpg);
   width: 330px;
 }
 
 .child-img-2 {
-  background-image: url(../images/home-images/img2.jpg);
+  background-image: url(../images/home/img2.jpg);
   width: 330px;
 }
 
 .child-img-3 {
-  background-image: url(../images/home-images/img3.jpg);
+  background-image: url(../images/home/img3.jpg);
   width: 330px;
 }
 
@@ -285,7 +285,7 @@ nav .ri-menu-line {
   height: 100%;
   background-position: center;
   background-attachment: fixed;
-  background-image: url(../images/home-images/bg-image-home-01.jpg);
+  background-image: url(../images/home/bg-image-home-01.jpg);
   background-size: cover;
 }
 
@@ -304,7 +304,7 @@ nav .ri-menu-line {
     width: 70%;
     right: 0;
     height: 900px;
-    background-image: url(../images/home-images/bg-image-home-01.jpg);
+    background-image: url(../images/home/bg-image-home-01.jpg);
     /* background-attachment: fixed; */
     background-position: top;
     background-size: cover;
@@ -316,7 +316,7 @@ nav .ri-menu-line {
   top: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../images/home-images/home-mask-1.png);
+  background-image: url(../images/home/home-mask-1.png);
   background-size: cover;
   background-position: center;
   margin-top: 160px;
@@ -362,7 +362,7 @@ nav .ri-menu-line {
   position: absolute;
   width: 70%;
   height: 700px;
-  background-image: url(../images/home-images/bg-image-home-02.jpg);
+  background-image: url(../images/home/bg-image-home-02.jpg);
   /* background-attachment: fixed; */
   background-position: top;
   background-size: cover;
@@ -385,7 +385,7 @@ nav .ri-menu-line {
   top: 0%;
   width: 90%;
   height: 100%;
-  background-image: url(../images/home-images/new_mask/home-mask-2nd.png);
+  background-image: url(../images/home/home-mask-2nd.png);
   background-size: cover;
   background-position: center;
   /* transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s; */
@@ -429,7 +429,7 @@ nav .ri-menu-line {
    
     background-position: center;
     background-size: cover;
-    background-image: url(../images/home-images/lab-bg-image-desktop-new.jpg);
+    background-image: url(../images/home/lab-bg-image-desktop-new.jpg);
 
 }
 
@@ -748,7 +748,7 @@ nav .ri-menu-line {
     margin-left: -9px;
   }
   .second-section {
-    background-image: url(../images/home-images/section-2-resp.png);
+    background-image: url(../images/home/section-2-resp.png);
     height: 103% !important;
 
     background-size: 100%;
@@ -851,7 +851,7 @@ nav .ri-menu-line {
     display: none;
     width: 100%;
     height: 469px;
-    background-image: url(../images/home-images/bg-mask-home-01-a.png);
+    background-image: url(../images/home/bg-mask-home-01-a.png);
     background-size: cover;
     background-position: center;
     /* transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s; */
@@ -861,7 +861,7 @@ nav .ri-menu-line {
     top: 0;
     width: 100% !important;
     height: 100vh !important;
-    background-image: url(../images/home-images/lab-bg-image-mobile.jpg);
+    background-image: url(../images/home/lab-bg-image-mobile.jpg);
     
   }
   .sixth-section .bg-four-btm a {
@@ -901,7 +901,7 @@ nav .ri-menu-line {
     width: 100%;
     height: 450px;
     background-position-y: 0px !important;
-    background-image: url(../images/home-images/new_mask/home-tiles-mobile-2.jpg);
+    background-image: url(../images/home/home-tiles-mobile-2.jpg);
   }
   .overlay-five-png {
     display: none;
@@ -926,7 +926,7 @@ nav .ri-menu-line {
     position: relative;
     align-items: end;
     height: 618px;
-    background-image: url(../images/home-images/lab-bg-image-mobile.jpg);
+    background-image: url(../images/home/lab-bg-image-mobile.jpg);
     background-size: cover;
     padding-bottom: 100px;
   }

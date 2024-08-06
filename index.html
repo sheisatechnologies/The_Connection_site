@@ -8,8 +8,11 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="icon" href="assets/images/favicon.png" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/aos.min.css" >
+   
   </head>
   <body>
     <div id="main-gc">
@@ -57,7 +60,7 @@
 
         <div class="first-section-img d-flex no-desk">
           <h1 class="mainP sp_text">Newbury</h1>
-          <img width="100px" src="./assets/images/section1.svg" alt="">
+          <img width="100px" src="./assets/images/home/section1.svg" alt="">
         </div>
 
         
@@ -83,7 +86,7 @@
       </div> -->
       <div class="second-section section d-flex">
         <p class="desktop">
-          452,155 sq ft office space and 38 acres of landscaped grounds in
+          452,155 sq ft of office space and 38 acres of landscaped grounds in
           Newbury set the foundation for innovation, community
           and&nbsp;collaboration
         </p>
@@ -107,7 +110,7 @@
               <div class="card-content d-flex-c">
                 <h1 class="mainHeading">Building 01</h1>
                 <p class="mainP desktop">
-                  Provides a collaborative hub, withco-working space, meeting
+                  Provides a collaborative hub, with co-working space, meeting
                   rooms and the option to occupy your own floor or wing; its
                   café and basement gym open to&nbsp;everyone.
                 </p>
@@ -125,7 +128,7 @@
               <div class="card-content d-flex-c">
                 <h1 class="mainHeading">Building 02</h1>
                 <p class="mainP">
-                  A standalone office set-up for a company HQ.
+                  A standalone office set-up for a company&nbsp;HQ.
                 </p>
               </div>
             </div>
@@ -151,8 +154,10 @@
         <!-- <div class="overlay-four d-flex">
         </div> -->
         <div class="overlay-four-png"></div>
+       
+        <img class="res-img" src="assets/images/home/home-tiles-mobile-1.jpg">
         <div class="bg-four-btm d-flex-c">
-          <h1 class="mainHeading">The <br />Campus</h1>
+          <h1 class="mainHeading">The Campus</h1>
           <p class="mainP">
             A new enlivened development in Newbury, The Connection champions
             people, planet and a pioneering&nbsp;spirit.
@@ -162,10 +167,11 @@
       </div>
       <div class="fifth-section section">
         <!-- <div class="bg-four-top"></div> -->
-        <div id="parallax3" data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="0" class="parallax-item overlay-fifth"></div>
+        <div id="parallax3"  class="parallax-item overlay-fifth"></div>
         <!-- <div class="overlay-fifth">
         </div> -->
         <div class="overlay-five-png"></div>
+        <img class="union_mask" src="assets/images/home/home-parallax-tile-top-right.jpg"> 
         <div class="bg-four-btm d-flex-c">
           <h1 class="mainHeading">Newbury</h1>
           <p class="mainP">
@@ -175,10 +181,17 @@
           <a href="#" class="btn">Discover</a>
         </div>
       </div>
+
+
+
       <div class="sixth-section section d-flex">
         <div class="white-bg"></div>
-        <div id="parallax" class="parallax-item bg-six"></div>
-        <div class="bg-four-btm d-flex-c">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="no-phon-box3"></div>
+        <div class="no-phon-box4"></div>
+        <div id="parallax" class="parallax-item bg-six "></div>
+        <div class="bg-four-btm d-flex-c lab-box-phon">
           <h1 class="mainHeading">Labs</h1>
           <p class="mainP">
             The Connection has laid the foundations for a new research facility
@@ -187,18 +200,21 @@
           <a href="#" class="btn">Discover</a>
         </div>
       </div>
+
+
+
       <div class="download-brochure">
         <a class="mainP" href="#">Download brochure</a>
       </div>
 
       <div class="footer d-flex-c">
        
-        <h1 class="mainHeading desktop"><img id="logo" src="./assets/images/Vector (2).svg" alt="logo" /></h1>
+        <h1 class="mainHeading desktop"><img id="logo" src="./assets/images/ftr-the-connection-logo.svg.svg" alt="logo" /></h1>
         <!-- <img id="logo" src="./Assets/logo.svg" alt="logo" /> -->
-        <h1 class="mainHeading responsive"> <img id="logo" src="./assets/images/Vector (2).svg" alt="logo" /></h1>
+        <h1 class="mainHeading responsive"> <img id="logo" src="./assets/images/ftr-the-connection-logo.svg.svg" alt="logo" /></h1>
         <div class="btm-footer d-flex">
           <div class="lft-footer d-flex-c">
-            <p class="mainf">Newbury <br />RG14 2FN</p>
+            <p class="mainf new_foot">Newbury <br />RG14 2FN</p>
             <div class="links-lft d-flex-c">
               <a class="legal" href="#">Term & Conditions</a>
               <a class="legal" href="#">Cookies Policy</a>
@@ -259,15 +275,32 @@
             <div class="line respo-line"></div>
           </div>
           <div class="rght-footer d-flex">
-            <img width="20%" src="./assets/images/Footer.svg" alt="" />
+            <img width="20%" src="./assets/images/ftr-the-puzzle-logo.svg.svg" alt="" />
           </div>
         </div>
       </div>
     </div>
+<script>
 
+  // assets/js/script.js
+function reinitializeParallax3() {
+    // Kill any existing ScrollTriggers for #parallax3 to avoid duplicates
+    ScrollTrigger.getAll().forEach(trigger => {
+        if (trigger.trigger === document.querySelector('#parallax3')) {
+            trigger.kill();
+        }
+    });
+
+    // Reapply GSAP animation and ScrollTrigger to #parallax3 if not mobile
+    if (!isMobile()) {
+        initializeParallax3();
+    }
+}
+
+</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script src="assets/js/script.js"></script>
-    <script src="assets/js/aos.min.js"></script>
+   
   </body>
 </html>

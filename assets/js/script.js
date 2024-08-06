@@ -9,6 +9,20 @@ document.querySelector("#nav-menu").addEventListener("click", function () {
 
 let mm = gsap.matchMedia();
 
+
+mm.add("(min-width: 1000px)", () => {
+    const parallax2 = document.getElementById("parallax");
+
+
+    window.addEventListener("scroll", function () {
+        let offset = window.scrollY;
+        parallax2.style.backgroundPositionY = offset * 0.5 + "px";
+    });
+
+});
+
+
+
 mm.add("(min-width: 800px)", () => {
     const parallax2 = document.getElementById("parallax2");
 
@@ -20,6 +34,7 @@ mm.add("(min-width: 800px)", () => {
 
 });
 
+<<<<<<< HEAD
 // mm.add("(max-width: 799px)", () => {
 //     const parallax2 = document.getElementById("parallax2");
 
@@ -27,9 +42,25 @@ mm.add("(min-width: 800px)", () => {
 //         let offset = window.scrollY;
 //         parallax2.style.backgroundPositionY = offset * 0.19 + "px";
 //     });
+=======
+
+
+
+
+
+mm.add("(max-width: 799px)", () => {
+    const parallax2 = document.getElementById("parallax2");
+
+    window.addEventListener("scroll", function () {
+        let offset = window.scrollY;
+        parallax2.style.backgroundPositionY = offset * 0.9 + "px";
+    });
+>>>>>>> 54b73aa085e5f4a2175abf369deef50d305179a0
 
 
 // });
+
+
 
 
 
@@ -44,6 +75,24 @@ mm2.add("(min-width: 800px)", () => {
         parallax3.style.backgroundPositionY = offset * 0.5 + "px";
     });
 
+});
+
+
+
+let mm4 = gsap.matchMedia();
+mm4.add("(max-width: 799px)", () => {
+    let tl = gsap.timeline({
+        scrollTrigger: {
+            trigger: '.fifth-section',
+            start: '0% 50%',
+            end: '100% 50%',
+            scrub: true,
+            // markers: true,
+        }
+    });
+    tl.to(".overlay-five-png",{
+        y: 500,
+    })
 });
 
 // mm.add("(max-width: 799px)", () => {
@@ -168,20 +217,7 @@ scrollTrigger:{
 
 
 
-mm4.add("(max-width: 799px)", () => {
-    let tl = gsap.timeline({
-        scrollTrigger: {
-            trigger: '.fifth-section',
-            start: '0% 50%',
-            end: '100% 50%',
-            scrub: true,
-            markers: true,
-        }
-    });
-    tl.to(".overlay-five-png",{
-        y: 500,
-    })
-});
+
 
 
 // const parallax = document.getElementById("parallax");
@@ -192,4 +228,3 @@ mm4.add("(max-width: 799px)", () => {
 //     parallax.style.backgroundPositionY = offset * 0.5 + "px";
 //     // DIV 1 background will move slower than other elements on scroll.
 // });
-

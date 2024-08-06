@@ -20,16 +20,16 @@ mm.add("(min-width: 800px)", () => {
 
 });
 
-mm.add("(max-width: 799px)", () => {
-    const parallax2 = document.getElementById("parallax2");
+// mm.add("(max-width: 799px)", () => {
+//     const parallax2 = document.getElementById("parallax2");
 
-    window.addEventListener("scroll", function () {
-        let offset = window.scrollY;
-        parallax2.style.backgroundPositionY = offset * 0.19 + "px";
-    });
+//     window.addEventListener("scroll", function () {
+//         let offset = window.scrollY;
+//         parallax2.style.backgroundPositionY = offset * 0.19 + "px";
+//     });
 
 
-});
+// });
 
 
 
@@ -125,40 +125,40 @@ mm3.add("(max-width: 799px)", () => {
 // });
 
 
-// gsap.to('.overlay-four',{y:-100,
-// // scale:0.5,
+gsap.to('.overlay-four-png',{y:-100,
+// scale:0.5,
 // delay:1,
-// scrollTrigger:{
+scrollTrigger:{
     
-//     trigger:'.overlay-four-png', 
-//     start:'top top',
-//      marker:true, 
-//      scrub:true}
-
-
-
-
-
-// });
-
-
-
-
-gsap.to('.overlay-four',{y:-100,
-    // scale:1.5,
-    delay:1,
-    scrollTrigger:{
-        
-        trigger:'.overlay-four-png', 
+    trigger:'. overlay-four', 
     start:'top top',
      marker:true, 
      scrub:true}
+
+
+
+
+
+});
+
+
+
+
+// gsap.to('.overlay-four',{y:-100,
+//     // scale:1.5,
+//     delay:1,
+//     scrollTrigger:{
+        
+//         trigger:'.overlay-four-png', 
+//     start:'top top',
+//      marker:true, 
+//      scrub:true}
     
     
     
     
     
-    });
+//     });
 
 
 

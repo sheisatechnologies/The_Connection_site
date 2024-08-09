@@ -284,6 +284,7 @@
 
     .clearing_one {
         width: 100%;
+        margin-top: -80px;
     }
 
     .clearing_one p {
@@ -696,7 +697,7 @@
 
    .mobile_union{
 
-    margin-top: -4px;
+    margin-top: -2px;
    }
 
    .h_section_text_h1 h1 {
@@ -745,7 +746,7 @@
 
     .clearing_three,
     .clearing_two {
-        margin-top: 64px;
+        margin-top: 100px;
         text-align: right;
         padding-right: 30px;
     }

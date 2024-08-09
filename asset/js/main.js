@@ -1,30 +1,4 @@
-const secondTab = document.querySelectorAll("#secondTab li button");
-const secondTabWrap = document.querySelectorAll("#secondTab li");
-const secondTabContent = document.querySelectorAll("#secondTabContent .tab-pane");
-
-secondTabWrap.forEach((wrap, index) => {
-    if (wrap.querySelector("button").classList.contains("active")) {
-        wrap.style.opacity = 1;
-    } else {
-        wrap.style.opacity = 0.5;
-    }
-});
-
-secondTab.forEach((item, index) => {
-    item.addEventListener("mouseenter", () => {
-        secondTabContent.forEach(content => content.classList.remove("show", "active"));
-        secondTab.forEach(tab => tab.classList.remove("active"));
-        secondTabWrap.forEach(wrap => wrap.style.opacity = 0.5);
-
-        item.classList.add("active");
-        secondTabWrap[index].style.opacity = 1;
-        secondTabContent[index].classList.add("show", "active");
-    });
-});
-
-
-
-jQuery(document).ready(function ($) {
+jQuery(document).ready(function($) {
     var icon = $(".mobile-menu-icon");
     var menu = $(".mobile-slider");
     var tl = new TimelineLite({
@@ -34,28 +8,83 @@ jQuery(document).ready(function ($) {
     tl.fromTo(
         ".mobile-slider",
         0.3, {
-        x: 200,
-        autoAlpha: 0
-    }, {
-        x: 0,
-        autoAlpha: 1,
-        ease: Power4.easeOut
-    }
+            x: 200,
+            autoAlpha: 0
+        }, {
+            x: 0,
+            autoAlpha: 1,
+            ease: Power4.easeOut
+        }
     );
     tl.to(
         ".filter",
         0.3, {
-        autoAlpha: 1
-    },
+            autoAlpha: 1
+        },
         0
     );
-    icon.click(function () {
+    icon.click(function() {
         tl.play();
     });
-    $(".close-menu").click(function () {
+    $(".close-menu").click(function() {
         tl.reverse();
     });
-    $(".filter").click(function () {
+    $(".filter").click(function() {
+        tl.reverse();
+    });
+});
+
+const secondTab = document.querySelectorAll("#secondTab li button");
+const secondTabWrap = document.querySelectorAll("#secondTab li");
+const secondTabContent = document.querySelectorAll("#secondTabContent .tab-pane");
+
+secondTab.forEach((item, index) => {
+    item.addEventListener("mouseenter", () => {
+        secondTabContent.forEach(content => {
+            content.classList.remove("show", "active");
+        });
+        secondTab.forEach(tab => tab.classList.remove("active"));
+        secondTabWrap.forEach(wrap => wrap.style.opacity = 0.5);
+        item.classList.add("active");
+        secondTabWrap[index].style.opacity = 1;
+        if (index + 1 < secondTabContent.length) {
+            secondTabContent[index + 1].classList.add("show", "active");
+        }
+    });
+});
+
+jQuery(document).ready(function($) {
+    var icon = $(".mobile-menu-icon");
+    var menu = $(".mobile-slider");
+    var tl = new TimelineLite({
+        paused: true,
+        reversed: true
+    });
+    tl.fromTo(
+        ".mobile-slider",
+        0.3, {
+            x: 200,
+            autoAlpha: 0
+        }, {
+            x: 0,
+            autoAlpha: 1,
+            ease: Power4.easeOut
+        }
+    );
+    tl.to(
+        ".filter",
+        0.3, {
+            autoAlpha: 1
+        },
+        0
+    );
+    icon.click(function() {
+        tl.play();
+    });
+    $(".close-menu").click(function() {
+        tl.reverse();
+    });
+    $(".filter").click(function() {
         tl.reverse();
     });
 
@@ -71,6 +100,8 @@ jQuery(document).ready(function ($) {
    
 
     }
+
+
 });
 
 
@@ -85,8 +116,8 @@ $('#main-slider9').owlCarousel({
     responsiveClass: true,
     nav: true,
     navText: [
-        '<i class="fa-solid fa-arrow-left-long"></i>',
-        '<i class="fa-solid fa-arrow-right-long"></i>'
+        '<i class="fa-solid fa-arrow-left-long"></i>', 
+        '<i class="fa-solid fa-arrow-right-long"></i>' 
     ],
     responsive: {
         0: {
@@ -102,9 +133,9 @@ $('#main-slider9').owlCarousel({
             nav: false,
             dots: true
         }
-
+        
     }
-
+    
 });
 
 $('#main-slider99').owlCarousel({
@@ -118,8 +149,8 @@ $('#main-slider99').owlCarousel({
     responsiveClass: true,
     nav: true,
     navText: [
-        '<i class="fa-solid fa-arrow-left-long"></i>',
-        '<i class="fa-solid fa-arrow-right-long"></i>'
+        '<i class="fa-solid fa-arrow-left-long"></i>', 
+        '<i class="fa-solid fa-arrow-right-long"></i>' 
     ],
     responsive: {
         0: {
@@ -135,9 +166,9 @@ $('#main-slider99').owlCarousel({
             nav: false,
             dots: true
         }
-
+        
     }
-
+    
 });
 
 $('#main-slider999').owlCarousel({
@@ -151,8 +182,8 @@ $('#main-slider999').owlCarousel({
     responsiveClass: true,
     nav: true,
     navText: [
-        '<i class="fa-solid fa-arrow-left-long"></i>',
-        '<i class="fa-solid fa-arrow-right-long"></i>'
+        '<i class="fa-solid fa-arrow-left-long"></i>', 
+        '<i class="fa-solid fa-arrow-right-long"></i>' 
     ],
     responsive: {
         0: {
@@ -168,9 +199,9 @@ $('#main-slider999').owlCarousel({
             nav: false,
             dots: true
         }
-
+        
     }
-
+    
 });
 
 $('#main-slider9999').owlCarousel({
@@ -184,8 +215,8 @@ $('#main-slider9999').owlCarousel({
     responsiveClass: true,
     nav: true,
     navText: [
-        '<i class="fa-solid fa-arrow-left-long"></i>',
-        '<i class="fa-solid fa-arrow-right-long"></i>'
+        '<i class="fa-solid fa-arrow-left-long"></i>', 
+        '<i class="fa-solid fa-arrow-right-long"></i>' 
     ],
     responsive: {
         0: {
@@ -201,9 +232,9 @@ $('#main-slider9999').owlCarousel({
             nav: false,
             dots: true
         }
-
+        
     }
-
+    
 });
 
 
@@ -243,8 +274,6 @@ mm.add("(min-width: 1000px)", () => {
     });
 
 });
-
-
 
 
 

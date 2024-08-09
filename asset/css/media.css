@@ -61,7 +61,7 @@
 
     .header_section_text {
         background-color: #528195;
-        width: 400px;
+        width: 379px;
         margin-left: -52px;
         padding: 71px 25px;
         margin-top: -3px;
@@ -362,6 +362,7 @@
         display: block;
         margin-top: 55px;
         position: relative;
+        margin-left: -20px;
     }
 
     .refurbish_mobile_view_inner {
@@ -376,12 +377,25 @@
 
     }
 
+    .refurbish_left p {
+        color: #004C48;
+        font-size: 18px;
+        margin-top: 30px;
+        line-height: 22px;
+        width: 340px;
+    }
+
     .download_brochure_button {
         height: 56px;
         width: 100%;
         background-color: #004C48 !important;
         font-size: 20px;
         margin-top: 2px;
+    }
+
+    .refurbish_left_button {
+        
+        margin-left: -150px !important;
     }
 
     .footer::after {
@@ -664,7 +678,7 @@
         top: 0;
         left: 5px;
         
-        height: 850px;
+        height: 900px;
     }
 
     .parallax{

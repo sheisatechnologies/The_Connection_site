@@ -34,6 +34,7 @@ jQuery(document).ready(function($) {
     });
 });
 
+
 const secondTab = document.querySelectorAll("#secondTab li button");
 const secondTabWrap = document.querySelectorAll("#secondTab li");
 const secondTabContent = document.querySelectorAll("#secondTabContent .tab-pane");
@@ -53,56 +54,7 @@ secondTab.forEach((item, index) => {
     });
 });
 
-jQuery(document).ready(function($) {
-    var icon = $(".mobile-menu-icon");
-    var menu = $(".mobile-slider");
-    var tl = new TimelineLite({
-        paused: true,
-        reversed: true
-    });
-    tl.fromTo(
-        ".mobile-slider",
-        0.3, {
-            x: 200,
-            autoAlpha: 0
-        }, {
-            x: 0,
-            autoAlpha: 1,
-            ease: Power4.easeOut
-        }
-    );
-    tl.to(
-        ".filter",
-        0.3, {
-            autoAlpha: 1
-        },
-        0
-    );
-    icon.click(function() {
-        tl.play();
-    });
-    $(".close-menu").click(function() {
-        tl.reverse();
-    });
-    $(".filter").click(function() {
-        tl.reverse();
-    });
 
-    if($('.parallax-section').length){
-        $('.parallax-section').parallax({
-            iosFix: true,
-            androidFix: true,
-            positionX: "center",
-            positionY: "top",
-            speed: 0.2,
-            imageSrc: "assets/images/c-img-1.jpg"
-        });
-   
-
-    }
-
-
-});
 
 
 $('#main-slider9').owlCarousel({
@@ -261,19 +213,19 @@ $('#main-slider9999').owlCarousel({
 // })
 
 
-let mm = gsap.matchMedia();
+// let mm = gsap.matchMedia();
 
 
-mm.add("(min-width: 1000px)", () => {
-    const parallax2 = document.getElementById("parallax");
+// mm.add("(min-width: 1000px)", () => {
+//     const parallax2 = document.getElementById("parallax");
 
 
-    window.addEventListener("scroll", function () {
-        let offset = window.scrollY;
-        parallax2.style.backgroundPositionY = offset * 0.5 + "px";
-    });
+//     window.addEventListener("scroll", function () {
+//         let offset = window.scrollY;
+//         parallax2.style.backgroundPositionY = offset * 0.5 + "px";
+//     });
 
-});
+// });
 
 
 

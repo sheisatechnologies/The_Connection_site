@@ -1,3 +1,4 @@
+
 jQuery(document).ready(function($) {
     var icon = $(".mobile-menu-icon");
     var menu = $(".mobile-slider");
@@ -7,7 +8,7 @@ jQuery(document).ready(function($) {
     });
     tl.fromTo(
         ".mobile-slider",
-        0.3, {
+        0.7, {
             x: 200,
             autoAlpha: 0
         }, {
@@ -18,7 +19,7 @@ jQuery(document).ready(function($) {
     );
     tl.to(
         ".filter",
-        0.3, {
+        0.7, {
             autoAlpha: 1
         },
         0

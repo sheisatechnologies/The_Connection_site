@@ -324,7 +324,7 @@ footer {
     background-position: center;
     background-size: cover;
     position: relative;
-    height: 820px;
+    height: 800px;
 }
 
 .top_header_block_inner-lab {
@@ -334,7 +334,7 @@ footer {
     left: 0;
     background-image: url(../images/lab/labs-mask-1.png);
     width: 100%;
-    height: 950px;
+    height: 1000px;
     background-size: cover;
 }
 
@@ -1412,6 +1412,7 @@ right: 0;
 .area_image1{
     width: 100%;
     height: auto;
+    margin-top: 130px;
 }
 
 /* lab css part */
@@ -1513,7 +1514,7 @@ height: 100%;
 
 .contact_box{
 
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .text-white{
@@ -1526,6 +1527,32 @@ height: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+ .contact-title {
+    font-size: 40px;
+    color: #F7EBDA;
+    line-height: 45px;
+    font-family: ABCMonument R;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+.contact-title2{
+
+    color: #004C48;
+    margin-top: -150px;
+}
+
+.contact_down{
+
+    font-size: 18px !important;
+    padding: 20px;
+}
+
+.down-icon{
+
+    width: 21px;
+    height: 21px;
 }
 
 

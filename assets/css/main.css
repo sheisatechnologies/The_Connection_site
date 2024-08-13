@@ -349,7 +349,7 @@ footer {
 /* area pages hero and massk */
 
 .top_header_block-area {
-    background-image: url(../images/area/area-hero-image.jpg);
+    background-image: url(../images/area/mask-are2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -362,9 +362,9 @@ footer {
     background-repeat: no-repeat;
     top: 0;
     left: 0;
-    background-image: url(../images/area/area-mask-1.png);
+    /* background-image: url(../images/area/area-mask-1.png); */
     width: 100%;
-    height: 1160px;
+    height: 1060px;
     background-size: cover;
 }
 
@@ -1267,6 +1267,12 @@ right: 0;
     top: 0;
 }
 
+.mapple-mask-3{
+
+    width: 100%;
+    height: 100%;
+    margin-top: 160px;
+}
 
 
 /* maple css part */
@@ -1310,6 +1316,7 @@ right: 0;
 .area_image{
     width: 100%;
     height: auto;
+    margin-top: -160px;
 }
 
 
@@ -1418,7 +1425,14 @@ right: 0;
     /* position: absolute; */
     margin-top: -155px;
     background-color: #F7EBDA;
+    height: 1100px;
+    /* position: relative; */
 
+}
+.mapple-second-container{
+
+    position: absolute;
+    margin-top: -1000px;
 }
 
 .mapple-simg{
@@ -1429,7 +1443,7 @@ right: 0;
 
 .mapple-floor{
 
-    height: 1050px;
+    height: 1140px;
    
 
 }
@@ -1441,12 +1455,58 @@ right: 0;
 
 /* mapple css end here  */
 
+
+
+
+
+
+
+
 /* area css start here */
 
-.area-section2{
+.main-area1{
 
-    margin-top: 100px;
+    position: relative;
 }
+.area-mask1{
+
+width: 100%;
+height: 100%;
+
+
+}
+
+.area-contain-sec1{
+
+    position: absolute;
+    top: 100px;
+}
+
+.area-contain-sec1a{
+    position: absolute;
+    top: 600px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* contact code start here */

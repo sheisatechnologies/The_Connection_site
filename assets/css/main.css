@@ -946,6 +946,11 @@ right: 0;
     margin-top: 20px;
 }
 
+.contact_box_right{
+    margin-left: 120px;
+    margin-top: -30px;
+}
+
 .footer_inner_left {
     height: calc(100% - 100px);
     display: flex;
@@ -1402,6 +1407,61 @@ right: 0;
    
   }
 
+  .area_mainhead{
+    color: #81628F;
+    font-size: 40px;
+    font-weight: 400;
+  }
+
+
+.span_rest{
+    color: #A392AF;
+    
+}
+
+.span_hotels{
+    color: #808080;
+}
+
+.span_gyms{
+    color: #528195;
+}
+
+.span_cul{
+    color: #89A4A3;
+}
+
+.area_head1{
+   color: #A392AF;
+   font-size: 18px;
+   font-weight: 500;
+}
+
+.area_head2{
+    color: #808080;
+    font-size: 18px;
+   font-weight: 500;
+   text-transform: uppercase;
+ }
+ 
+.area_head3{
+    color: #528195;
+    font-size: 18px;
+   font-weight: 500;
+   text-transform: uppercase;
+ }
+ 
+.area_head4{
+    color: #89A4A3;
+    font-size: 18px;
+   font-weight: 500;
+   text-transform: uppercase;
+ }
+
+ .area_sec4 li{
+    font-size: 14px;
+ }
+
 
 /* area css part */
 
@@ -1413,6 +1473,77 @@ right: 0;
     width: 100%;
     height: auto;
     margin-top: 130px;
+}
+
+
+.heading_labs{
+    font-size: 80px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color:#004C48;
+}
+
+.para_labs{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #004C48;
+}
+
+.labs1{
+    margin-left: -100px;
+   
+}
+
+
+.labs2{
+    margin-left: 60px;
+   
+}
+
+.labs3{
+    margin-left: 60px;
+   
+}
+
+.labs4{
+    margin-left: -120px;
+   
+}
+
+.labs5{
+    margin-left: 50px;
+    
+}
+
+.labs6{
+    margin-left: 60px;
+   
+}
+
+.labs_button{
+  padding:  50px;
+}
+
+.button_labs{
+    height: 70px;
+    width: 280px;
+    background-color: #81628F;
+    color: #F0F0F0;
+    border: none;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: -40px;
+}
+
+.labs-third{
+    position: relative;
+   
+}
+
+.labs-third-container {
+    position: absolute;
+    top: 170px;
 }
 
 /* lab css part */
@@ -1434,6 +1565,7 @@ right: 0;
 
     position: absolute;
     margin-top: -1000px;
+   
 }
 
 .mapple-simg{
@@ -1489,6 +1621,10 @@ height: 100%;
 
 }
 
+ .area_images{
+    z-index: -1;
+}
+
 
 
 
@@ -1540,13 +1676,13 @@ height: 100%;
 .contact-title2{
 
     color: #004C48;
-    margin-top: -150px;
+    margin-top: -85px;
 }
 
 .contact_down{
 
     font-size: 18px !important;
-    padding: 20px;
+    padding: 10px;
 }
 
 .down-icon{
@@ -1555,4 +1691,12 @@ height: 100%;
     height: 21px;
 }
 
+
+.icon1{
+    margin-left: 105px;
+}
+
+.icon4{
+    margin-left: 97px;
+}
 

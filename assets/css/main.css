@@ -1141,8 +1141,8 @@ right: 0;
 
 .image-2{
     position: absolute;
-    right: 50px;
-    margin-top: -100px;
+    right: 100px;
+    margin-top: 400px;
     
 }
 
@@ -1203,8 +1203,9 @@ right: 0;
 }
 
 
-.mapple_img{
+.mapple_img {
     margin-left: -60px;
+    width: 100%;
 }
 
 .list_para{
@@ -1576,7 +1577,7 @@ right: 0;
 
 .mapple-floor{
 
-    height: 1140px;
+    height: 900px;
    
 
 }
@@ -1698,5 +1699,10 @@ height: 100%;
 
 .icon4{
     margin-left: 97px;
+}
+
+.no-desk{
+
+    display: none;
 }
 

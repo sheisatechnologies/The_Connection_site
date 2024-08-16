@@ -455,8 +455,9 @@
     }
 
     .footer_inner_right h6 {
-        font-size: 30px;
+        font-size: 10vw;
         width: 320px;
+        font-weight: 500;
     }
 
     .footer_inner_right_inner_right {
@@ -476,7 +477,7 @@
 .line{
 
     width: 324px;
-    height: 1px;
+    height: 1.5px;
     background-color: #004C48;
     margin-top: -90px;
     position: absolute;
@@ -516,6 +517,10 @@
 
     .layer_block_heading p {
        margin-left: 10px;
+    }
+
+    .footer_inner_right h6 {
+        border-bottom: 2px solid #004c48;
     }
 }
 
@@ -765,7 +770,7 @@
 
    .mobile_union{
 
-    margin-top: -2px;
+    margin-top: 1px;
     width: 100%;
    }
 

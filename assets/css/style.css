@@ -547,7 +547,7 @@ nav .ri-menu-line {
 
 .line {
   width: 100%;
-  height: 1.5px;
+  height: 1px;
   margin-top: 20px;
   margin-bottom: 40px;
   background-color: #004c48;
@@ -1002,6 +1002,7 @@ nav .ri-menu-line {
     margin-top: 0;
     margin-bottom: 0;
     width: 330px;
+    height: 2px;
   }
   #kevin,
   #Edward {

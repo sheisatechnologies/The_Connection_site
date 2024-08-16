@@ -1710,3 +1710,11 @@ height: 100%;
 
     width: 92%;
 }
+
+.area-backimg{
+    
+    max-width: 100%;
+height: auto;
+z-index: -5;
+position: relative;
+}

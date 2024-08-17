@@ -587,9 +587,10 @@ right: 0;
 
 .slider_two {
     position: relative;
+    z-index: -1;
 }
 
-.slider_two::after {
+/* .slider_two::after {
     position: absolute;
     top: 0;
     right: 0px;
@@ -597,7 +598,7 @@ right: 0;
     height: 208px;
     width: 208px;
     z-index: 1;
-}
+} */
 
 .slider_one::after {
     position: absolute;
@@ -711,32 +712,7 @@ right: 0;
     margin-top: 0;
 }
 
-.layer_block {
-    padding: 150px 0 45px 0;
-}
 
-.layer_block_inner {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-gap: 30px;
-    padding-top: 60px;
-}
-
-.layer_block_img_text_img {
-    background-color: #F7EBDA;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px;
-    height: 150px;
-}
-
-.layer_block_img_text_block p {
-    margin-top: 15px;
-    color: #004C48;
-    font-size: 15px;
-    line-height: 18px;
-}
 
 .slider_two_text {
     position: absolute;
@@ -1727,8 +1703,60 @@ height: 100%;
 
     width: 92%;
 }
+/* ///////////////////////////////////campus code /////////////////////// */
+
+.white-tiles{
+
+    width: 100%;
+    position: absolute;
+    margin-top: 0px;
+    z-index: 3;
+    
+}
+.slide-whitetiles{
+
+    position: relative;
+    background-color: red;
+}
 
 
+.co-working-section{
+
+    position: absolute;
+    top: 200px;
+    left: 60px;
+}
+
+
+
+.layer_block {
+    padding: 0px 0 0px 0;
+    position: relative;
+    height:935px;
+}
+
+.layer_block_inner {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 30px;
+    padding-top: 60px;
+}
+
+.layer_block_img_text_img {
+    background-color: #F7EBDA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    height: 150px;
+}
+
+.layer_block_img_text_block p {
+    margin-top: 15px;
+    color: #004C48;
+    font-size: 15px;
+    line-height: 18px;
+}
 /* /////////////////////////////////////////// area code /////////////////////////////////////////////////////////// */
 
 

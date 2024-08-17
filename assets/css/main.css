@@ -15,6 +15,23 @@
     box-sizing: border-box;
     font-family: ABCMonument R;
 }
+:root {
+    --clr-blue: #004c48;
+    --Albescent-White: #f7ebda;
+    --green-white: #e2e5dc;
+  
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-size18: 18px;
+    --font-size30: 30px;
+    --font-heading: 40px;
+    --font-text: 15px;
+    --font-bigheading: 80px;
+    
+  
+  }
+
 
 body,
 html,
@@ -500,7 +517,7 @@ right: 0;
     color: #F0F0F0;
     font-size: 40px;
     line-height: 45px;
-    font-family: 'abc-regular-woff2';
+    font-family: ABCMonument R;
     width: 479px;
     font-weight: 400;
 }
@@ -1711,10 +1728,57 @@ height: 100%;
     width: 92%;
 }
 
+
+/* /////////////////////////////////////////// area code /////////////////////////////////////////////////////////// */
+
+
 .area-backimg{
     
     max-width: 100%;
 height: auto;
 z-index: -5;
 position: relative;
+margin-top: 15px;
+}
+
+
+
+.area-title h1{
+
+    color: var(--Albescent-White);
+    font-size: 40px;
+    line-height: 45px;
+    font-family: ABCMonument R;
+   
+    font-weight: 400;
+    
+}
+
+.area-title p{
+
+
+    margin-top: 30px;
+    width: 34%;
+    color: var(--Albescent-White);
+    font-size: 18px;
+    line-height: 22px;
+
+}
+
+.area-sec1-text{
+    width: 479px;
+    margin-top: 100px;
+
+}
+.area-menu-link ul li a {
+
+    color: var(--Albescent-White) !important;
+}
+.area-sec2 h1{
+ color: #81628F !important;
+}
+.area-sec2 p{
+    color: #81628F !important;
+    width: 100%;
+
 }

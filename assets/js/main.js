@@ -1,4 +1,5 @@
 
+
 jQuery(document).ready(function($) {
     var icon = $(".mobile-menu-icon");
     var menu = $(".mobile-slider");
@@ -27,7 +28,7 @@ jQuery(document).ready(function($) {
     icon.click(function() {
         tl.play();
     });
-    $(".close-menu").click(function() {
+    $(".ri-close-large-fill").click(function() {
         tl.reverse();
     });
     $(".filter").click(function() {

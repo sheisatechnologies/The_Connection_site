@@ -19,6 +19,22 @@
 
 @media (max-width: 767px) {
 
+    .layer_block {
+        padding: 0px 0 0px 0;
+        position: relative;
+        height: 600px;
+        z-index: 4;
+        
+    }
+
+    .co-working-section{
+
+        position: absolute;
+        top: 30px;
+        left: 0px;
+        padding: 20px !important;
+    }
+    
 
     .logo_menu_no_desk{
 

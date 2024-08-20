@@ -98,7 +98,7 @@ $('#main-slider99').owlCarousel({
     autoplay: true,
     center: true,
     margin: 0,
-    autoplayTimeout: 3000,
+    autoplayTimeout: 3500,
     autoplayHoverPause: false,
     responsiveClass: true,
     nav: true,

@@ -306,7 +306,7 @@ footer {
     left: 0;
     /* background-image: url(../images/campus/the-campus-mask-1.png); */
     width: 100%;
-    height: 950px;
+    height: 930px;
     background-size: cover;
 }
 
@@ -433,7 +433,7 @@ footer {
 
 
 .hero_tiles{
- width: 140px;
+ width: 150px;
  height: 140px;
  position: absolute;
  background-color: #528195;
@@ -488,7 +488,7 @@ right: 0;
 }
 
 .header_section_text {
-    margin-top: 17px;
+    margin-top: 0px;
 }
 
 .header_section_text ul li a {
@@ -716,20 +716,34 @@ right: 0;
     position: absolute;
     bottom: 0;
     right: 50px;
-    width: 450px;
-    height: 250px;
+    width: 560px;
+    height: 300px;
     background-color: #004C48;
-    padding: 20px;
+    padding: 40px;
+   
+    
+}
+
+.slider_two_text_boxr {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    width: 83px;
+    height: 140px;
+    background-color: #004C48;
+    padding: 40px;
+   
+    
 }
 
 .slider_two_text h5 {
-    font-size: 20px;
+    font-size: 30px;
     color: #F7EBDA;
 }
 
 .slider_two_text p {
     margin-top: 15px;
-    font-size: 16px;
+    font-size: 18px;
     color: #F7EBDA;
     line-height: 22px;
 }
@@ -1038,6 +1052,7 @@ right: 0;
     color: #004C48;
     font-size: 40px;
     line-height: 45px;
+    padding-bottom: 30px;
 }
 
 .slider_four,
@@ -1358,8 +1373,11 @@ right: 0;
 }
 
 
-
-
+.slider_three {
+    margin-top: -70px;
+    z-index: -1;
+    position: relative;
+}
 
 
 
@@ -1788,7 +1806,7 @@ height: 100%;
     position: absolute;
     margin-top: 0px;
     z-index: 3;
-    height: 250px;
+    height: 280px;
     
 }
 .slide-whitetiles{
@@ -1801,7 +1819,7 @@ height: 100%;
 .co-working-section{
 
     position: absolute;
-    top: 120px;
+    top: 50px;
     left: 60px;
 }
 

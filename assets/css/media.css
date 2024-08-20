@@ -18,6 +18,20 @@
 }
 
 @media (max-width: 767px) {
+
+
+    .logo_menu_no_desk{
+
+       
+        display: flex !important;
+        position: absolute;
+        width: 100%;
+        padding: 0vw 5vw;
+        justify-content: space-between;
+        margin-top: -200px;
+        padding: 30px;
+      }
+      
     
     .mobile-navigation li a, .mobile-slider-top .close-menu{
         font-size:9vw !important;

@@ -124,6 +124,7 @@ nav .ri-menu-line {
   font-size: var(--font-size18);
   padding: 20px 40px;
   background-color: #f7ebda;
+  border-radius: 0px;
 }
 
 .btn:hover {
@@ -712,7 +713,7 @@ nav .ri-menu-line {
     width: 65%;
   }
   #nav-menu {
-    width: 7%;
+    width: 7% !important;
   }
   .first-text h1 {
     font-size: 48px;
@@ -1065,7 +1066,7 @@ nav {
 
 
 .no-desk {
-  display: none;
+  display: none !important;
 }
 
 
@@ -1093,5 +1094,10 @@ nav {
     height: 2500px;
     
 }
+}
+
+.logo_menu_no_desk{
+
+  display: none !important;
 }
 

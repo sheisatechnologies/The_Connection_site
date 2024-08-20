@@ -19,6 +19,17 @@
 
 @media (max-width: 767px) {
 
+    .white-tiles {
+       display: none;
+    }
+
+
+    .slider_three {
+        margin-top: 20px;
+        z-index: -1;
+        position: relative;
+    }
+
     .layer_block {
         padding: 0px 0 0px 0;
         position: relative;
@@ -32,7 +43,7 @@
         position: absolute;
         top: 30px;
         left: 0px;
-        padding: 20px !important;
+        padding: 20px 12px !important;
     }
     
 
@@ -113,7 +124,7 @@
         background-color: #528195;
         width: 379px;
         margin-left: -52px;
-        padding: 71px 25px;
+        padding: 71px 30px;
         margin-top: -3px;
     }
 
@@ -163,10 +174,11 @@
     .new_tab_block {
         margin-top: 20px;
         margin-left: 10px;
+        padding-left: 10px;
     }
 
     .buildings_left h2 {
-        margin-left: 25px;
+        margin-left: 15px;
     }
 
     .slider_one::after {
@@ -280,7 +292,7 @@
         position: unset;
         width: 100%;
         height: unset;
-        padding: 20px 20px 120px 20px;
+        padding: 20px 20px 120px 30px;
     }
 
     .slider_two .owl-carousel .owl-item img {
@@ -340,6 +352,7 @@
     .clearing_one {
         width: 100%;
         margin-top: -80px;
+        padding: 10px;
     }
 
     .clearing_one p {
@@ -404,6 +417,7 @@
     .refurbish {
         background-color: #e2e5dc;
         padding-top: 55px;
+       
     }
 
     .refurbish_inner {
@@ -412,6 +426,7 @@
 
     .refurbish_left {
         margin: 0;
+        padding-left: 10px;
     }
 
     .refurbish_mobile_view {
@@ -666,7 +681,7 @@
         margin-top:20px;
     }
     .logo img {
-        max-width: 70%;
+        max-width: 65%;
         padding-bottom:20px;
         margin-left: 10px;
     }

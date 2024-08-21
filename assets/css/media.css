@@ -468,7 +468,7 @@
         font-size: 18px;
         margin-top: 30px;
         line-height: 22px;
-        width: 340px;
+        padding-right:30px
     }
 
     .download_brochure_button {

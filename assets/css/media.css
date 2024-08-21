@@ -895,6 +895,7 @@
     .slider_two .owl-carousel .owl-dots.disabled,
     .slider_two .owl-carousel .owl-nav.disabled {
         top: 31.5%;
+        margin-top: 18px;
     }
 }
 

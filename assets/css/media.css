@@ -868,6 +868,7 @@
     .clearing_one p {
         font-size: 18px;
         line-height: 22px;
+        margin-left: 5px;
     }
 }
 

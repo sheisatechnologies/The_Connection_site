@@ -131,6 +131,10 @@ body {
     padding-left: 2px;
 }
 
+.sub-title_main{
+    color: #F7EBDA;
+}
+
 .mobile-menu-icon {
     display: flex;
     flex-direction: column;
@@ -419,6 +423,35 @@ footer {
 /* ///////////////////////////////////////////////////////////////////////////////////////////// */
 
 
+/* ///////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* sustain pages hero and massk */
+
+.top_header_block-sustain {
+    background-image: url(../images/sustainability/sustain_hero_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 800px;
+}
+
+.top_header_block_inner-sustain {
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    background-image: url(../images/sustainability/sustain_hero_mask.png);
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+}
+
+/* sustain pages hero and massk */
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////// */
+
+
 
 
 
@@ -439,6 +472,14 @@ footer {
  background-color: #528195;
  z-index: 1;
 right: 0;
+}
+ .hero_tiles_sus{
+  width: 150px;
+  height: 140px;
+  position: absolute;
+  background-color: #004C48;
+  z-index: 1;
+  right: 0;
 }
 
 .hero_tiles_mapple{
@@ -715,9 +756,9 @@ right: 0;
 .slider_two_text {
     position: absolute;
     bottom: 0;
-    right: 50px;
-    width: 560px;
-    height: 320px;
+    left: 70px;
+    width: 702px;
+    height: 224px;
     background-color: #004C48;
     padding: 40px;
    
@@ -727,13 +768,71 @@ right: 0;
 .slider_two_text_boxr {
     position: absolute;
     bottom: 0;
-    right: 0px;
-    width: 83px;
-    height: 140px;
+    left: 0px;
+    width: 95px;
+    height: 80px;
     background-color: #004C48;
     padding: 40px;
    
     
+}
+
+.slider_tow_text_box2{
+    position: absolute;
+    bottom: 0;
+    left: 750px;
+    width: 83px;
+    height: 140px;
+    background-color: #004C48;
+    padding: 40px;
+}
+
+
+
+.slide2_boxr{
+   background-color: #528195 !important;
+}
+
+.slide2_box2{
+    background-color: #528195 !important;
+}
+
+.slide2_text{
+    background-color: #528195 !important;
+}
+
+
+.slide3_boxr{
+    background-color:  #81628F !important;
+ }
+ 
+ .slide3_box2{
+     background-color: #81628F !important;
+ }
+ 
+ .slide3_text{
+     background-color: #81628F !important;
+ }
+
+ 
+.slide4_boxr{
+    background-color: #E2E5DC !important;
+ }
+ 
+ .slide4_box2{
+     background-color: #E2E5DC !important;
+ }
+ 
+ .slide4_text{
+     background-color: #E2E5DC !important;
+ }
+
+.slider4_text_head{
+    color: #004C48 !important;
+}
+
+.slider4_text_para{
+    color: #004C48 !important;
 }
 
 .slider_two_text h5 {
@@ -928,9 +1027,9 @@ right: 0;
     width: 600px;
 }
 
-.footer_inner_right_inner {
+/* .footer_inner_right_inner {
     padding-top: 35px;
-}
+} */
 
 .footer_inner_right_inner_left img {
     width: 90px;
@@ -964,10 +1063,21 @@ right: 0;
     justify-content: space-between;
 }
 
-.footer_link{
+.footer_link {
 
-    margin-top: 175px;
+    display: flex;
+    font-size: 12px;
+   
+    column-gap: 30px;
+    margin-top: 185px;
 }
+
+.footer_link a{
+
+    color: #004c48 !important;
+}
+
+
 .footer_bottom_block{
 
     margin-top: 10px;
@@ -1069,6 +1179,7 @@ right: 0;
 .co-working_img{
 
     width: 100%;
+    height: 937px;
 }
 .co-working_part{
 
@@ -1103,6 +1214,12 @@ right: 0;
 .sec_back_2{
 
     position: relative;
+}
+
+.mapple_23 {
+    max-width: 100%;
+    height: auto;
+    margin-left: -350px;
 }
 
 .sec_2_img{
@@ -1148,7 +1265,7 @@ right: 0;
 .image-2{
     position: absolute;
     right: 100px;
-    margin-top: 400px;
+    margin-top: 280px;
     
 }
 
@@ -1179,7 +1296,7 @@ right: 0;
     height: 27px;
     width: 27px;
     background-color: #80A5A3;
-    left: 199px;
+    left: 150px;
     margin-top: 10px;
    
 }
@@ -1190,7 +1307,7 @@ right: 0;
     height: 27px;
     width: 27px;
     background-color:#E2E5DC;
-    left: 199px;
+    left: 150px;
     margin-top: 10px;
    
    
@@ -1202,7 +1319,7 @@ right: 0;
     height: 27px;
     width: 27px;
     background-color:#F8F8F8;
-    left: 199px;
+    left: 150px;
     border: 2px solid #E2E5DC;
     margin-top: 10px;
    
@@ -1225,7 +1342,7 @@ right: 0;
 
 .li_list2{
     font-size: 15px;
-    margin-left: 110px;
+    margin-left: 100px;
     margin-top: 60px;
     color: #004C48;
     font-family: 400;
@@ -1304,9 +1421,9 @@ right: 0;
     background-position: center;
     background-size: cover;
     position: relative;
-    height: 800px;
+    height: 730px;
     /* width: 70%; */
-    margin-top: 90px;
+    margin-top: 250px;
     
 }
 
@@ -1348,11 +1465,13 @@ right: 0;
     font-weight: 400;
 }
 .mask-on-layer{
-    width: 100%;
-    height: 100%;
+    width: 102%;
+    height: 107%;
     margin-top: 160px;
     /* position: absolute;
     top: 1000px; */
+    margin-top: 7px;
+    margin-left: -13px;
 
 }
 .mapple-mask-sec-contain{
@@ -1463,22 +1582,32 @@ right: 0;
 
 .images-container{
     position: absolute;
+    
+    
 }
 
 
 .button-brochure1{
-    width: 280px;
-    height: 70px;
+    width: 230px;
+    height: 60px;
     color: #F0F0F0 !important;
     font-size: 18px;
     line-height: 22px;
-    background-color: #81628F !important;
+    background-color: #528195 ;
     border: none;
     
 }
 
+.button-brochure2{
+   
+    background-color: var(--clr-blue) !important;
+    
+}
+
+
 .brochure_btn1{
     margin-bottom: 60px;
+   
 }
 
 
@@ -1487,10 +1616,11 @@ right: 0;
 }
 
 #mainImage2{
-    width: 105%;
-    height: 505px;
+    width: 130%;
+    height: 600px;
     position: absolute;
-    right: 12px;
+    right: -112px;
+    top:0px;
    
   }
 
@@ -1634,6 +1764,36 @@ right: 0;
 }
 
 /* lab css part */
+.lab_mask_tiles{
+
+    
+    /* position: absolute; */
+    margin-top: -180px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 300px;
+    
+}
+
+.section_3{
+
+    position: relative;
+}
+
+.lab_text_ontainer{
+
+   margin-top: -1200px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1661,6 +1821,7 @@ right: 0;
     height: auto;
     position: relative;
     z-index: -1;
+    margin-top: -380px;
 }
 
 .mapple-floor{
@@ -1674,6 +1835,85 @@ right: 0;
 
     margin-top: 150px;
 }
+
+
+
+
+
+.custom-button {
+    background-color: #E2E5DC;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    width: 156px;
+    height: 42px;
+}
+.custom-button:focus {
+    outline: none;
+}
+.custom-button:hover {
+    background-color:  #004C48; /* Slightly darker on hover */
+}
+.active-button {
+    background-color:  #004C48; /* Background color for active button */
+    color: white;
+}
+
+.mask-tab{
+
+    position: relative;
+  }
+  .tab-content-section{
+    position: absolute;
+    top: 150px;
+  
+  }
+
+  
+.tab-content > .tab-pane {
+    display: none;
+}
+.tab-content > .tab-pane.active {
+    display: block;
+}
+
+
+/* .custom-button {
+    background-color: #E2E5DC;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    width: 156px;
+    height: 42px;
+}
+.custom-button:focus {
+    outline: none;
+}
+.custom-button:hover {
+    background-color: #004C48; 
+    color: white;
+}
+.mask-tab{
+
+  position: relative;
+}
+.tab-content-section{
+  position: absolute;
+  top: 150px;
+
+}
+
+.tab-content > .tab-pane {
+    display: none;
+}
+.tab-content > .tab-pane.active {
+    display: block;
+} */
+
 
 /* mapple css end here  */
 
@@ -1908,3 +2148,79 @@ margin-top: 15px;
 
 }
 
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ........sustainability css....... */
+
+
+
+
+
+
+.span_sus{
+    font-size: 80px;
+    line-height: 45px;
+    font-weight: 500;
+    color: #004C48;
+}
+
+
+.headeing_sec2{
+    font-size: 43.64px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-top: 80px;
+    color: #004C48;
+}
+
+.para_sec2{
+    font-size: 30px;
+    line-height: 34.7px;
+    font-weight: 400;
+    color: #004C48;
+}
+
+
+
+.head_sustain{
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 500;
+    color: #004C48;
+}
+
+.para_sustain{
+    Width: 618px;
+    height: 44px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #004C48;
+}
+
+.main-head_sus{
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #004c48;
+}
+
+.line_desk{
+    width: 75%;
+    height: 1.5px;
+    background-color: #004c48;
+    top: 230px;
+    position: absolute;
+  }
+
+  .mapple_single_bg{
+
+    margin-top: 380px;
+  }
+  

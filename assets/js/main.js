@@ -62,7 +62,7 @@ secondTab.forEach((item, index) => {
 $('#main-slider9').owlCarousel({
     loop: true,
     dots: true,
-    autoplay: true,
+    autoplay: false,
     center: true,
     margin: 0,
     autoplayTimeout: 3500,
@@ -95,10 +95,10 @@ $('#main-slider9').owlCarousel({
 $('#main-slider99').owlCarousel({
     loop: true,
     dots: true,
-    autoplay: true,
+    autoplay: false,
     center: true,
     margin: 0,
-    autoplayTimeout: 3500,
+    autoplayTimeout: 3000,
     autoplayHoverPause: false,
     responsiveClass: true,
     nav: true,
@@ -128,7 +128,7 @@ $('#main-slider99').owlCarousel({
 $('#main-slider999').owlCarousel({
     loop: true,
     dots: false,
-    autoplay: true,
+    autoplay: false,
     center: true,
     margin: 0,
     autoplayTimeout: 3500,
@@ -161,7 +161,7 @@ $('#main-slider999').owlCarousel({
 $('#main-slider9999').owlCarousel({
     loop: true,
     dots: false,
-    autoplay: true,
+    autoplay: false,
     center: true,
     margin: 0,
     autoplayTimeout: 3500,
@@ -190,6 +190,37 @@ $('#main-slider9999').owlCarousel({
     }
     
 });
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const buttons = document.querySelectorAll('.custom-button');
+    buttons.forEach(button => {
+        button.addEventListener('click', function() {
+            // Toggle active state for the clicked button
+            const isActive = this.classList.contains('active-button');
+            buttons.forEach(btn => btn.classList.remove('active-button'));
+            if (!isActive) {
+                this.classList.add('active-button');
+                showContent(this.id.replace('button', 'content'));
+            } else {
+                // If button is already active, hide content
+                this.classList.remove('active-button');
+                hideAllContents();
+            }
+        });
+    });
+});
+
+function showContent(contentId) {
+    hideAllContents();
+    document.getElementById(contentId).classList.add('active');
+}
+
+function hideAllContents() {
+    const contents = document.querySelectorAll('.tab-pane');
+    contents.forEach(content => content.classList.remove('active'));
+}
 
 
 // let mm2 = gsap.matchMedia();

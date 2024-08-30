@@ -53,6 +53,7 @@ body {
 .mainP {
   font-size: var(--font-size18);
   line-height: 22px;
+  padding-right: 25px;
 }
 .mainf {
   font-size: var(--font-text);
@@ -125,11 +126,12 @@ nav .ri-menu-line {
   padding: 20px 40px;
   background-color: #f7ebda;
   border-radius: 0px;
+  font-size: 18px;
 }
 
 .btn:hover {
   font-size: 18px;
-  padding: 20px 40px;
+  padding: 21px 41px;
   color: var(--Albescent-White);
   background-color: var(--clr-blue);
 }
@@ -161,7 +163,7 @@ nav .ri-menu-line {
 
 .second-section {
   height: 650px;
-  background-image: url(../images/home/section-2.jpg);
+  background-image: url(../images/home/sec-2.png);
   background-size: 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -426,11 +428,11 @@ nav .ri-menu-line {
 .bg-six {
 
   width: 120%;
-  height: 2000px;
+  height: 950px;
    
     background-position: center;
     background-size: cover;
-    background-image: url(../images/home/lab-bg-image-desktop-new.jpg);
+    background-image: url(../images/home/lab-bg-img-desk1.jpg);
 
 }
 
@@ -1100,4 +1102,5 @@ nav {
 
   display: none !important;
 }
+
 

@@ -158,6 +158,7 @@ $('#main-slider999').owlCarousel({
     
 });
 
+<<<<<<< Updated upstream
 $('#main-slider9999').owlCarousel({
     loop: true,
     dots: false,
@@ -186,10 +187,40 @@ $('#main-slider9999').owlCarousel({
             nav: false,
             dots: true
         }
+=======
+// $('#main-slider9999').owlCarousel({
+//     loop: true,
+//     dots: false,
+//     autoplay: true,
+//     center: true,
+//     margin: 0,
+//     autoplayTimeout: 3500,
+//     autoplayHoverPause: false,
+//     responsiveClass: true,
+//     nav: true,
+//     navText: [
+//         '<i class="fa-solid fa-arrow-left-long"></i>', 
+//         '<i class="fa-solid fa-arrow-right-long"></i>' 
+//     ],
+//     responsive: {
+//         0: {
+//             items: 1,
+//             nav: false
+//         },
+//         600: {
+//             items: 1,
+//             nav: false
+//         },
+//         1000: {
+//             items: 1,
+//             nav: false,
+//             dots: true
+//         }
+>>>>>>> Stashed changes
         
-    }
+//     }
     
-});
+// });
 
 
 

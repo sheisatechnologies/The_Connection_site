@@ -223,7 +223,7 @@ footer {
 
 .mobile-navigation li {
     text-align: center;
-    margin: 25px;
+    margin: 6px;
     padding-left: 0;
 }
 
@@ -340,10 +340,10 @@ footer {
 .top_header_block-lab {
     background-image: url(../images/lab/labs-hero-image.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: right;
+    background-size: 60% 100%;
     position: relative;
-    height: 800px;
+    height: 1000px;
 }
 
 .top_header_block_inner-lab {
@@ -351,10 +351,11 @@ footer {
     background-repeat: no-repeat;
     top: 0;
     left: 0;
-    background-image: url(../images/lab/labs-mask-1.png);
+    background-image: url(../images/lab/labs-mask-2.png);
     width: 100%;
-    height: 1000px;
+    height: 100%;
     background-size: cover;
+    z-index: 3;
 }
 
 /* lab pages hero and massk */
@@ -373,7 +374,7 @@ footer {
     background-position: center;
     background-size: cover;
     position: relative;
-    height: 1150px;
+    height: 1050px;
 }
 
 .top_header_block_inner-area {
@@ -428,20 +429,21 @@ footer {
 /* sustain pages hero and massk */
 
 .top_header_block-sustain {
-    background-image: url(../images/sustainability/sustain_hero_img.jpg);
+    background-image: url(../images/sustainability/sustain_hero_img1.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: right;
+    background-size: 70% 100%;
     position: relative;
-    height: 800px;
+    height: 790px;
+    margin-top: -12px;
 }
 
 .top_header_block_inner-sustain {
     position: absolute;
     background-repeat: no-repeat;
-    top: 0;
+    top: 4px;
     left: 0;
-    background-image: url(../images/sustainability/sustain_hero_mask.png);
+    background-image: url(../images/sustainability/sustain-mask.png);
     width: 100%;
     height: 1000px;
     background-size: cover;
@@ -492,7 +494,7 @@ right: 0;
    }
 
    .hero_tiles_area{
-    width: 140px;
+    width: 147px;
     height: 140px;
     position: absolute;
     background-color:#81628F;
@@ -509,6 +511,15 @@ right: 0;
     z-index: 1;
    right: 0;
    }
+
+  .hero_tiles_labs{ 
+   width: 150px;
+   height: 140px;
+   position: absolute;
+   background-color: #528195;
+   z-index: 1;
+   right: 0;
+  }
 
    
 
@@ -559,6 +570,7 @@ right: 0;
     font-family: ABCMonument R;
     width: 479px;
     font-weight: 400;
+    padding-right: 30px;
 }
 
 .h_section_text_h1 h1 span {
@@ -574,7 +586,46 @@ right: 0;
     color: #F0F0F0;
     font-size: 18px;
     line-height: 22px;
+    padding-right: 15px
 }
+
+.camp-p{
+    color: #F0F0F0 !important ;
+    padding-right: 60px;
+}
+.camp-title{
+    color: #F0F0F0 !important;
+}
+.mapple_h1{
+    color:#F7EBDA !important;
+    font-size: 80px;
+}
+
+.mapple-title{
+    color: #F7EBDA !important;
+}
+
+.mapple-p{
+    color: #F7EBDA !important;
+}
+
+.labs_title{
+    color: #F0F0F0 !important;
+}
+
+.sustain_h1{
+    color: #F0F0F0 !important;
+}
+
+.sustain_title{
+    color: #F0F0F0 !important;  
+}
+
+.sustain_p{
+    color: #F0F0F0 !important;
+}
+
+
 
 .buildings {
     margin-top: 120px;
@@ -1288,6 +1339,7 @@ right: 0;
 .list_li{
     font-size: 30px;
     color: #004C48;
+    line-height: 30px;
 }
 
 
@@ -1297,7 +1349,7 @@ right: 0;
     width: 27px;
     background-color: #80A5A3;
     left: 150px;
-    margin-top: 10px;
+    margin-top: 4px;
    
 }
 
@@ -1308,7 +1360,7 @@ right: 0;
     width: 27px;
     background-color:#E2E5DC;
     left: 150px;
-    margin-top: 10px;
+    
    
    
 }
@@ -1321,7 +1373,7 @@ right: 0;
     background-color:#F8F8F8;
     left: 150px;
     border: 2px solid #E2E5DC;
-    margin-top: 10px;
+    
    
 }
 
@@ -1493,7 +1545,7 @@ right: 0;
 
 
 .slider_three {
-    margin-top: -70px;
+    margin-top: -76px;
     z-index: 1;
     position: relative;
 }
@@ -1527,7 +1579,7 @@ right: 0;
 .area_image{
     width: 100%;
     height: auto;
-    margin-top: -160px;
+    margin-top: -140px;
 }
 
 
@@ -1689,7 +1741,8 @@ right: 0;
 .area_image1{
     width: 100%;
     height: auto;
-    margin-top: 130px;
+    margin-top: -130px;
+    position: relative;
 }
 
 
@@ -1768,10 +1821,11 @@ right: 0;
 
     
     /* position: absolute; */
-    margin-top: -180px;
+    margin-top: -142px;
     width: 100%;
-    height: auto;
-    margin-bottom: 300px;
+    height: 1280px;
+   
+    z-index: 3;
     
 }
 
@@ -1782,7 +1836,7 @@ right: 0;
 
 .lab_text_ontainer{
 
-   margin-top: -1200px;
+   margin-top: -950px;
 }
 
 
@@ -1849,32 +1903,36 @@ right: 0;
     cursor: pointer;
     width: 156px;
     height: 42px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Added transition for smooth changes */
 }
+
 .custom-button:focus {
     outline: none;
 }
+
 .custom-button:hover {
-    background-color:  #004C48; /* Slightly darker on hover */
-}
-.active-button {
-    background-color:  #004C48; /* Background color for active button */
+    background-color: #004C48; /* Slightly darker on hover */
     color: white;
 }
 
-.mask-tab{
+.active-button {
+    background-color: #004C48; /* Background color for active button */
+    color: white;
+}
 
+.mask-tab {
     position: relative;
-  }
-  .tab-content-section{
+}
+
+.tab-content-section {
     position: absolute;
     top: 150px;
-  
-  }
+}
 
-  
 .tab-content > .tab-pane {
     display: none;
 }
+
 .tab-content > .tab-pane.active {
     display: block;
 }
@@ -2144,8 +2202,13 @@ margin-top: 15px;
 }
 .area-sec2 p{
     color: #81628F !important;
-    width: 100%;
+    width: 90%;
 
+}
+
+#mainImage_map{
+    width: 100%;
+   
 }
 
 
@@ -2158,9 +2221,22 @@ margin-top: 15px;
 
 /* ........sustainability css....... */
 
+.sus_sec2_right {
+    margin-top: 50px;
+    padding: 50px;
+}
 
+.sus_sec2_right{
 
+    margin-top: 50px;
+}
 
+.sustain_img_sec2{
+
+    width: 100%;
+    height: 100%;
+    
+}
 
 
 .span_sus{
@@ -2204,6 +2280,7 @@ margin-top: 15px;
     color: #004C48;
 }
 
+
 .main-head_sus{
     font-size: 30px;
     line-height: 35px;
@@ -2224,3 +2301,20 @@ margin-top: 15px;
     margin-top: 380px;
   }
   
+
+  @keyframes bounce {
+    0%, 100% {
+        transform: translateY(10);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+
+.image-map-pro{
+
+    width: 100%;
+    height: 100%;
+
+}

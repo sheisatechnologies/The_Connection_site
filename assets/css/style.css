@@ -616,7 +616,7 @@ nav .ri-menu-line {
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
 }
 .menu-overlay ul {
-  gap: 3vh;
+  gap: 1vh;
 }
 .menu-overlay a {
   text-decoration: none;

@@ -197,16 +197,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const buttons = document.querySelectorAll('.custom-button');
     buttons.forEach(button => {
         button.addEventListener('click', function() {
-            // Toggle active state for the clicked button
-            const isActive = this.classList.contains('active-button');
-            buttons.forEach(btn => btn.classList.remove('active-button'));
-            if (!isActive) {
+            // Prevent double-click from toggling the active state off
+            if (!this.classList.contains('active-button')) {
+                buttons.forEach(btn => btn.classList.remove('active-button'));
                 this.classList.add('active-button');
                 showContent(this.id.replace('button', 'content'));
-            } else {
-                // If button is already active, hide content
-                this.classList.remove('active-button');
-                hideAllContents();
             }
         });
     });
@@ -221,6 +216,7 @@ function hideAllContents() {
     const contents = document.querySelectorAll('.tab-pane');
     contents.forEach(content => content.classList.remove('active'));
 }
+
 
 
 // let mm2 = gsap.matchMedia();

@@ -876,7 +876,7 @@
     font-size: 40px;
     line-height: 45px;
     font-family: ABCMonument R;
-    width: 279px;
+    
     font-weight: 400;
 }
 
@@ -1226,7 +1226,7 @@
     .footer {
         padding: 55px 0 !important;
         height: 900px !important;
-        margin-top: 450px;
+        margin-top: 30px;
     }
 
     .footer_inner_left {
@@ -1256,6 +1256,11 @@
 
     .footer_logo img {
         margin-top: -99px;
+    }
+
+    .footer_margin{
+
+        margin-top: 450px;
     }
 
 
@@ -1304,6 +1309,11 @@
         height: 100%;
         margin-top: 120px;
 
+    }
+
+    .px-4 {
+        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important;
     }
 
 

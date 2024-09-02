@@ -1038,7 +1038,6 @@
    
 
 
-  
 .mobile-navigation {
     list-style: none;
     margin-top: 75px;
@@ -1076,11 +1075,6 @@
 /* ////////////////////////////////////////////////////////////// */
 
 @media (max-width:767px) {
-
-    .hero_tiles {
-        
-        display: none;
-    }
 
     .mapple-floor-contain {
         margin-top: -100px !important;
@@ -1351,29 +1345,3 @@
 }
 
 
-<<<<<<< Updated upstream
-=======
-}
-
-
-
-
-
-@media (min-width:1440px) {
-
-    .parallax {
-       
-        /* Full-height section */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        transition: background-position 0.2s ease-out;
-        z-index: -1;
-        position: absolute;
-        
-      }
-    
-
-}
-
->>>>>>> Stashed changes

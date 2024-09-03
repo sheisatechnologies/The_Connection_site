@@ -1324,14 +1324,14 @@ right: 0;
     font-size: 40px;
     font-weight: 400;
     color: #004C48;
-    margin-left: 100px;
+    margin-left: 0px;
 }
 
 
 
 .list_mapple{
    
-    margin-left: 150px;
+    margin-left: 60px;
     margin-top: 20px;
 }
 
@@ -1348,7 +1348,7 @@ right: 0;
     height: 27px;
     width: 27px;
     background-color: #80A5A3;
-    left: 150px;
+    left: 50px;
     margin-top: 4px;
    
 }
@@ -1359,7 +1359,7 @@ right: 0;
     height: 27px;
     width: 27px;
     background-color:#E2E5DC;
-    left: 150px;
+    left: 50px;
     
    
    
@@ -1371,7 +1371,7 @@ right: 0;
     height: 27px;
     width: 27px;
     background-color:#F8F8F8;
-    left: 150px;
+    left: 50px;
     border: 2px solid #E2E5DC;
     
    

@@ -18,14 +18,14 @@
 }
 
 
-@media screen and (max-width: 1440px) and (min-width: 1300px) {
+@media screen and (min-width: 1300px) {
    
 
 
     .area_image1{
         width: 100%;
         height: auto;
-        margin-top: -65px;
+        margin-top: -207px;
         position: relative;
     }
 
@@ -42,7 +42,7 @@
     .area_image1 {
         width: 100%;
         height: auto;
-        margin-top: 65px;
+        margin-top: -150px;
     }
 
 

@@ -230,7 +230,7 @@ footer {
 .mobile-navigation li a {
     text-decoration: none;
     color: #004c48;
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 .mobile-slider-top h2 {
@@ -252,12 +252,16 @@ footer {
     
 }
 
+
+
 .close-menu:hover {
     cursor: pointer;
 }
 
 .mobile-navigation {
     list-style: none;
+    margin-top: 80px;
+
 }
 
 .mobile-navigation i {
@@ -2290,8 +2294,8 @@ margin-top: 15px;
 }
 
 .line_desk{
-    width: 75%;
-    height: 1.5px;
+    width: 76%;
+    height: 1px;
     background-color: #004c48;
     top: 230px;
     position: absolute;

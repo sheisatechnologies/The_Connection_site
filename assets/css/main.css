@@ -445,7 +445,7 @@ footer {
 .top_header_block_inner-sustain {
     position: absolute;
     background-repeat: no-repeat;
-    top: 4px;
+    top: -2px;
     left: 0;
     background-image: url(../images/sustainability/sustain-mask.png);
     width: 100%;

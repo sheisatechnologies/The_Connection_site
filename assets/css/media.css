@@ -885,7 +885,7 @@
    }
 
    .h_section_text_h1 h1 {
-    color: #F0F0F0;
+    color: #F7EBDA;;
     font-size: 40px;
     line-height: 45px;
     font-family: ABCMonument R;
@@ -1388,6 +1388,8 @@
         height: 504px;
     }
 
+    
+
 
     .h_section_text_h1 {
         margin-top: -30px;
@@ -1490,6 +1492,21 @@
 
 /* /////////////----Mapple----///////// */
 @media only screen and (max-width: 991px) {
+  .mapple-phon-title {
+    color: #F7EBDA !important;
+    margin-top: -20px;
+
+}
+
+   .mapple-para {
+
+    color: #F7EBDA !important;
+    margin-top: -17px;
+   }
+    .mapple-title-phon {
+        color: #F7EBDA !important;
+        margin-left: 20px;
+    }
 
     .mapple_single_bg {
         margin-top: -5px !important;

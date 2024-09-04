@@ -141,7 +141,7 @@
 
     .top_header_block_inner {
         background-image: url(../images/mobile2.png);
-        height: 504px;
+        height: 96%;
         /* background-size:unset; */
     }
 
@@ -179,9 +179,9 @@
         justify-content: center;
         align-items: center !important;
         width: 350px;
-        margin-left: -35px;
+        margin-left: -30px;
         margin-top: -20px;
-        padding: 10px 0;
+        padding: 10px 10px;
     }
 
 
@@ -190,7 +190,7 @@
         width: 379px;
         margin-left: -52px;
         padding: 71px 30px;
-        margin-top: -3px;
+        margin-top: -20px;
     }
 
     .clearing_three3{
@@ -748,7 +748,7 @@
     .logo img {
         max-width: 65%;
         padding-bottom:20px;
-        margin-left: 26px;
+       
     }
 
 }
@@ -1107,7 +1107,10 @@
 
     .mapple-map-phon{
 
+      
         width: 100%;
+        background-color: #F7EBDA;
+        margin-top: -25px;
     }
 
 .mobile-con2{
@@ -1343,7 +1346,7 @@
 
     .lap_roadmap_phon{
 
-        margin-top: 786px;
+        margin-top: 759px;
     }
     .lab_main_container{
 
@@ -1492,6 +1495,16 @@
 
 /* /////////////----Mapple----///////// */
 @media only screen and (max-width: 991px) {
+
+
+   
+    
+    .top_header_block_mapple {
+        background-image: url(../images/mapple/maple-hero-image.jpg);
+        height: 504px;
+    }
+
+
   .mapple-phon-title {
     color: #F7EBDA !important;
     margin-top: -20px;
@@ -1501,7 +1514,7 @@
    .mapple-para {
 
     color: #F7EBDA !important;
-    margin-top: -17px;
+    margin-top: 37px;
    }
     .mapple-title-phon {
         color: #F7EBDA !important;

@@ -1195,6 +1195,14 @@
 
 /* //////----------------------contact css media -----------------------////////// */
 @media only screen and (max-width: 991px) {
+.contact_main_text{
+    margin-top: -505px;
+}
+    
+    .contact-right6 {
+        background-color: #f7ebda;
+        /* padding-bottom: 500px; */
+    }
     
     .con_bg{
 
@@ -1326,13 +1334,16 @@
 @media only screen and (max-width: 991px) {
 
 
-  
+    .top_header_block_lab {
+    background-image: url(../images/lab/lab_phon_img.jpg);
+    height: 504px;
+}
 
   
 
     .lap_roadmap_phon{
 
-        margin-top: 1289px;
+        margin-top: 786px;
     }
     .lab_main_container{
 
@@ -1371,6 +1382,13 @@
 
   /* //////----------------------Sustain -----------------------////////// */
   @media only screen and (max-width: 991px) {
+
+    .top_header_block_sus {
+        background-image: url(../images/sustainability/sus_phon_img.jpg);
+        height: 504px;
+    }
+
+
     .h_section_text_h1 {
         margin-top: 50px;
     }
@@ -1416,6 +1434,11 @@
 
     /* //////----------------------area css -----------------------////////// */
 @media only screen and (max-width: 991px) {
+
+    .top_header_block_area {
+        background-image: url(../images/area/area_phon_img.jpg);
+        height: 504px;
+    }
 
     .area_roadmap_phon{
         margin-top: 775px;
@@ -1474,7 +1497,9 @@
     .tab-content-section {
         position: relative !important;
         top: 44px !important;
+        padding-bottom:170px
     }
+   
 
 
     .heading_mapple {

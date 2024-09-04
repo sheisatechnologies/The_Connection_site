@@ -177,7 +177,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center;
+        align-items: center !important;
         width: 350px;
         margin-left: -35px;
         margin-top: -20px;
@@ -1390,7 +1390,8 @@
 
 
     .h_section_text_h1 {
-        margin-top: 50px;
+        margin-top: -30px;
+
     }
 
     .sustain_img_sec2{
@@ -1441,7 +1442,7 @@
     }
 
     .area_roadmap_phon{
-        margin-top: 775px;
+        margin-top: 920px;
     }
     .pt-phon{
 

@@ -2312,10 +2312,10 @@ margin-top: 15px;
     position: absolute;
   }
 
-  .mapple_single_bg{
-
+  .mapple_single_bg {
     margin-top: 380px;
-  }
+    margin-bottom: -5px;
+}
   
 
   @keyframes bounce {

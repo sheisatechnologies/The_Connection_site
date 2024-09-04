@@ -1058,7 +1058,7 @@
     
 /* header sliding code */
 
-@media (max-width:767px) {
+@media (max-width:991px) {
    
 
 
@@ -1088,7 +1088,7 @@
 /* /////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////// */
 
-@media (max-width:767px) {
+@media (max-width:991px) {
 
     .no-phon{
 
@@ -1098,7 +1098,7 @@
 
 /* ////////////////////////////////////////////////////////////// */
 
-@media (max-width:767px) {
+@media (max-width:991px) {
 
     .mapple-floor-contain {
         margin-top: -100px !important;
@@ -1349,8 +1349,10 @@
 
 
     .top_header_block_lab {
-    background-image: url(../images/lab/lab_phon_img.jpg);
-    height: 504px;
+        background-image: url(../images/lab/lab_phon_img.jpg);
+        height: 504px;
+        background-repeat: no-repeat;
+        background-size: cover;
 }
 
   

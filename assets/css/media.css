@@ -162,7 +162,7 @@
     }
 
     .header_section_text_inner {
-        margin-top: 415px;
+        margin-top: 396px;
     }
 
    
@@ -179,10 +179,21 @@
         justify-content: space-between;
         align-items: center !important;
         width: 100%;
-        margin-left: -30px;
+        margin-left: 0px;
         margin-top: -20px;
         padding: 10px 10px;
     }
+    /* .header-inner {
+        margin: 0 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center !important;
+        width: 100%;
+        margin-left: -30px;
+        margin-top: -20px;
+        padding: 10px 10px;
+    } */
 
 
     .header_section_text {

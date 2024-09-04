@@ -1181,6 +1181,19 @@
 /* //////----------------------contact css media -----------------------////////// */
 @media only screen and (max-width: 991px) {
     
+    body{
+
+        background-color: #f7ebda;;
+    }
+
+    .ri-close-large-fill {
+        position: absolute;
+        top: 20px;
+        right: 4vw;
+        font-size: 6vw;
+        color: #004c48;
+    }
+    
     .contact_bg{
         background-color: #004C48;
     }

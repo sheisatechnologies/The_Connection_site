@@ -1209,6 +1209,10 @@
 
 /* //////----------------------contact css media -----------------------////////// */
 @media only screen and (max-width: 991px) {
+
+    
+
+
 .contact_main_text{
     margin-top: -505px;
 }
@@ -1609,4 +1613,40 @@
     }
 
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------
+    CONSTANT CSS
+-------------------------------------- */
+
+@media only screen and (max-width: 991px) {
+
+    .main_logo {
+        margin-top: 16px;
+        width: 100%;
+        max-width: 65%;
+    }
+
+    #nav-menu {
+        width: 60%;
+        margin-top: 16px;
+    }
 }

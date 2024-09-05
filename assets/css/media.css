@@ -199,7 +199,7 @@
     .header_section_text {
         background-color: #528195;
         width: 379px;
-        margin-left: -52px;
+        /* margin-left: -52px; */
         padding: 71px 30px;
         margin-top: -20px;
     }

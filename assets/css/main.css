@@ -1493,8 +1493,8 @@ right: 0;
 .mask-bg-right{
 
     position: absolute;
-    right: 50px;
-    top: 150px;
+    right: 80px;
+    top: 238px;
     
 }
  .line{
@@ -1507,7 +1507,8 @@ right: 0;
 .mask-bg-left{
     position: absolute;
     right: 300px;
-    top: 150px;
+    top: 231px;
+
 }
 
 .mapple-mask-bg-left{

@@ -1670,7 +1670,7 @@
 
     nav {
         position: absolute;
-        top: -15px !important;
+        top: -7px !important;
         padding: 51px 48px;
     }
    
@@ -1678,7 +1678,7 @@
 
 nav {
     position: absolute;
-    top: -7px !important;
+    top: 17px ;
    
     padding: 51px 48px;
 }

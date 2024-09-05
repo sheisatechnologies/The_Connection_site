@@ -38,12 +38,15 @@
 
 @media only screen and (max-width: 991px) {
 
-
+  .mapple-m1 {
+        width: 100%;
+        margin-top: -82px;
+    }
   .mobile-con2 {
         height: 400px;
         background-color: #f7ebda;
         position: relative;
-        margin-top: 465px;
+        margin-top: 0px;
     }
 
 
@@ -67,7 +70,7 @@
   width: 100%;
   
   padding: 71px 30px;
-  margin-top: -34px;
+  margin-top: -399px;
 }
 
 .h_section_text_h1 h1 {
@@ -84,7 +87,28 @@ margin-top: 490px;
 }
 
 @media only screen and (max-width: 991px) {
+  .mobile-menu-icon {
+       
+       margin-right: 0px;
+   }
 
+  .mapple-phon-con2 {
+        position: absolute;
+        top: 143px;
+    }
+
+  .total_menu_section{
+
+    position: absolute;
+    top: 50px;
+    width: 100%;
+
+  }
+  .sus_phon_img{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
   .header-inner {
         margin: 0 0;
         display: flex;
@@ -173,15 +197,112 @@ margin-top: 490px;
 <body>
 
 
+  <!---------------------------------------------------------------
+                    responsive mobile header section
+  ------------------------------------------------------------------>
+
   <section class="maple-header no-desk">
+
+
     <div class="container-fluid">
       <div class="row">
         <img src="assets/images/mobile-hero/mobile-building-1-hero-mask.png" class="img-fluid">
-        <img src="assets/images/sustainability/sus_phon_img.jpg" class="img-fluid">
+        <img src="assets/images/sustainability/sus_phon_img.jpg" class="img-fluid sus_phon_img">
       </div>
     </div>
 
+    <div class="container-fluid">
+
+      <div class="total_menu_section">
+        <div class="filter"></div>
+        <div class="mobile-slider">
+          <div class="mobile-slider-top">
+            <i class="ri-close-large-fill"></i>
+          </div>
+          <nav class="mobile-navigation">
+
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="the-campus.html">The Campus</a>
+            </li>
+            <li>
+              <a href="maple.html">Building One</a>
+            </li>
+  
+            <li>
+              <a href="maple.html">Building Two</a>
+            </li>
+            <li>
+              <a href="maple.html">Building Three</a>
+            </li>
+  
+            <li>
+              <a href="area.html">Newbury</a>
+            </li>
+  
+            <li><a href="sustainability.html">Sustainability</a></li>
+  
+            <li>
+  
+            <li>
+              <a href="labs.html">Labs</a>
+            </li>
+  
+              <li>
+              <a href="contact.html">Contact</a>
+            </li>
+
+          </nav>
+        </div>
+        <header>
+          <div class="header-inner">
+            <div class="logo">
+              <a href="index.html">
+              <img src="assets/images/logo.svg" class="img-fluid">
+            </a>
+            </div>
+            <div class="mobile-menu-icon">
+             
+               
+           
+              <img id="nav-menu" src="assets/images/menu.svg" alt="menu" />
+            </div>
+          </div>
+        </header>
+      </div>
+
+      <div class="header_section_text_inner">
+        <div class="header_section_text">
+          <!-- <ul>
+            <li><a href="#master">Master plan</a></li>
+            <li><a href="#amenities">Amenities</a></li>
+            <li><a href="#clearing">The Clearing</a></li>
+            <li><a href="#sustainability">Sustainability</a></li>
+          </ul> -->
+          <div class="h_section_text_h1">
+            <p class="sub-title_main camp-title pb-3">SUSTAINABILITY</p>
+            <h1 class="camp-h1">Reuse, refurbish,  reimagine</h1>
+          </div>
+          <div class="h_section_text_p">
+            <p class="camp-p">Sustainable practices were central to  The Connection’s lifecycle from the very beginning, 
+              with the transformation of existing buildings to preserve the resources already available.  A refurbishment that enhances the building specification and improves functionality and user experience while limiting its Carbon impact.
+              </p>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
   </section>
+
+ <!---------------------------------------------------------------
+                    responsive mobile header section
+  ------------------------------------------------------------------>
+
 
   
 
@@ -388,7 +509,7 @@ margin-top: 490px;
 
 
   
- <div class="container mobile-con2 no-desk">
+ <div class="container-fluid mobile-con2 no-desk">
   <div class="row">
     <div class="col-md-12">
       <img src="assets/images/mapple/mobile/mapple-mask-phon.png" class="img-fluid">
@@ -421,10 +542,10 @@ margin-top: 490px;
 
  
 
-  <div class="container no-desk">
+  <div class="container-fluid no-desk">
     <div class="row">
       <div class="col-md-12 p-0">
-        <img class="mapple-map-phon" src="assets/images/mapple/mobile_mapple1.png">
+        <img class="mapple-map-phon" src="assets/images/mapple/mobile_mapple1.png" class="img-fluid">
 
       </div>
     </div>

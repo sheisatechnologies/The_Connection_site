@@ -1561,3 +1561,52 @@
 
 
 
+
+
+/* ------------------------------------------------------
+                        Custom Class
+-------------------------------------------------------- */
+
+@media only screen and (min-width: 991px) {
+
+    .pd-5{
+
+        padding: 3rem !important;
+    }
+
+    .pd-6{
+
+        padding: 4rem !important;
+    }
+
+    .pd-7{
+
+        padding: 5rem !important;
+    }
+
+    
+}
+
+
+
+
+@media only screen and (max-width: 991px) {
+
+
+    .pp-5{
+
+        padding: 3rem !important;
+    }
+
+    .pp-6{
+
+        padding: 4rem !important;
+    }
+
+    .pp-7{
+
+        padding: 5rem !important;
+    }
+
+
+}

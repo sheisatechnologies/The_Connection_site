@@ -116,7 +116,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    margin-top: -10px;
+    margin-top: 7px;
 }
 
 .logo {
@@ -345,7 +345,7 @@ footer {
     background-image: url(../images/lab/labs-hero-image.jpg);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 60% 100%;
+    background-size: 70% 100%;
     position: relative;
     height: 1000px;
 }

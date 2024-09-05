@@ -720,7 +720,7 @@ nav .ri-menu-line {
 
   nav {
     position: absolute;
-    top: 0;
+    top: -15 !important;
     padding: 51px 30px !important;
 }
 
@@ -1067,7 +1067,7 @@ nav .ri-menu-line {
 
 nav {
   position: absolute;
-  top: -13px;
+  top: 17px;
   padding: 51px 48px;
 }
 

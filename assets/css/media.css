@@ -1595,6 +1595,12 @@
         padding-right: 0.5rem !important ;
     }
 
+    .pxd-5{
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+
+    }
+
     
 }
 
@@ -1662,5 +1668,16 @@
         margin-top: 16px;
     }
 
+    nav {
+        position: absolute;
+        top: -15px !important;
+        padding: 51px 48px;
+    }
    
+}
+
+nav {
+    position: absolute;
+    top: -7px !important;
+    padding: 51px 48px;
 }

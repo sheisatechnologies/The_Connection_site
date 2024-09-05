@@ -1590,6 +1590,11 @@
         padding: 5rem !important;
     }
 
+    .mes-2{
+
+        padding-right: 0.5rem !important ;
+    }
+
     
 }
 
@@ -1612,6 +1617,11 @@
     .pp-7{
 
         padding: 5rem !important;
+    }
+
+    .mes-2{
+
+        padding-right: 0rem !important ;
     }
 
 
@@ -1651,4 +1661,6 @@
         width: 60%;
         margin-top: 16px;
     }
+
+   
 }

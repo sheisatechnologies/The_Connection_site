@@ -1679,5 +1679,6 @@
 nav {
     position: absolute;
     top: -7px !important;
+    left: 35%;
     padding: 51px 48px;
 }

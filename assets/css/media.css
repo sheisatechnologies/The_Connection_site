@@ -1665,13 +1665,13 @@
     }
 
     #nav-menu {
-        width: 7%;
+        width: 60%;
         margin-top: 16px;
     }
 
     nav {
         position: absolute;
-        top: -7px !important;
+        top: -13px !important;
         padding: 51px 48px;
     }
    

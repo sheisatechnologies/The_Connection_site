@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Text and Image with Bootstrap 4</title>
+    <title>Responsive Background Image</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        .content {
-            margin-bottom: 20px;
+        .bg-image {
+            background-image: url('asset');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 400px; /* Adjust this height as needed */
         }
 
         @media (max-width: 768px) {
-            .content {
-                margin-bottom: 10px;
+            .bg-image {
+                height: 300px; /* Adjust height for smaller screens */
             }
         }
     </style>
@@ -22,10 +26,9 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="content">
-                    <p>This is a paragraph of text that should stay above the image. As the screen size is reduced, the image should be pushed down, and the text should remain on top.</p>
+                <div class="bg-image d-flex align-items-center justify-content-center">
+                    <h2 class="text-white">This is content over a background image</h2>
                 </div>
-                <img src="assets/images/mapple/maple-hero-image.jpg" alt="Sample Image" class="img-fluid">
             </div>
         </div>
     </div>
@@ -36,3 +39,104 @@
 
 </body>
 </html>
+
+
+
+<section class="top_header_block_sus no-desk">
+    <div class="hero_tiles"></div>
+    <div class="top_header_block_inner">
+
+      <div class="top_header_block_one">
+
+        <div class="container-fluid">
+
+          <div class="total_menu_section">
+            <div class="filter"></div>
+            <div class="mobile-slider">
+              <div class="mobile-slider-top">
+                <i class="ri-close-large-fill"></i>
+              </div>
+              <nav class="mobile-navigation">
+
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="the-campus.html">The Campus</a>
+                </li>
+                <li>
+                  <a href="maple.html">Building One</a>
+                </li>
+      
+                <li>
+                  <a href="maple.html">Building Two</a>
+                </li>
+                <li>
+                  <a href="maple.html">Building Three</a>
+                </li>
+      
+                <li>
+                  <a href="area.html">Newbury</a>
+                </li>
+      
+                <li><a href="sustainability.html">Sustainability</a></li>
+      
+                <li>
+      
+                <li>
+                  <a href="labs.html">Labs</a>
+                </li>
+      
+                  <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+
+              </nav>
+            </div>
+            <header>
+              <div class="header-inner">
+                <div class="logo">
+                  <a href="index.html">
+                  <img src="assets/images/logo.svg" class="img-fluid">
+                </a>
+                </div>
+                <div class="mobile-menu-icon">
+                 
+                   
+               
+                  <img id="nav-menu" src="assets/images/menu.svg" alt="menu" />
+                </div>
+              </div>
+            </header>
+          </div>
+
+          <div class="header_section_text_inner">
+            <div class="header_section_text">
+              <!-- <ul>
+                <li><a href="#master">Master plan</a></li>
+                <li><a href="#amenities">Amenities</a></li>
+                <li><a href="#clearing">The Clearing</a></li>
+                <li><a href="#sustainability">Sustainability</a></li>
+              </ul> -->
+              <div class="h_section_text_h1">
+                <p class="sub-title_main camp-title pb-3">SUSTAINABILITY</p>
+                <h1 class="camp-h1">Reuse, refurbish,  reimagine</h1>
+              </div>
+              <div class="h_section_text_p">
+                <p class="camp-p">Sustainable practices were central to  The Connection’s lifecycle from the very beginning, 
+                  with the transformation of existing buildings to preserve the resources already available.  A refurbishment that enhances the building specification and improves functionality and user experience while limiting its Carbon impact.
+                  </p>
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+      <div class="mobile_img">
+        <img src="assets/images/mobile3.png" class="img-fluid">
+      </div>
+    </div>
+  </section>

@@ -58,6 +58,13 @@
 
 
     @media only screen and (max-width: 991px) {
+
+        .legal-contain {
+    margin-top: 200px !important;
+    margin-bottom: 100px;
+}
+
+
   .mobile-menu-icon {
        
        margin-right: -10px;
@@ -95,7 +102,80 @@
 
   }
 
+  .top_header_block_inner-term {
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    background-image: url(assets/images/legal/legal_tc.png);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    z-index: 3;
+}
 
+.top_header_block-term {
+    /* background-image: url(../images/lab/labs-hero-image.jpg); */
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 70% 100%;
+    position: relative;
+    height: 500px;
+}
+
+.terms-section li{
+      list-style-type: disc;
+      color:  #004C48;
+      margin: 10px;
+    }
+.terms-section {
+      margin: 30px 0;
+    }
+.legal_text h1{
+    color: #004C48;
+    font-size: 40px;
+    line-height: 45px;
+    font-family: ABCMonument R;
+   
+    font-weight: 400;
+    padding-right: 30px;
+   }
+
+   .terms-section h2{
+    color: #004C48;
+    font-size: 26px;
+    line-height: 28px;
+    font-family: ABCMonument R;
+   
+    font-weight: 400;
+    padding-right: 30px;
+   }
+
+   .terms-section p {
+    color: #004C48;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: ABCMonument R;
+    margin-top: 20px;
+    font-weight: 400;
+    padding-right: 30px;
+   }
+
+   .mobile-menu-icon_bar {
+    width: 150px;
+    height: 140px;
+    position: absolute;
+    background-color: #004C48;
+    z-index: -1;
+    right: 0;
+    top: 0;
+}
+
+.legal-contain{
+
+    margin-top: 50px;
+
+}
   </style>
 
 </head>
@@ -111,8 +191,8 @@
 
     <div class="container-fluid p-0">
       <div class="row">
-        <img src="assets/images/mobile-hero/mobile-labs-hero-mask.png" class="img-fluid">
-        <img src="assets/images/lab/lab_phon_img.jpg" class="img-fluid sus_phon_img p-0">
+        <!-- <img src="assets/images/mobile-hero/mobile-labs-hero-mask.png" class="img-fluid"> -->
+        <img src="assets/images/legal/legal_mobile_mask.png" class="img-fluid sus_phon_img p-0">
       </div>
     </div>
 
@@ -178,29 +258,7 @@
         </header>
       </div>
 
-      <div class="header_section_text_inner">
-        <div class="header_section_text">
-          <!-- <ul>
-            <li><a href="#master">Master plan</a></li>
-            <li><a href="#amenities">Amenities</a></li>
-            <li><a href="#clearing">The Clearing</a></li>
-            <li><a href="#sustainability">Sustainability</a></li>
-          </ul> -->
-          <div class="h_section_text_h1">
-            <p class="sub-title_main camp-title pb-3">LABS</p>
-            <h1 class="camp-h1">Your next discovery  starts here</h1>
-          </div>
-          <div class="h_section_text_p">
-            <p class="camp-p">Inspected by a laboratory fit-out specialist, the buildings on the campus have been
-              classified as adaptable for several uses. With the possibility for a dry lab, 
-              clean room and wet lab (up to CL-3) on the premises, the Connection provides a new 
-              opportunity for a business to expand beyond Science Vale UK and give innovation
-               a new address within this internationally renowned area of discovery.
-              </p>
-          </div>
-
-        </div>
-      </div>
+    
 
 
     </div>
@@ -212,9 +270,9 @@
   ------------------------------------------------------------------>
 
 
- <section class="top_header_block-lab no-phon">
-    <div class="hero_tiles_labs"></div>
-    <div class="top_header_block_inner-lab">
+ <section class="top_header_block-term no-phon">
+    <div class="hero_tiles_term"></div>
+    <div class="top_header_block_inner-term">
 
       <div class="top_header_block_one">
 
@@ -272,7 +330,7 @@
                 </div>
                 <div class="mobile-menu-icon">
                  
-                   
+                   <div class="mobile-menu-icon_bar"></div>
                
                   <img id="nav-menu" src="assets/images/menu.svg" alt="menu" />
                 </div>
@@ -281,28 +339,7 @@
           </div>
 
 
-          <div class="header_section_text_inner">
-            <div class="header_section_text lab_bg">
-              <!-- <ul>
-                <li><a href="#">Master plan</a></li>
-                <li><a href="#">Amenities</a></li>
-                <li><a href="#">The Clearing</a></li>
-                <li><a href="#">Sustainability</a></li>
-              </ul> -->
-              <div class="h_section_text_h1">
-                <P class="sub-title_main labs_title pb-3">LABS</P>
-                <h1 cass="">Your next discovery  starts here</h1>
-              </div>
-              <div class="h_section_text_p">
-                <p>Inspected by a laboratory fit-out specialist, the buildings on the campus have been
-                   classified as adaptable for several uses. With the possibility for a dry lab, 
-                   clean room and wet lab (up to CL-3) on the premises, the Connection provides a new 
-                   opportunity for a business to expand beyond Science Vale UK and give innovation
-                    a new address within this internationally renowned area of discovery.</p>
-              
-                </div>
-            </div>
-          </div>
+          
 
 
         </div>
@@ -318,131 +355,86 @@
 
 
 
-  <div class="container-fluid lap_roadmap_phon">
+  
+  <div class="container-fluid legal-contain pp-3 pxd-5">
     <div class="row">
-      <div class="col-md-12 p-0">
-        <img class="area_image1" src="assets/images/lab/lab_roadmap.png">
-      </div>
-    </div>
+      <div class="col-md-12 legal_text">
+        <h1 class="text-left mt-5">Privacy Policy</h1>
   
-  </div>
-
+        <div class="terms-section">
+          <h2>Information that is gathered from visitors</h2>
+          <p>In common with other websites, log files are stored on the web server saving details such as the visitor’s IP address, browser type, referring page and time of visit. Cookies may be used to remember visitor preferences when interacting with the website.
+            Where registration is required, the visitor’s email and a username will be stored on the server.</p>
+        </div>
   
- 
+        <div class="terms-section">
+          <h2>How the Information is used</h2>
+          <p>The information is used to enhance the visitor’s experience when using the website to display personalised content and possibly advertising. E-mail addresses will not be sold, rented or leased to third parties. E-mail may be sent to inform you of news of our services or offers by us or our affiliates.</p>
+        </div>
+  
+        
+  
+        <div class="terms-section">
+          <h2>Visitor Options</h2>
+          <p>If you have subscribed to one of our services, you may unsubscribe by following the instructions which are included in e-mail that you receive. You may be able to block cookies via your browser settings but this may prevent you from access to certain features of the website.</p>
+        </div>
+  
+        <div class="terms-section">
+          <h2>Cookies</h2>
+          <p>Cookies are small digital signature files that are stored by your web browser that allow your preferences to be recorded when visiting the website. Also they may be used to track your return visits to the website. Third party advertising companies may also use cookies for tracking purposes. You can read more on our Cookie Policy page.</p>
+        </div>
+  
+        <div class="terms-section">
+          <h2>Google Ads</h2>
+          <p>Google, as a third party vendor, uses cookies to serve ads. Google’s use of the DART cookie enables it to serve ads to visitors based on their visit to sites they visit on the Internet. Website visitors may opt out of the use of the DART cookie by visiting the Google ad and content network privacy policy.</p>
+        </div>
+
+        <div class="terms-section">
+            <h2>General Data Protection Regulation (GDPR) Compliance</h2>
+            <p>We have updated our privacy policy and cookie policy in line with GDPR compliance. We take privacy and security extremely seriously. When a visitor uses the contact form on our website, we will only use the information to contact you about the message you have sent. We will not add you to any email marketing lists. We will not give, share or sell your data to anyone else.
+                We use Google Analytics to record visitors and pages visited on the website. Data recorded includes:</p>
+        </div>
 
 
- 
-  <!-- <section class="clearing ">
+          <div class="terms-section">
+            <h2>Page Information</h2>
+            <p>URL – the URL of the page the user is viewing<br>
+                Title – the title of the page the user is viewing</p>
+          </div>
 
-    <div class="container mask_section1">
-      <div class="clearing_inner">
-        <div class="clearing_two clearing_two2">
-          <h6>Lab-ready<span>Fume extraction routes are ready for use, while slab to slab heights of between 3.38m and 6m provide ample space for equipment.</span></h6>
-        </div>
-        <div class="clearing_three clearing_three3">
-          <h6>Pod 02<span>capacity for 20 people</span></h6>
-        </div>
-        <div class="clearing_two clearing_two4">
-          <h6>Pod 03<span>capacity for 18 people</span></h6>
-        </div>
-        <div class="clearing_two clearing_two4">
-          <h6>Pod 03<span>capacity for 18 people</span></h6>
-        </div>
-        <div class="clearing_two clearing_two4">
-          <h6>Pod 03<span>capacity for 18 people</span></h6>
-        </div>
-        <div class="clearing_two clearing_two4">
-          <h6>Pod 03<span>capacity for 18 people</span></h6>
-        </div>
+          <div class="terms-section">
+            <h2>Browser Information</h2>
+            <p>Browser name – the browser the user is usingViewport or Viewing pane – the size of the browser windowScreen resolution – the resolution of the user’s screenJava enabled – whether or not the user has Java enabled</p>
+          </div>
+
+
+          <div class="terms-section">
+            <h2>User Information</h2>
+            <p>Location – this is derived from the IP address where the hit originated. The IP address itself is not available in Google Analytics as it is personally identifiable information (PII) which violates the terms of Google Analytics.
+                Language – derived from the language settings of the browser.</p>
+          </div>
+
+          <div class="terms-section">
+            <h2>SSL Certificate</h2>
+            <p>We use Secure Sockets Layer (SSL). SSL provides a secure communication channel between your device’s browser and our web server. This turns a website’s address from HTTP to HTTPS, the ‘S’ standing for ‘secure’. This is particularly important when submitting your details via our contact form. Anyone intercepting this communication will not be able to decrypt the data between the two devices</p>
+          </div>
+  
         
       </div>
     </div>
-
-    <img class="image-1 desk_img" src="assets/images/campus/Union.png">
-    <img class="mobile_union" src="assets/images/campus/mobile/Union.svg">
-  </section> -->
-
-
-  <!-- <div class="container-fluid labs-third"> -->
-
-    
-<div class="container-fluid px-4p lab_pb lab_main_container">
-  <div class="row">
-    <img class="lab_mask_tiles no-phon p-0" src="assets/images/lab/labs-tiles.png">
-    <div class="lab_text_ontainer px-lg-5 px-md-5">
-      <div class="row">
-        <div class="col-md-6 py-3">
-           <h1  class="head_sustain">LAB-READY</h1>
-           <p class="head_para">Fume extraction routes are ready for use, while slab to slab heights of between 3.38m and 6m provide ample space for equipment.</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-8 py-3">
-            <h1 class="head_sustain">POWER PROTECTION</h1>
-            <p class="head_para">Electric power from a 1MVA substation serves each building, natural gas connection is available, and back-up generators provide peace of mind.</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-10 py-3">
-            <h1  class="head_sustain">ENHANCED ACCESS</h1>
-            <p class="head_para">A dedicated loading bay and service lift is available for secure  deliveries and waste removal.</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-8 py-3">
-            <h1  class="head_sustain">SECURE STORAGE</h1>
-            <p class="head_para">Specialist gas and hazardous waste storage facilities are possible on-site.</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-9 py-3">
-            <h1  class="head_sustain">COLLABORATIVE HUB</h1>
-            <p class="head_para">The central atrium and campus hub promote the sharing of ideas and  inspiration to power your business.</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-6 py-3">
-           <h1  class="head_sustain">5.9 METRES</h1>
-           <p class="head_para">Slab to slab heights between 3.4m to 5.9m.</p>
-        </div>
-    </div>
-    </div>
   </div>
-</div>
+  
+ 
+
+
+
+  
+    
 
 
    
 
 
-
-
-  <!-- <section class="refurbish">
-  <div class="refurbish_inner">
-    <div class="container">
-        <div class="row">
-
-          <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-xs-12 col-12">
-            <div class="refurbish_left">
-                <h3>Reuse, Refurbish <span>Reimagine</span></h3>
-                <p>Sustainable practices were central to The Connection’s lifecycle from the very beginning, with the transformation of existing buildings to preserve the resources already available.</p>
-                <p>This consciousness in construction extends through every element of the campus, sowing the seeds for a future that benefits the climate and the community. Electric-only power minimises carbon footprint. Efficient and user-optimised light, heating and cooling technology minimises spending and sets the foundation for a spirit of wellbeing, bolstered by green and social spaces for a host of natural benefits.</p>
-                
-            </div>
-          </div>
-
-        </div>
-        <div class="refurbish_mobile_view">
-          <img src="assets/images/last_img.png" class="img-fluid">
-          <div class="refurbish_mobile_view_inner">
-            <img src="assets/images/last_img_mask.png" class="img-fluid">
-          </div>
-        </div>
-        <div class="refurbish_left_button">
-          <button type="button" class="btn download_brochure_button">Download Brochure</button>
-        </div>
-    </div>
-  </div>
-</section> -->
 
 
 <section class="footer">
@@ -542,9 +534,9 @@
                   <div class="col-md-4">
                     <div class="footer_link">
                      
-                      <span><a href="terms.html">Term & Conditions</a></span>
-                      <span><a href="coocke-policy.html">Cookies Policy</a></span>
-                      <span><a href="privacy-policy.html">Privacy Policy</a></span>
+                        <span><a href="terms.html">Term & Conditions</a></span>
+                        <span><a href="coocke-policy.html">Cookies Policy</a></span>
+                        <span><a href="privacy-policy.html">Privacy Policy</a></span>
                      
                     </div>
                   </div>

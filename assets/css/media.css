@@ -493,8 +493,8 @@
 
     .refurbish {
         background-color: #e2e5dc;
-        padding-top: 55px;
-       
+        padding-top: 870px;
+        margin-top: 0px;
     }
 
     .refurbish_inner {
@@ -1066,7 +1066,7 @@
 .mobile-navigation {
     list-style: none;
     margin-top: 75px;
-    left: 10%;
+    left: 10% !important;
 }
 
 .mobile-slider-top .close-menu {
@@ -1082,7 +1082,7 @@
 
 .mobile_mask{
     width: 372px;
-    height: 350px;
+    height: 296px
 }
 
 }
@@ -1209,7 +1209,71 @@
 
 
 
-/* //////----------------------contact css media -----------------------////////// */
+/*------------------------------------------------------------
+contact css media 
+-------------------------------------------------------------*/
+
+
+
+.parallax {
+    height: 900px;
+    /* Full-height section */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-position 0.2s ease-out;
+  }
+
+
+  @media only screen and (max-width: 991px) {
+
+    .contact-right6 {
+      background-color: #f7ebda;
+      padding-bottom: 90px;
+      margin-top: 20px;
+  }
+    .header-inner {
+      margin: 0 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center !important;
+      width: 100%;
+      margin-left: 0px;
+      margin-top: -32px;
+      padding: 10px 18px;
+  }
+
+    .header_section_text {
+      /* background-color: #528195; */
+      width: 100%;
+      margin-left: 0px;
+      padding: 71px 30px;
+      margin-top: -20px;
+  }
+  
+    .hero-img {
+  background-image: url(../images/contact/bg-contact.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 820px;
+  background-color: #004C48;
+  /* display: none; */
+}
+
+
+     .header_section_text {
+     
+      width: 100%;
+      background-color: transparent;
+      padding: 71px 10px;
+      margin-top: -505px; 
+  }
+
+}
+
 @media only screen and (max-width: 991px) {
 
     
@@ -1233,7 +1297,7 @@
         position: absolute;
         top: 20px;
         right: 4vw;
-        font-size: 6vw;
+        font-size: 6vw !important;
         color: #004c48;
     }
     
@@ -1352,7 +1416,100 @@
 
 
 
-  /* //////----------------------Lab css -----------------------////////// */
+/*------------------------------------------------------------
+contact css media 
+-------------------------------------------------------------*/
+
+
+
+
+/*------------------------------------------------------------
+Lab css media 
+-------------------------------------------------------------*/
+
+
+.parallax {
+  height: 900px;
+  /* Full-height section */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-position 0.2s ease-out;
+}
+
+@media only screen and (max-width: 991px) {
+
+  .lap_roadmap_phon {
+    margin-top: 149px;
+}
+
+
+.top_header_block_inner {
+background-image: url(assets/images/mobile-hero/mobile-labs-hero-mask.png);
+height: 72%;
+width: 100%;
+}
+
+.header_section_text {
+background-color: #528195;
+width: 100%;
+margin-left: 0px;
+padding: 71px 30px;
+margin-top: -397px;
+}
+}
+
+
+
+.h_section_text_h1 h1 {
+  color: #f0f0f0;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+.mobile-menu-icon {
+   
+   margin-right: -10px;
+}
+
+.mapple-phon-con2 {
+    position: absolute;
+    top: 143px;
+}
+
+.total_menu_section{
+
+position: absolute;
+top: 50px;
+width: 100%;
+
+}
+.sus_phon_img{
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+}
+.header-inner {
+    margin: 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center !important;
+   
+    
+    margin-top: -45px;
+    padding: 10px 30px;
+}
+
+}
+
+
+
+
+
+
 @media only screen and (max-width: 991px) {
 
 
@@ -1365,10 +1522,10 @@
 
   
 
-    .lap_roadmap_phon{
+    /* .lap_roadmap_phon{
 
         margin-top: 511px;
-    }
+    } */
     .lab_main_container{
 
         margin-top: 5px;
@@ -1404,7 +1561,117 @@
   }
 
 
-  /* //////----------------------Sustain -----------------------////////// */
+
+  /*------------------------------------------------------------
+Lab css media 
+-------------------------------------------------------------*/
+
+
+
+
+/*------------------------------------------------------------
+Sustain css media 
+-------------------------------------------------------------*/
+
+
+.parallax {
+  height: 900px;
+  /* Full-height section */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-position 0.2s ease-out;
+}
+.img_text_sus{
+
+background-color: #E2E5DC ; 
+}
+
+.top_header_block_one {
+padding-top: 60px;
+}
+
+.header-inner {
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+margin-top: 6px;
+}
+
+@media only screen and (max-width: 991px) {
+ 
+ 
+
+  .top_header_block_inner {
+    background-image: url(assets/images/mobile-hero/mobile-sustainability-hero-mask.png);
+    height: 72%;
+    width: 100%;
+}
+
+.header_section_text_sus {
+    background-color: #004c48;
+    width: 100%;
+    margin-left: 0px;
+    padding: 71px 30px;
+    margin-top: -397px;
+}
+
+.h_section_text_h1 h1 {
+
+  color: #f0f0f0;
+}
+
+.section_2{
+
+
+  margin-top: 0px;
+}
+
+}
+
+
+@media only screen and (max-width: 991px) {
+.mobile-menu-icon {
+   
+   margin-right: -10px;
+}
+
+.mapple-phon-con2 {
+    position: absolute;
+    top: 143px;
+}
+
+.total_menu_section{
+
+position: absolute;
+top: 50px;
+width: 100%;
+
+}
+.sus_phon_img{
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+}
+.header-inner {
+    margin: 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center !important;
+   
+    
+    margin-top: -45px;
+    padding: 10px 30px;
+}
+
+}
+
+
+
   @media only screen and (max-width: 991px) {
 
     .top_header_block_sus {
@@ -1459,7 +1726,111 @@
 
   }
 
-    /* //////----------------------area css -----------------------////////// */
+
+  /*------------------------------------------------------------
+Lab css media 
+-------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------
+Area css media 
+-------------------------------------------------------------*/
+
+.parallax {
+  height: 900px;
+  /* Full-height section */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-position 0.2s ease-out;
+}
+
+
+@media only screen and (max-width: 991px) {
+
+
+  .h_section_text_h1 h1 {
+color: #F7EBDA;
+font-size: 40px;
+line-height: 45px;
+font-family: ABCMonument R;
+width: 100%;
+font-weight: 400;
+padding-right: 30px;
+}
+
+
+  .area_roadmap_phon_area {
+    margin-top: 136px;
+}
+
+  .top_header_block_inner {
+    width: 100%;
+    background-image: url(assets/images/mobile-hero/mobile-newbury-hero-mask.png);
+    height: 71%;
+    /* background-size: unset; */
+}
+
+.header_section_text_area {
+    background-color: #81628F;
+    width: 100%;
+    margin-left: 0px;
+    padding: 71px 30px;
+    margin-top: -398px;
+}
+
+.camp-p {
+  color:#F7EBDA !important;
+}
+
+.camp-title {
+color: #F7EBDA !important;
+}
+
+}
+
+
+@media only screen and (max-width: 991px) {
+.mobile-menu-icon {
+   
+   margin-right: -10px;
+}
+
+.mapple-phon-con2 {
+    position: absolute;
+    top: 143px;
+}
+
+.total_menu_section{
+
+position: absolute;
+top: 50px;
+width: 100%;
+
+}
+.sus_phon_img{
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+}
+.header-inner {
+    margin: 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center !important;
+   
+    
+    margin-top: -45px;
+    padding: 10px 30px;
+}
+
+}
+
+
+
 @media only screen and (max-width: 991px) {
 
     .top_header_block_area {
@@ -1503,7 +1874,149 @@
     }
 }
 
-/* /////////////----campuspage----///////// */
+
+/*------------------------------------------------------------
+Area css media 
+-------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------
+Campus css media 
+-------------------------------------------------------------*/
+
+
+
+.parallax {
+    height: 900px;
+    /* Full-height section */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-position 0.2s ease-out;
+  }
+
+  .mask_section {
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+
+
+  .mtd-6{
+
+margin-top: 4rem !important;
+}
+
+.mtd-7{
+
+margin-top: 5rem !important;
+}
+  
+
+.image-map-camp h1{
+
+color: #004C48;
+  font-size: 40px;
+  line-height: 45px;
+  margin-top: 70px;
+  margin-left: -25px;
+}
+
+
+@media only screen and (max-width: 991px) {
+
+    .mask_section {
+    position: absolute;
+    top: 30px;
+    left: 8px;
+    }
+
+
+.image-map-camp h1 {
+  color: #004C48;
+  font-size: 40px;
+  line-height: 45px;
+  margin-top: 50px;
+  margin-left: 14px;
+  margin-bottom: 50px;
+}
+
+.image-map-camp {
+  margin-top: -346px;
+  }
+ 
+.header_section_text {
+      background-color: #528195;
+      width: 100%;
+       margin-left: 0px; 
+      padding: 71px 30px;
+      margin-top: -398px;
+      padding-bottom: 10px;
+  }
+
+
+
+.h_section_text_h1 h1 {
+color: #f0f0f0;
+}
+
+
+.mtm-6{
+
+margin-top: -2rem !important;
+}
+
+.mtm-7{
+
+margin-top: 5rem !important;
+}
+
+
+}
+  
+
+@media only screen and (max-width: 991px) {
+.mobile-menu-icon {
+     
+     margin-right: -10px;
+     padding: 0px;
+ }
+
+.mapple-phon-con2 {
+      position: absolute;
+      top: 143px;
+  }
+
+.total_menu_section{
+
+  position: absolute;
+  top: 50px;
+  width: 100%;
+
+}
+.sus_phon_img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.header-inner {
+      margin: 0 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center !important;
+     
+      
+      margin-top: -38px;
+      padding: 10px 30px;
+  }
+
+}
+
+
+
 @media only screen and (max-width: 991px) {
 
     .img_pro_section {
@@ -1514,7 +2027,234 @@
 }
 
 
-/* /////////////----Mapple----///////// */
+/*------------------------------------------------------------
+Campus css media 
+-------------------------------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------------------------------
+Mapple css media 
+-------------------------------------------------------------*/
+
+.parallax {
+    height: 900px;
+    /* Full-height section */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-position 0.2s ease-out;
+  }
+
+  .top_header_block-mapple {
+  background-image: url(assets/images/mapple/maple-hero-image.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 70% 100%;
+  position: relative;
+  height: 1000px;
+}
+
+
+@media only screen and (max-width: 991px) {
+
+    .h_section_text_p_mapple{
+        margin-top: 30px;
+    }
+
+.tab-content-section {
+      position: relative !important;
+      top: 44px !important;
+      padding-bottom: 269px;
+  }
+
+.image-2 {
+  position: absolute;
+  right: 58px !important;
+  margin-top: 224px !important;
+}
+
+
+.h_section_text_h1 h1 {
+  color: #f7ebda;
+  font-size: 40px;
+  line-height: 45px;
+  font-family: ABCMonument R;
+  width: 100%;
+  font-weight: 400;
+  padding-right: 30px;
+}
+
+
+.mapple-m1 {
+      width: 100%;
+      margin-top: -82px;
+  }
+.mobile-con2 {
+      height: 300px;
+      background-color: #f7ebda;
+      position: relative;
+      margin-top: 0px;
+  }
+
+
+.h_section_text_h1_mapple {
+  margin-top: -31px;
+}
+
+.h_section_text_p {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.top_header_block_inner {
+background-image: url(assets/images/mobile-hero/mobile-building-1-hero-mask.png);
+height: 72%;
+width: 100%;
+}
+
+.header_section_text_mapple {
+background-color: #81628F;
+width: 100%;
+
+padding: 71px 30px;
+margin-top: -399px;
+}
+
+.h_section_text_p_mapple p {
+  color: #f7ebda;
+  font-size: 18px;
+  line-height: 22px;
+  padding-right: 15px;
+}
+
+.mapple-title {
+  color: #f7ebda !important;
+}
+.section_2{
+
+
+margin-top: 490px;
+}
+
+}
+
+@media only screen and (max-width: 991px) {
+.mobile-menu-icon {
+     
+     margin-right: -10px;
+ }
+
+.mapple-phon-con2 {
+      position: absolute;
+      top: 143px;
+  }
+
+.total_menu_section{
+
+  position: absolute;
+  top: 50px;
+  width: 100%;
+
+}
+.sus_phon_img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.header-inner-mapple {
+      margin: 0 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center !important;
+     
+      
+      margin-top: -45px;
+      padding: 10px 30px;
+  }
+
+
+.line {
+  width: 300px !important;
+  height: 1px !important;
+  background-color: #004c48;
+}
+
+
+.footer_inner_right_inner_right img {
+      width: 150px;
+  }
+
+  .footer_inner_right_inner_right {
+      padding: 50px 0px;
+      /* margin-left: -40px; */
+  }
+ 
+  .footer_inner {
+  margin-top: 12px !important;
+  width: 100%;
+}
+  .hero_tiles_contact {
+      
+      display: none;
+  }
+
+  .footer {
+      padding: 55px 0 !important;
+      height: 900px !important;
+      /* margin-top: 30px; */
+  }
+
+  .footer_inner_left {
+
+      margin-top: -50px;
+  }
+
+  .justify-content-center {
+      justify-content: flex-start !important;
+  }
+
+  .footer_link {
+      margin-top: 169px;
+      flex-direction: column;
+  }
+
+  .line_desk {
+     
+      top: 93px !important;
+     
+  }
+
+  .footer_inner_right_inner{
+
+      margin-top: 47px;
+  }
+
+  .footer_logo img {
+      margin-top: -99px;
+  }
+
+  .footer_margin{
+
+      margin-top: 450px;
+  }
+
+
+  
+}
+
+
+
+
+
+
+
 @media only screen and (max-width: 991px) {
 
 
@@ -1535,8 +2275,11 @@
    .mapple-para {
 
     color: #F7EBDA !important;
-    margin-top: 37px;
+    /* margin-top: 37px; */
+    margin-top: -105px;
    }
+
+  
     .mapple-title-phon {
         color: #F7EBDA !important;
         margin-left: 20px;
@@ -1549,7 +2292,7 @@
     .tab-content-section {
         position: relative !important;
         top: 44px !important;
-        padding-bottom:170px
+        padding-bottom:260px !important;
     }
    
 
@@ -1565,7 +2308,9 @@
 }
 
 
-
+/*------------------------------------------------------------
+Mapple css media 
+-------------------------------------------------------------*/
 
 
 
@@ -1610,6 +2355,12 @@
 
 
 @media only screen and (max-width: 991px) {
+
+    .pxp-4{
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+
+    }
 
     .pp-3{
 

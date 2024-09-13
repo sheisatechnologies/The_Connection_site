@@ -174,8 +174,8 @@ nav .ri-menu-line {
 }
 
 .second-section p {
-  width: 60%;
-  max-width: 600px;
+  width: 100%;
+  
   font-size: var(--font-size30);
   line-height: 35px;
 }
@@ -340,7 +340,7 @@ nav .ri-menu-line {
   height: 60%;
   gap: 20px;
   z-index: 5;
-  margin-top: 300px;
+  margin-top: 220px;
 }
 
 .bg-four-btm p {
@@ -357,7 +357,7 @@ nav .ri-menu-line {
   position: relative;
   height: 800px;
   margin-top: 5vh;
-  margin-top: 60px;
+  margin-top: 0px;
   background-color: white;
 }
 
@@ -366,6 +366,17 @@ nav .ri-menu-line {
   width: 70%;
   height: 700px;
   background-image: url(../images/home/bg-image-home-02.jpg);
+  /* background-attachment: fixed; */
+  background-position: top;
+  background-size: cover;
+}
+
+
+.overlay-six {
+  position: absolute;
+  width: 70%;
+  height: 700px;
+  background-image: url(../images/home/home-sustainability-image.jpg);
   /* background-attachment: fixed; */
   background-position: top;
   background-size: cover;
@@ -390,6 +401,17 @@ nav .ri-menu-line {
   height: 100%;
   background-image: url(../images/home/home-mask-2nd.png);
   background-size: cover;
+  background-position: center;
+  /* transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s; */
+}
+
+.overlay-six-png {
+  position: absolute;
+  top: -10%;
+    width: 100%;
+    height: 110%;
+  background-image: url(../images/home/home-sustainability-mask.png);
+  background-size: 100% 100%;
   background-position: center;
   /* transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s; */
 }
@@ -780,6 +802,7 @@ nav .ri-menu-line {
     width: 100%;
     font-size: 6vw;
     line-height: 30px;
+    
   }
   .desktop {
     display: none;

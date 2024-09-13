@@ -33,6 +33,63 @@
   }
 
 
+  @media screen and (min-width:768px) {
+
+    .mt-md-7{
+
+        margin-top: 10rem !important;
+      }
+
+      .mt-md-7n{
+
+        margin-top: -3rem !important;
+      }
+
+  }
+
+
+  @media screen and (max-width:768px) {
+
+    .mt-sm-3{
+
+        margin-top: 3rem !important;
+      }
+
+    .mt-sm-5{
+
+        margin-top: 9rem !important;
+      }
+
+  }
+  .mw-35{
+    max-width: 35%;
+  }
+
+  .mw-75{
+
+    max-width: 75%;
+  }
+
+  .mw-50{
+    max-width: 50%;
+  }
+
+  .ml-6{
+
+    margin-left: -12rem !important;
+  }
+
+  .ml-7{
+
+    margin-left: -26rem !important;
+  }
+
+  .mt-7{
+
+    margin-top: 10rem !important;
+  }
+
+
 body,
 html,
 form,

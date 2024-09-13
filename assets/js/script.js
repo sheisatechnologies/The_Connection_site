@@ -69,6 +69,22 @@ mm2.add("(min-width: 800px)", () => {
 
 
 
+let mm3 = gsap.matchMedia();
+
+mm3.add("(min-width: 800px)", () => {
+    const parallax3 = document.getElementById("parallax4");
+
+
+    window.addEventListener("scroll", function () {
+        let offset = window.scrollY;
+        parallax3.style.backgroundPositionY = offset * 0.5 + "px";
+    });
+
+});
+
+
+
+
 let mm4 = gsap.matchMedia();
 mm4.add("(max-width: 799px)", () => {
     let tl = gsap.timeline({

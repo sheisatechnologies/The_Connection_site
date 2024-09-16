@@ -681,18 +681,18 @@ right: 0;
 }
 
 .h_section_text_p p {
-    color: #F0F0F0;
+    color: #F7EBDA;
     font-size: 18px;
     line-height: 22px;
     padding-right: 15px
 }
 
 .camp-p{
-    color: #F0F0F0 !important ;
+    color: #F7EBDA !important ;
     padding-right: 60px;
 }
 .camp-title{
-    color: #F0F0F0 !important;
+    color: #F7EBDA !important;
 }
 .mapple_h1{
     color:#F7EBDA !important;
@@ -708,19 +708,19 @@ right: 0;
 }
 
 .labs_title{
-    color: #F0F0F0 !important;
+    color: #F7EBDA !important;
 }
 
 .sustain_h1{
-    color: #F0F0F0 !important;
+    color: #F7EBDA !important;
 }
 
 .sustain_title{
-    color: #F0F0F0 !important;  
+    color: #F7EBDA !important;  
 }
 
 .sustain_p{
-    color: #F0F0F0 !important;
+    color: #F7EBDA !important;
 }
 
 
@@ -1661,7 +1661,7 @@ right: 0;
 
     position: absolute;
     right: 80px;
-    top: 238px;
+    top: 240px;
     
 }
  .line{

@@ -85,6 +85,13 @@ mm3.add("(min-width: 800px)", () => {
 
 
 
+
+
+
+
+
+
+
 let mm4 = gsap.matchMedia();
 mm4.add("(max-width: 799px)", () => {
     let tl = gsap.timeline({

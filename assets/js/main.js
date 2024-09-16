@@ -242,22 +242,19 @@ function hideAllContents() {
 // })
 
 
-// let mm = gsap.matchMedia();
+let mm9 = gsap.matchMedia();
 
 
-// mm.add("(min-width: 1000px)", () => {
-//     const parallax2 = document.getElementById("parallax");
+mm9.add("(min-width: 1000px)", () => {
+    const parallax7 = document.getElementById("parallax7");
 
 
-//     window.addEventListener("scroll", function () {
-//         let offset = window.scrollY;
-//         parallax2.style.backgroundPositionY = offset * 0.5 + "px";
-//     });
+    window.addEventListener("scroll", function () {
+        let offset = window.scrollY;
+        parallax7.style.backgroundPositionY = offset * 0.5 + "px";
+    });
 
-// });
-
-
-
+});
 
 
 

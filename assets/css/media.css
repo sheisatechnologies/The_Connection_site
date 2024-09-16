@@ -1462,7 +1462,7 @@ margin-top: -397px;
 
 
 .h_section_text_h1 h1 {
-  color: #f0f0f0;
+  color: #F7EBDA;
 }
 
 
@@ -2357,6 +2357,16 @@ Mapple css media
         margin-top: 70px !important;
     }
 
+    .mtd1{
+        margin-top: 85px !important;
+    }
+
+
+
+    .mtd{
+        margin-top: 115px !important;
+    }
+
     .mtd-3{
         margin-top: 100px !important;
     }
@@ -2380,6 +2390,16 @@ Mapple css media
     }
     .mtd-9{
         margin-top: 250px !important;
+    }
+
+    
+
+    .ptd-6{
+        padding-top: 3rem !important;
+    }
+
+    .pbd-6{
+        padding-bottom: 2rem !important;
     }
 
     
@@ -2422,6 +2442,8 @@ Mapple css media
 
         padding-right: 0rem !important ;
     }
+
+    
 
 
 }

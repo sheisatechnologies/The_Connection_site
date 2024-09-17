@@ -218,6 +218,7 @@ body {
     padding: 10px;
     z-index: 1;
     border-radius: 5px;
+    margin-top: -5px;
 }
 
 .mobile-menu-icon:hover {

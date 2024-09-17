@@ -176,8 +176,9 @@ nav .ri-menu-line {
 .second-section p {
   width: 100%;
   
-  font-size: var(--font-size30);
-  line-height: 35px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
 }
 
 /* -----third-section */

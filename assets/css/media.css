@@ -1468,6 +1468,12 @@ margin-top: -397px;
 
 
 @media only screen and (max-width: 991px) {
+
+    .sus-bg{
+        background-color: #E2E5DC;
+    }
+   
+   
 .mobile-menu-icon {
    
    margin-right: -10px;

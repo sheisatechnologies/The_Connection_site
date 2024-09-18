@@ -2148,7 +2148,7 @@ margin-top: -399px;
   color: #f7ebda;
   font-size: 18px;
   line-height: 22px;
-  padding-right: 15px;
+  padding-right: 0px;
 }
 
 .mapple-title {
@@ -2462,6 +2462,9 @@ Mapple css media
         padding-right: 0rem !important ;
     }
 
+    .mtp-1{
+        margin-top: 1rem  !important;
+    }
     .mtp-2{
         margin-top: 30px;
     }

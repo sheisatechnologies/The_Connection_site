@@ -29,8 +29,17 @@
         position: relative;
     }
 
-
-
+    .cards-third {
+        align-items: start;
+        width: 100%;
+        height: 100%;
+        gap: 179px;
+        margin-top: -0.7rem;
+    }
+    .ml-2n {
+        margin-left: -1.3rem !important;
+    }
+   
 
 
   }
@@ -46,7 +55,9 @@
     }
 
 
-  
+    .ml-2n {
+        margin-left: -4rem !important;
+    }
 
 
 
@@ -2350,6 +2361,24 @@ Mapple css media
         margin-left: -4rem !important;
     }
 
+    .ml-2n{
+        margin-left: -4.5rem ;
+    }
+
+    .ml1-d{
+        margin-left: -0.5rem !important;
+    }
+
+    .ml1-d1{
+        margin-left: -0.7rem !important;
+    }
+
+    .ml2-d{
+        margin-left: 0.5rem !important;
+    }
+
+    
+
     .pd-5{
 
         padding: 3rem !important;
@@ -2474,6 +2503,11 @@ Mapple css media
     .mtp-1{
         margin-top: 1rem  !important;
     }
+
+    .mtp-1v1{
+        margin-top: 4rem !important;
+    }
+
     .mtp-2{
         margin-top: 30px;
     }

@@ -2346,6 +2346,10 @@ Mapple css media
 
 @media only screen and (min-width: 991px) {
 
+    .ml-1n{
+        margin-left: -2rem !important;
+    }
+
     .pd-5{
 
         padding: 3rem !important;

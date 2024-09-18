@@ -930,7 +930,7 @@ nav .ri-menu-line {
     align-items: start;
     justify-content: space-between;
     margin-top: 0;
-    height: 850px;
+    height: 330px;
   }
   .overlay-fifth {
     
@@ -944,12 +944,12 @@ nav .ri-menu-line {
     display: none;
   }
   .fifth-section .bg-four-btm {
-    padding: 0vw 10vw;
+    padding: 0vw 9vw;
     height: 60%;
     background-color: white;
     color: #fff !important;
     z-index: 4;
-    margin-top: 440px;
+    margin-top: 70px;
   }
   .fifth-section .bg-four-btm h1 {
     width: 100%;

@@ -506,8 +506,8 @@ footer {
 .header_building3 {
     background-image: url(../images/building3/hero_building3.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: right top;
+    background-size: 70% 80%;
     position: relative;
     height: 1000px;
    
@@ -1420,11 +1420,11 @@ right: 0;
 }
 
 
-.image-2{
+.image-2 {
     position: absolute;
-    right: 100px;
-    margin-top: 410px;
-    
+    right: 106px;
+    margin-top: 553px;
+    height: 170px;
 }
 
 .heading_mapple{

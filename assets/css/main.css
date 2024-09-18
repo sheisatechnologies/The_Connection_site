@@ -307,7 +307,7 @@ footer {
 .mobile-navigation li a {
     text-decoration: none;
     color: #004c48;
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 
 .mobile-slider-top h2 {
@@ -484,8 +484,8 @@ footer {
 .header_building1 {
     background-image: url(../images/mapple/maple-hero-image.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: top right;
+    background-size: 65% 79%;
     position: relative;
     height: 1000px;
    
@@ -495,8 +495,8 @@ footer {
 .header_building2 {
     background-image: url(../images/building2/hero_building2.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: right top;
+    background-size: 66% 84%;
     position: relative;
     height: 1000px;
    
@@ -1422,9 +1422,9 @@ right: 0;
 
 .image-2 {
     position: absolute;
-    right: 106px;
+    right: 158px;
     margin-top: 553px;
-    height: 170px;
+    height: 100px;
 }
 
 .heading_mapple{

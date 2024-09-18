@@ -2462,7 +2462,9 @@ Mapple css media
         padding-right: 0rem !important ;
     }
 
-    
+    .mtp-2{
+        margin-top: 30px;
+    }
 
 
 }

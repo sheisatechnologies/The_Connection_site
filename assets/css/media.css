@@ -2186,6 +2186,11 @@ margin-top: 490px;
   left: 0;
   z-index: -1;
 }
+
+.overlay-seven-png {
+
+ height: 89% !important;
+}
 .header-inner-mapple {
       margin: 0 0;
       display: flex;

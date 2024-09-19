@@ -2114,6 +2114,14 @@ right: 0;
     margin-top: -185px;
 }
 
+.mapple-simg-bil1 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    /* z-index: 8; */
+    margin-top: -400px;
+}
+
 .mapple-floor{
 
     height: 1130px;

@@ -2379,6 +2379,8 @@ Mapple css media
 
     
 
+    
+
     .pd-5{
 
         padding: 3rem !important;
@@ -2405,6 +2407,10 @@ Mapple css media
 
     }
 
+    .mxd-2{
+        padding-left: 5rem !important;
+        padding-right: 5rem !important;
+    }
 
     .mtd-1{
         margin-top: 17px !important;

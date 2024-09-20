@@ -456,7 +456,7 @@ footer {
     background-position: center;
     background-size: cover;
     position: relative;
-    height: 1050px;
+    height: 1085px;
 }
 
 .top_header_block_inner-area {
@@ -542,6 +542,7 @@ footer {
     position: relative;
     height: 790px;
     margin-top: -12px;
+    z-index: 5;
 }
 
 .top_header_block_inner-sustain {
@@ -1633,7 +1634,7 @@ right: 0;
     background-position: center;
     background-size: cover;
     position: relative;
-    height: 991px;
+    height: 989px;
     /* width: 70%; */
     margin-top: 168px;
     
@@ -1658,7 +1659,7 @@ right: 0;
     background-position: center;
     background-size: cover;
     position: relative;
-    height: 991px;
+    height: 1012px;
     /* width: 70%; */
     margin-top: 168px;
     
@@ -1719,7 +1720,7 @@ right: 0;
 }
 .mask-on-layer{
     width: 102%;
-    height: 107%;
+    height: 1093px;
     margin-top: 160px;
     /* position: absolute;
     top: 1000px; */
@@ -1730,7 +1731,7 @@ right: 0;
 .mapple-mask-sec-contain{
 
    
-    margin-top: -1234px;
+    margin-top: -1257px;
 }
 
 

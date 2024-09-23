@@ -1620,9 +1620,19 @@ right: 0;
 /////////////////////////////////////////////////////////////////////////////////////// */
 .mapple-mask-section{
 
-    height: 1000px;
+    height: 980px;
     background-color: var(--Albescent-White);
     margin-top: -210px;
+    z-index: 3;
+    position: relative;
+   
+}
+
+.mapple-mask-section3{
+
+    height: 980px;
+    background-color: var(--Albescent-White);
+    margin-top: -207px;
     z-index: 3;
     position: relative;
    
@@ -1720,12 +1730,14 @@ right: 0;
 }
 .mask-on-layer{
     width: 102%;
-    height: 1093px;
+    height: 1072px;
     margin-top: 160px;
     /* position: absolute;
     top: 1000px; */
     margin-top: -15px;
     margin-left: -13px;
+    z-index: 5;
+    position: relative;
 
 }
 .mapple-mask-sec-contain{
@@ -1782,7 +1794,7 @@ right: 0;
 .area_image{
     width: 100%;
     height: auto;
-    margin-top: -140px;
+    margin-top: -150px;
 }
 
 
@@ -2111,8 +2123,8 @@ right: 0;
     width: 100%;
     height: auto;
     position: relative;
-    /* z-index: 8; */
-    margin-top: -185px;
+    z-index: 8;
+    margin-top: -212px;
 }
 
 .mapple-simg-bil1 {

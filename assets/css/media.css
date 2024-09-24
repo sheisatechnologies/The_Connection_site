@@ -2377,6 +2377,10 @@ Mapple css media
         margin-left: 0.5rem !important;
     }
 
+    .z-6{
+        z-index: 8 !important;
+    }
+
     
 
     

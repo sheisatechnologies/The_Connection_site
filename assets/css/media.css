@@ -1704,6 +1704,9 @@ z-index: -1;
         background-color: #004C48;
         padding: 40px;
     }
+    
+
+   
 
     .top_header_block_sus {
         background-image: url(../images/sustainability/sus_phon_img.jpg);
@@ -2529,6 +2532,14 @@ Mapple css media
 
     .mtp-7{
         margin-top: 130px;
+    }
+
+    .mtp-9{
+        margin-top: 318px;
+    }
+
+    .mtp-10{
+        margin-top: 380px;
     }
 
     .fsp-2{

@@ -1714,7 +1714,14 @@ right: 0;
 .mask-bg-left{
     position: absolute;
     right: 300px;
-    top: 231px;
+    top: 240px;
+
+}
+
+.mask-bg-left3{
+    position: absolute;
+    right: 300px;
+    top: 218px;
 
 }
 
@@ -2108,16 +2115,21 @@ right: 0;
 
 .img_text2 {
     position: absolute;
-    top: -378px;
+    top: -380px;
     left: 0;
     width: 616.24px;
-    height: 224px;
+    height: 250px;
     background-color: #004C48;
     padding: 40px;
     color: white;
 }
 
 .img_text h5{
+    font-size: 30px;
+    color: #F7EBDA;
+}
+
+.img_text2 h5 {
     font-size: 30px;
     color: #F7EBDA;
 }
@@ -2145,7 +2157,7 @@ right: 0;
 
     left: 615px;
     width: 76px;
-    height: 140px;
+    height: 166px;
     background-color: #004C48;
     padding: 40px;
 }

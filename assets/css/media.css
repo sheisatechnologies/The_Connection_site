@@ -2110,6 +2110,7 @@ Mapple css media
   position: absolute;
   right: 58px !important;
   margin-top: 224px !important;
+  height: 150px !important;
 }
 
 
@@ -2297,7 +2298,12 @@ margin-top: 490px;
 @media only screen and (max-width: 991px) {
 
 
-   
+    .list_li {
+        font-size: 20px !important;
+        color: #004C48;
+        line-height: 30px;
+    }
+
     
     .top_header_block_mapple {
         background-image: url(../images/mapple/maple-hero-image.jpg);
@@ -2532,6 +2538,10 @@ Mapple css media
 
     .mtp-7{
         margin-top: 130px;
+    }
+
+    .mbp-5{
+        margin-bottom: 70px;
     }
 
     .mtp-9{

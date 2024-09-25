@@ -2483,7 +2483,10 @@ Mapple css media
         padding-bottom: 2rem !important;
     }
 
-    
+    .lh-1{
+
+        line-height: 22px !important;
+    }
 
     
 }

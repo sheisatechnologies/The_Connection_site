@@ -1634,7 +1634,7 @@ right: 0;
 
     height: 980px;
     background-color: var(--Albescent-White);
-    margin-top: -210px;     margin-top: -211px;
+    margin-top: -210px;     
     z-index: 3;
     position: relative;
    
@@ -2151,7 +2151,7 @@ right: 0;
     top: -297px;
     left: 615px;
     width: 76px;
-    height: 140px;
+    height: 141px;
     background-color: #004C48;
     padding: 40px;
 }
@@ -2162,7 +2162,7 @@ right: 0;
 
     left: 615px;
     width: 76px;
-    height: 166px;
+    height: 164px;
     background-color: #004C48;
     padding: 40px;
 }

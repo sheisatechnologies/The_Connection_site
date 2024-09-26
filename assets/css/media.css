@@ -1288,6 +1288,11 @@ contact css media
 @media only screen and (max-width: 991px) {
 
     
+    .home-sustain-img{
+        max-width: 101%;
+        height: auto;
+        margin-left: -4px;
+    }
 
 
 .contact_main_text{

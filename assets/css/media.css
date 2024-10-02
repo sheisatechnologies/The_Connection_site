@@ -598,7 +598,7 @@
     }
 
     .footer_logo {
-        padding-top: 873px;
+        padding-top: 819px;
         /* border-top: 1.5px solid #004C48; */
         position: absolute;
     }
@@ -2281,7 +2281,7 @@ margin-top: 490px;
 
   .footer {
       padding: 55px 0 !important;
-      height: 1185px !important;
+      height: 1141px !important;
       /* margin-top: 30px; */
   }
 
@@ -2303,7 +2303,8 @@ margin-top: 490px;
   }
 
   .footer_link {
-    margin-top: 289px;
+    margin-top: 244px;
+
 
     flex-direction: column;
   }

@@ -1177,6 +1177,9 @@ right: 0;
 .footer_inner_left p {
     font-size: 15px;
     color: #004c48;
+    position: absolute;
+    bottom: -98px;
+
 }
 
 .footer_inner_left p span {

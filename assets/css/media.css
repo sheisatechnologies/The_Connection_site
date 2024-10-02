@@ -2194,6 +2194,15 @@ margin-top: 490px;
     }
 
 
+    .footer_inner_left p {
+        font-size: 15px;
+        color: #004c48;
+        position: absolute;
+        bottom: -98px;
+    
+    }
+
+
 .mobile-menu-icon {
      
      margin-right: -10px;

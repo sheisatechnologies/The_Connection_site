@@ -2184,8 +2184,12 @@ margin-top: 490px;
 
 }
 
+
+
+
 @media only screen and (max-width: 991px) {
 
+    
     .map_phon{
 
         width: 100%;
@@ -2281,13 +2285,21 @@ margin-top: 490px;
       /* margin-top: 30px; */
   }
 
+  .button-brochure2 {
+    background-color: var(--clr-blue) !important;
+    margin-top: -22px;
+}
+  .brochure_btn1 {
+    margin-bottom: 15px;
+}
+
   .footer_inner_left {
 
       margin-top: -50px;
   }
 
   .justify-content-center {
-      justify-content: flex-start !important;
+      justify-content: center !important;
   }
 
   .footer_link {
@@ -2296,14 +2308,15 @@ margin-top: 490px;
   }
 
   .line_desk {
-     
-    top: 295px !important;
-     
-  }
+    top: 225px !important;
+    width: 82.5%;
+    /* margin-left: 20px; */
+}
 
   .footer_inner_right_inner{
 
-      margin-top: 47px;
+    margin-top: 97px;
+
   }
 
   .footer_logo img {

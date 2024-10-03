@@ -931,6 +931,7 @@ nav .ri-menu-line {
     justify-content: space-between;
     margin-top: 0;
     height: 850px;
+    background-color: #004C48;
   }
 
   .insus-section{
@@ -950,18 +951,18 @@ nav .ri-menu-line {
   .fifth-section .bg-four-btm {
     padding: 0vw 7vw;
     height: 60%;
-    background-color: white;
+    background-color: #004C48;
     color: #fff !important;
     z-index: 4;
     margin-top: 400px;
   }
   .fifth-section .bg-four-btm h1 {
     width: 100%;
-    color: #004c48 !important;
+    color: white;
   }
   .fifth-section .bg-four-btm p {
     width: 100%;
-    color: #004c48 !important;
+    color: white;
   }
   .sixth-section {
     position: relative;

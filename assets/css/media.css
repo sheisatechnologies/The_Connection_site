@@ -1336,7 +1336,8 @@ contact css media
 
     .lab_pb{
 
-        padding-bottom: 105px;
+        padding-bottom: 155px;
+        margin-top: -1166px;
     }
    
 
@@ -1552,6 +1553,7 @@ z-index: -1;
     .lab_main_container{
 
         margin-top: 5px;
+        padding-bottom: 66px;
     }
    
     .lab_hero_phon{
@@ -1578,6 +1580,10 @@ z-index: -1;
         color: #004C48;
     }
     .lab_text_ontainer {
+        margin-top: -1228px;
+    }
+
+    .sus_text_ontainer {
         margin-top: 0px;
     }
 
@@ -2090,14 +2096,14 @@ Mapple css media
     transition: background-position 0.2s ease-out;
   }
 
-  .top_header_block-mapple {
+  /* .top_header_block-mapple {
   background-image: url(assets/images/mapple/maple-hero-image.jpg);
   background-repeat: no-repeat;
   background-position: right;
   background-size: 70% 100%;
   position: relative;
   height: 1000px;
-}
+} */
 
 
 @media only screen and (max-width: 991px) {
@@ -2239,7 +2245,7 @@ margin-top: 490px;
 
 .overlay-seven-png {
 
- height: 89% !important;
+ height: 100% !important;
 }
 .header-inner-mapple {
       margin: 0 0;
@@ -2341,6 +2347,21 @@ margin-top: 490px;
 
 
 @media only screen and (max-width: 991px) {
+
+    .span_sus {
+        font-size: 45px;
+        line-height: 45px;
+        font-weight: 500;
+        color: #004C48;
+    }
+
+
+    .headeing_sec2 {
+        font-size: 25px;
+        line-height: 32px;
+        font-weight: 500;
+        color: #004C48;
+    }
 
 
     .list_li {
@@ -2589,8 +2610,20 @@ Mapple css media
         margin-top: 5rem !important;
     }
 
+    .mtp-1v3{
+        margin-top: 13rem !important;
+    }
+
+    .mtp-1n{
+        margin-top: -4rem;
+    }
+
     .mtp-2{
         margin-top: 30px;
+    }
+
+    .mtp-3{
+        margin-top: 78px;
     }
 
     .mtp-6 {

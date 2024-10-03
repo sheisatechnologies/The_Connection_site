@@ -504,7 +504,7 @@
 
     .refurbish {
         background-color: #e2e5dc;
-        padding-top: 870px;
+        padding-top: 489px;
         margin-top: 0px;
     }
 
@@ -1580,7 +1580,7 @@ z-index: -1;
         color: #004C48;
     }
     .lab_text_ontainer {
-        margin-top: -1228px;
+        margin-top: -1185px;
     }
 
     .sus_text_ontainer {
@@ -2245,7 +2245,13 @@ margin-top: 490px;
 
 .overlay-seven-png {
 
- height: 100% !important;
+    height: 110% !important;
+}
+
+.sus-mobilet{
+
+    position: relative;
+    z-index: 3;
 }
 .header-inner-mapple {
       margin: 0 0;
@@ -2562,6 +2568,20 @@ Mapple css media
 
 @media only screen and (max-width: 991px) {
 
+    .mlp-2{
+
+        margin-left: -1rem;
+    }
+
+    .bg-white{
+
+        background-color: white !important;
+    }
+
+    .text-blue{
+        color: #004c48 !important;
+    }
+
     .lh-1{
 
         line-height: 22px !important;
@@ -2598,9 +2618,15 @@ Mapple css media
         padding-right: 0rem !important ;
     }
 
+    .mtp-0{
+        margin-top: 0rem  !important;
+    }
+
     .mtp-1{
         margin-top: 1rem  !important;
     }
+
+    
 
     .mtp-1v1{
         margin-top: 4rem !important;
@@ -2649,7 +2675,8 @@ Mapple css media
     }
 
     .mtp-9{
-        margin-top: 318px;
+         margin-top: 344px;
+
     }
 
     .mtp-10{

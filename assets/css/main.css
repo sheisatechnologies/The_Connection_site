@@ -2100,6 +2100,8 @@ right: 0;
     
 }
 
+
+
 .section_3{
 
     position: relative;
@@ -2206,7 +2208,7 @@ right: 0;
     height: auto;
     position: relative;
     z-index: 8;
-    margin-top: -212px;
+    margin-top: -258px;
 }
 
 .mapple-simg-bil1 {
@@ -2623,6 +2625,7 @@ margin-top: 15px;
 .head_suatain_first{
     font-size: 30px;
     color: #004C48;
+    width: 584px;
 }
 
 .para_sustain{

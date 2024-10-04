@@ -1587,6 +1587,12 @@ z-index: -1;
         margin-top: 0px;
     }
 
+    .sustain_container{
+        margin-top: -1130px;
+    }
+
+    
+
   }
 
 
@@ -2342,6 +2348,11 @@ margin-top: 490px;
       margin-top: 450px;
   }
 
+  .main-area1 {
+    position: relative;
+    margin-bottom: 134px !important;
+}
+
 
   
 }
@@ -2353,6 +2364,16 @@ margin-top: 490px;
 
 
 @media only screen and (max-width: 991px) {
+
+    .mapple_single_bg1 {
+        margin-top: 380px;
+        margin-bottom: 0px !important;
+    }
+
+    .mapple_single_bg {
+        margin-top: 380px;
+        margin-bottom: 0px !important;
+    }
 
     .span_sus {
         font-size: 45px;
@@ -2407,11 +2428,30 @@ margin-top: 490px;
     }
     
     .tab-content-section {
-        position: relative !important;
-        top: 44px !important;
+        position: absolute !important;
+        top: 130px !important;
         padding-bottom: 378px !important;
     }
+
+    .buil2-tab-sec {
+        position: absolute !important;
+        top: 208px !important;
+        padding-bottom: 378px !important;
+    }
+
+    .buil3-tab-sec{
+        position: absolute !important;
+        top: 160px !important;
+        padding-bottom: 378px !important; 
+    }
    
+
+    .para_sec2 {
+        font-size: 20px;
+        line-height: 34.7px;
+        font-weight: 400;
+        color: #004C48;
+    }
 
 
     .heading_mapple {
@@ -2567,6 +2607,10 @@ Mapple css media
 
 
 @media only screen and (max-width: 991px) {
+
+    .bg-white-phon{
+        background-color: white !important;
+    }
 
     .mlp-2{
 

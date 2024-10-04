@@ -2608,6 +2608,11 @@ Mapple css media
 
 @media only screen and (max-width: 991px) {
 
+    .ftp-1{
+
+        margin-top: -2px !important;
+    }
+
     .bg-white-phon{
         background-color: white !important;
     }

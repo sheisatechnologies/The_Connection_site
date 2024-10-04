@@ -2611,7 +2611,7 @@ Mapple css media
     .head_suatain_first{
         font-size: 30px;
         color: #004C48;
-        width: 100%;
+        width: 100% !important;
     }
 
     .ftp-1{

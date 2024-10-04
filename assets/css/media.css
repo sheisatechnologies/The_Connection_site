@@ -1130,13 +1130,18 @@
     }
 
     .mapple-map-phon{
-
-      
         width: 133%;
         background-color: #F7EBDA;
         margin-top: -25px;
         margin-left: -113px;
     }
+
+
+    .buil3-phon,
+    .buil2-phon{
+        margin-top: -49px !important;
+    }
+
 
 .mobile-con2{
 
@@ -1591,6 +1596,14 @@ z-index: -1;
         margin-top: -1130px;
     }
 
+    .mobile_head {
+        line-height: 34px;
+        margin-top: 10px;
+    }
+    
+    .mobile_para {
+        margin-top: 15px;
+    }
     
 
   }
@@ -1721,6 +1734,7 @@ z-index: -1;
         height: auto !important;
         background-color: #004C48;
         padding: 40px;
+        z-index: -1;
     }
     
 
@@ -1771,7 +1785,27 @@ z-index: -1;
        
     }
 
+    .img_text h5 {
+        font-size: 30px;
+        color: #F7EBDA;
+        margin-top: 15px;
+    }
+
+.buil2-upper-img{
+    height: 670px;
+}
+
+.buil2-h{
+    margin-top: 19px;
+}
    
+.buil2-para{
+    margin-top: -117px !important;
+}
+
+.buil3-para{
+    margin-top: -127px !important;
+}
 
     
 
@@ -2414,7 +2448,7 @@ margin-top: 490px;
 
     color: #F7EBDA !important;
     /* margin-top: 37px; */
-    margin-top: -105px;
+    margin-top: -147px;
    }
 
   

@@ -2212,8 +2212,17 @@ right: 0;
     width: 100%;
     height: auto;
     position: relative;
+    /* z-index: 8; */
+    margin-top: -210px;
+}
+
+.mapple-simg3{
+
+    width: 100%;
+    height: auto;
+    position: relative;
     z-index: 8;
-    margin-top: -258px;
+    margin-top: -189px;
 }
 
 .mapple-simg-bil1 {

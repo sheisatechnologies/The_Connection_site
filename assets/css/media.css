@@ -1431,6 +1431,11 @@ contact css media
         margin-top: 450px;
     }
 
+
+    .sustain-img{
+        margin-top: -57px;
+    }
+
     
 
 
@@ -1816,7 +1821,7 @@ z-index: -1;
     }
 
 .buil2-upper-img{
-    height: 670px;
+    height: 671px;
 }
 
 .buil2-h{
@@ -2324,6 +2329,7 @@ margin-top: 490px;
 
     position: relative;
     z-index: 3;
+    margin-top: 2px;
 }
 .header-inner-mapple {
       margin: 0 0;
@@ -2432,7 +2438,7 @@ margin-top: 490px;
 @media only screen and (max-width: 991px) {
 
     .mapple_single_bg1 {
-        margin-top: 380px;
+        margin-top: 379.5px;
         margin-bottom: 0px !important;
     }
 

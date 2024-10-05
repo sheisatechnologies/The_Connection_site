@@ -721,9 +721,7 @@ nav .ri-menu-line {
     display: block !important;
   }
 
-  .card2 {
-    background-color: white;
-  }
+ 
   .ri-close-large-fill {
     font-size: 5vw;
     top: 4vh;
@@ -843,10 +841,8 @@ nav .ri-menu-line {
     margin-left: -1px;
   }
   .child-img-2 h3 {
-    right: 0;
+   
     left: initial;
-    background-color: #fff;
-    margin-left: 1px;
   }
   .card-content {
     padding: 0vw 10vw;

@@ -349,7 +349,7 @@
     .slider_three .owl-carousel .owl-nav button.owl-prev {
         width: 56px;
         height: 56px;
-        background-color: #F7EBDA;
+        background-color: #e2e5dc;
         color: #004C48;
         display: flex;
         align-items: center;
@@ -391,7 +391,7 @@
     .slider_two::after {
         position: absolute;
         top: 0;
-        left: 22px;
+        left: 0px;
         content: url(../images/slider-two-mobile-square.png);
         height: 112px;
         width: 56px;
@@ -407,6 +407,7 @@
         height: 56px;
         width: 112px;
         z-index: 5;
+        opacity: 0;
     }
 
     .slider_two .owl-carousel .owl-dots.disabled,
@@ -2329,7 +2330,7 @@ margin-top: 490px;
 
     position: relative;
     z-index: 3;
-    margin-top: 2px;
+    margin-top: -2px;
 }
 .header-inner-mapple {
       margin: 0 0;
@@ -2520,7 +2521,7 @@ margin-top: 490px;
 
     .para_sec2 {
         font-size: 20px;
-        line-height: 34.7px;
+        line-height: 22px;
         font-weight: 400;
         color: #004C48;
     }

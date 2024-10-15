@@ -89,6 +89,14 @@
     max-width: 50%;
   }
 
+  .mw-40{
+    max-width: 40%;
+  }
+  .ml-2{
+
+    margin-left: -2rem !important;
+  }
+
   .ml-6{
 
     margin-left: -12rem !important;
@@ -101,6 +109,11 @@
   .ml-7{
 
     margin-left: -26rem !important;
+  }
+
+  .ml-8{
+
+    margin-left: -40rem !important;
   }
 
   .mt-7{
@@ -451,12 +464,14 @@ footer {
 /* area pages hero and massk */
 
 .top_header_block-area {
-    background-image: url(../images/area/mask-are2.png);
+    background-image: url(../images/area/area-mask-1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
-    height: 1085px;
+    height: 867px;
+    margin-top: -3px;
+
 }
 
 .top_header_block_inner-area {
@@ -1849,7 +1864,7 @@ right: 0;
 .area_image{
     width: 100%;
     height: auto;
-    margin-top: -150px;
+    margin-top: -80px;
 }
 
 

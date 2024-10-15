@@ -70,6 +70,15 @@
 
 @media (max-width: 991px) {
 
+
+    .north-logo {
+        position: absolute;
+        right: 179px;
+        margin-top: 11px;
+        width: 100%;
+        max-width: 100px;
+    }
+
     .ri-close-large-fill {
         position: absolute;
         top: 20px;

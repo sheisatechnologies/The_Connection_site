@@ -1458,6 +1458,15 @@ right: 0;
     height: 100px;
 }
 
+.north-logo{
+
+    position: absolute;
+    right: 638px;
+    margin-top: 11px;
+    width: 100%;
+    max-width: 100px;
+}
+
 .heading_mapple{
     font-size: 40px;
     font-weight: 400;
@@ -2450,11 +2459,16 @@ height: 100%;
 
 
 .icon1{
-    margin-left: 105px;
+    margin-left: 76px;
+
 }
 
 .icon4{
     margin-left: 97px;
+}
+
+.icon3{
+    margin-left: -10px;
 }
 
 .no-desk{
@@ -2886,3 +2900,7 @@ margin-top: 50px;
             legal
 --------------------------------------------- */
 
+.conp{
+
+    width: 30px ;
+  }

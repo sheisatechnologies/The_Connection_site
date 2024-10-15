@@ -16,7 +16,33 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/media.css">
-  
+  <style>
+
+.down-arrow {
+      position: absolute; /* Absolute within the first section */
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 40px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      animation: bounce 2s infinite;
+    }
+
+    /* Keyframes for bounce animation */
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateX(-50%) translateY(0);
+      }
+      40% {
+        transform: translateX(-50%) translateY(-15px);
+      }
+      60% {
+        transform: translateX(-50%) translateY(-10px);
+      }
+    }
+  </style>
   </head>
   <body>
     <div id="main-gc">
@@ -86,6 +112,7 @@
           <img width="100px" src="./assets/images/home/section1.svg" alt="">
         </div>
 
+        <button class="down-arrow"><img src="assets/images/gr-arrow-down.svg"></button>
         
       </div>
 
@@ -549,6 +576,35 @@
 
 
     </div>
+
+
+    <script>
+      // Get the down arrow button
+      const arrowButton = document.querySelector('.down-arrow');
+  
+      // Add event listener for the button click
+      arrowButton.onclick = () => {
+        // Scroll directly to Section 2
+        document.querySelector('.second-section').scrollIntoView({ behavior: 'smooth' });
+      };
+    </script>
+
+
+    <!-- <script>
+      const sections = document.querySelectorAll('section');
+      let currentSectionIndex = 0;
+  
+      // Add event listener to the button
+      document.querySelector('.down-arrow').addEventListener('click', () => {
+        // Move to the next section
+        currentSectionIndex = (currentSectionIndex + 1) % sections.length;
+        sections[currentSectionIndex].scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    </script> -->
+
+
 <script>
 
   // assets/js/script.js

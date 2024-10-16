@@ -1,12 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37.536" height="37.536" viewBox="0 0 37.536 37.536">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 37.5 37.5">
   <defs>
-    <clipPath id="clip-path">
-      <rect id="Rectangle_11" data-name="Rectangle 11" width="26.541" height="26.542" fill="none" stroke="#fff" stroke-width="1"/>
-    </clipPath>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #e2e5dc;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
   </defs>
-  <g id="Group_61" data-name="Group 61" transform="translate(18.768 0) rotate(45)">
-    <g id="Group_8" data-name="Group 8" transform="translate(0 0)" clip-path="url(#clip-path)">
-      <path id="Path_124" data-name="Path 124" d="M0,26.156H26.156V0" transform="translate(0 0)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+  <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
+  <g>
+    <g id="Layer_1">
+      <g id="Layer_1-2" data-name="Layer_1">
+        <polyline class="cls-1" points="1.7 10.3 18.7 27.3 35.8 10.2"/>
+      </g>
     </g>
   </g>
 </svg>

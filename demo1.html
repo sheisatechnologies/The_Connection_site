@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bouncing Arrow Scroll (Fixed on First Section)</title>
+  <title>Bouncing Arrow Scroll</title>
   <style>
     /* Style for the down arrow button */
     .down-arrow {
-      position: absolute; /* Absolute within the first section */
+      position: absolute;
       bottom: 20px;
       left: 50%;
       transform: translateX(-50%);
@@ -42,23 +42,18 @@
     section:nth-child(odd) {
       background-color: #ddd;
     }
-
-    /* Fix the arrow within the first section */
-    #section1 {
-      position: relative;
-    }
   </style>
 </head>
 <body>
 
-  <!-- First Section where the arrow will be fixed -->
+  <!-- Bounce down arrow button -->
+  <button class="down-arrow">⬇️</button>
+
+  <!-- Sections to scroll through -->
   <section id="section1">
     <h2>Section 1</h2>
-    <!-- Bounce down arrow button inside the first section -->
-    <button class="down-arrow">⬇️</button>
   </section>
 
-  <!-- Other sections to scroll to -->
   <section id="section2">
     <h2>Section 2</h2>
   </section>

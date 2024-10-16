@@ -1232,6 +1232,7 @@ right: 0;
     color: #004c48 !important;
     display: block;
     line-height: 22px;
+    display: flex;
 }
 
 .common_footer_block {
@@ -1464,7 +1465,7 @@ right: 0;
     right: 638px;
     margin-top: 11px;
     width: 100%;
-    max-width: 100px;
+    max-width: 67px;
 }
 
 .heading_mapple{
@@ -2453,8 +2454,12 @@ height: 100%;
 
 .down-icon{
 
-    width: 21px;
+   
+
     height: 21px;
+    display: flex;
+    flex-direction: row;
+    
 }
 
 
@@ -2903,4 +2908,8 @@ margin-top: 50px;
 .conp{
 
     width: 30px ;
+  }
+
+  .con-down-icon{
+    width: 30px;
   }

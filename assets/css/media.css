@@ -2563,7 +2563,7 @@ Mapple css media
 @media only screen and (min-width: 991px) {
 
     .p36{
-        padding: 0 0.1px !important;
+        padding: 0 0.1rem !important;
     }
 
     .ml-1n{

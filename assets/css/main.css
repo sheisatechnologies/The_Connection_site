@@ -33,6 +33,18 @@
   }
 
 
+  .bg-green{
+
+    background-color: var(--clr-blue) !important;
+    
+  }
+  
+  .text-cream{
+  
+  color: var(--Albescent-White) !important;
+    
+  }
+
   @media screen and (min-width:768px) {
 
     .mt-md-4{

@@ -2305,7 +2305,7 @@ right: 0;
     color: black;
     border: none;
     padding: 10px 20px;
-    margin: 5px;
+    margin: 8px;
     cursor: pointer;
     width: 156px;
     height: 42px;
@@ -2548,7 +2548,20 @@ height: 100%;
     place-content: center;
 }
 
+@media (max-width: 991px) {
+.co-working-section{
 
+    position: relative;
+    top: 50px;
+    top: -902px;
+    display: table-column-group;
+    justify-content: center !important;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    place-content: center;
+}
+}
 
 .layer_block {
     padding: 0px 0 0px 0;

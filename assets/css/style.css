@@ -208,13 +208,13 @@ nav .ri-menu-line {
   top: 0;
   width: 100%;
   height: 864px;
-  padding: 0vw 144px;
+  
 }
 
 .cards-third {
   align-items: start;
   width: 100%;
-  height: 100%;
+  height: 40%;
   gap: 127px;
   margin-top: -0.7rem;
 }
@@ -306,16 +306,70 @@ nav .ri-menu-line {
 
 .overlay-four {
   position: absolute;
-    
-    width: 70%;
-    right: 0;
-    height: 900px;
-    background-image: url(../images/home/bg-image-home-01.jpg);
-    /* background-attachment: fixed; */
-    background-position: top;
-    background-size: cover;
-  
+  width: 70%;
+  right: 0;
+  height: 900px;
+  background-image: url(../images/home/bg-image-home-01.jpg);
+  /* background-attachment: fixed; */
+  background-position: top;
+  background-size: cover;
 }
+
+/* 
+@media screen and (min-width: 1300px) and (max-width: 1440px) {
+  .overlay-four {
+    position: absolute;
+        width: 70%;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        background-image: url(../images/home/bg-image-home-01.jpg);
+        background-attachment: fixed;
+        background-position: top;
+        background-size: cover;
+    
+    }
+
+} */
+
+@media screen and (min-width: 991px) and (max-width: 1300px) {
+
+  .ml-8 {
+    margin-left: -29rem !important;
+  }
+
+  .cards-third {
+    align-items: start;
+    width: 100%;
+    height: 100%;
+    gap: 127px;
+    margin-top: -0.7rem;
+}
+
+
+}
+
+
+
+@media (min-width: 1500px) {
+  .overlay-four {
+    position: absolute;
+        width: 70%;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        background-image: url(../images/home/bg-image-home-01.jpg);
+        background-attachment: fixed;
+        background-position: top;
+        background-size: cover;
+        z-index: -1;
+    
+    }
+
+
+
+}
+
 
 .overlay-four-png {
   position: absolute;
@@ -367,7 +421,8 @@ nav .ri-menu-line {
 .overlay-fifth {
   position: absolute;
   width: 70%;
-  height: 700px;
+  height: 100vh;
+  top: 10%;
   background-image: url(../images/home/bg-image-home-02.jpg);
   /* background-attachment: fixed; */
   background-position: top;
@@ -375,10 +430,15 @@ nav .ri-menu-line {
 }
 
 
+
+
+
+
 .overlay-six {
   position: absolute;
   width: 70%;
-  height: 700px;
+  top: 10%;
+  height: 100vh;
   background-image: url(../images/home/home-sustainability-image.jpg);
   /* background-attachment: fixed; */
   background-position: top;
@@ -667,7 +727,7 @@ nav .ri-menu-line {
   }
 }
 
-@media (max-width: 799px) {
+@media (max-width: 991px) {
 
  
 
@@ -793,7 +853,7 @@ nav .ri-menu-line {
     justify-content: flex-start;
     padding: 0px 40px;
     /* font-size: 2.5rem; */
-    margin-top: -7px;
+    margin-top: -8px;
   }
 
  
@@ -818,11 +878,11 @@ nav .ri-menu-line {
   .overlay-third {
     height: 1800px;
     padding: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 144px;
   }
-  .cards-third {
+  /* .cards-third {
     flex-direction: column;
-  }
+  } */
   .card-p-third {
     width: 100%;
   }

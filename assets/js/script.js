@@ -7,6 +7,9 @@ document.querySelector("#nav-menu").addEventListener("click", function () {
 })
 
 
+
+
+
 let mm = gsap.matchMedia();
 
 
@@ -59,12 +62,24 @@ let mm2 = gsap.matchMedia();
 mm2.add("(min-width: 800px)", () => {
     const parallax3 = document.getElementById("parallax3");
 
-
-    window.addEventListener("scroll", function () {
+    function updateParallax() {
         let offset = window.scrollY;
         parallax3.style.backgroundPositionY = offset * 0.5 + "px";
-    });
+    }
 
+    window.addEventListener("scroll", updateParallax);
+    window.addEventListener("load", updateParallax); // Ensures it works after refresh
+});
+
+// ✅ For small screens, apply a milder effect
+window.addEventListener("scroll", function () {
+    if (window.innerWidth < 800) {
+        const parallax3 = document.getElementById("parallax3");
+        if (parallax3) {
+            let offset = window.scrollY;
+            parallax3.style.backgroundPositionY = offset * 0.2 + "px"; // Slower effect for mobile
+        }
+    }
 });
 
 
@@ -108,100 +123,6 @@ mm4.add("(max-width: 799px)", () => {
     })
 });
 
-// mm.add("(max-width: 799px)", () => {
-//     // mobile setup code here...
-//   });
-
-
-/*
-let mm3 = gsap.matchMedia();
-
-mm3.add("(min-width: 800px)", () => {
-    let tl3 = gsap.timeline({
-        scrollTrigger: {
-            trigger: '.sixth-section',
-            start: '10% 50%',
-            end: '100% 50%',
-            scrub: true,
-            markers: true,
-        }
-    });
-
-    tl3.to(".bg-six", {
-        backgroundPosition: "bottom",
-    })
-});
-
-mm3.add("(max-width: 799px)", () => {
-    let tl3 = gsap.timeline({
-        scrollTrigger: {
-            trigger: '.sixth-section',
-            start: '10% 50%',
-            end: '100% 50%',
-            scrub: true,
-            // markers: true,
-        }
-    });
-
-    tl3.to(".bg-six", {
-        y: -100,
-    })
-});
-
-*/
-
-// let mm4 = gsap.matchMedia();
-
-// mm4.add("(min-width: 800px)", () => {
-//     let tl = gsap.timeline({
-//         scrollTrigger: {
-//             trigger: '.fifth-section',
-//             start: '0% 80%',
-//             end: '100% 0%',
-//             scrub: true,
-//             // markers: true,
-//         }
-//     });
-//     tl.to(".overlay-five-png", {
-//         y: -100,
-//     })
-// });
-
-
-// mm4.add("(min-width: 800px)", () => {
-//     let tl = gsap.timeline({
-//         scrollTrigger: {
-//             trigger: '.overlay-four',
-//             start: '0% 10%',
-//             end: '0% 60%',
-//             scrub: true,
-//             markers: true,
-//             duration: 6000,
-//             ease: 'power3.inOut',
-//             repeat:-1
-//         }
-//     });
-//     tl.to(".overlay-four", {
-//         y: -200,
-//     })
-// });
-
-
-// gsap.to('.overlay-four',{y:-100,
-// // scale:0.5,
-// delay:1,
-// scrollTrigger:{
-    
-//     trigger:'.overlay-four-png', 
-//     start:'top top',
-//      marker:true, 
-//      scrub:true}
-
-
-
-
-
-// });
 
 
 
@@ -232,12 +153,3 @@ gsap.to('.overlay-four',{y:-100,
 
 
 
-
-// const parallax = document.getElementById("parallax");
-
-// // Parallax Effect for DIV 1
-// window.addEventListener("scroll", function () {
-//     let offset = window.scrollY;
-//     parallax.style.backgroundPositionY = offset * 0.5 + "px";
-//     // DIV 1 background will move slower than other elements on scroll.
-// });

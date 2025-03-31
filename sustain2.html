@@ -14,7 +14,37 @@
   <link rel="stylesheet" href="assets/css/media.css">
   <link rel="icon" href="assets/images/favicon.png" />
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+<style>
 
+.parallax-item {
+    background-size: cover; /* Ensures full coverage */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    width: 100%;
+    min-height: 100vh; /* ✅ Ensures full-screen height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ✅ Fix for Safari (background-attachment issue) */
+@supports (-webkit-touch-callout: none) {
+    .parallax-item {
+        background-attachment: scroll !important;
+    }
+}
+
+/* ✅ Small screen adjustments */
+@media (max-width: 799px) {
+    .parallax-item {
+        background-attachment: scroll;
+        background-position: center top;
+        min-height: 80vh; /* Adjust height for mobile */
+    }
+}
+
+</style>
 <style>
 .sus-para-container{
 
@@ -26,7 +56,7 @@
     position: relative;
     height: auto;
     margin-top: 5vh;
-    margin-top: -1.6px;
+    margin-top: 0px;
     background-color: white;
 }
 

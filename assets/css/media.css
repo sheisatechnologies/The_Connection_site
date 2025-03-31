@@ -33,7 +33,7 @@
         align-items: start;
         width: 100%;
         height: 100%;
-        gap: 179px;
+        gap: 2rem;
         margin-top: -0.7rem;
     }
     .ml-2n {
@@ -69,6 +69,8 @@
 
 
 @media (max-width: 991px) {
+
+   
 
 
     .north-logo {
@@ -352,13 +354,25 @@
         line-height: 24px;
     }
 
-    .slider_four .owl-carousel .owl-nav button.owl-next,
-    .slider_four .owl-carousel .owl-nav button.owl-prev,
+    
     .slider_three .owl-carousel .owl-nav button.owl-next,
     .slider_three .owl-carousel .owl-nav button.owl-prev {
         width: 56px;
         height: 56px;
         background-color: #e2e5dc;
+        color: #004C48;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0;
+        margin: -12px;
+    }
+
+    .slider_four .owl-carousel .owl-nav button.owl-next,
+    .slider_four .owl-carousel .owl-nav button.owl-prev {
+        width: 56px;
+        height: 56px;
+        background-color: #F7EBDA;
         color: #004C48;
         display: flex;
         align-items: center;
@@ -1140,10 +1154,10 @@
     }
 
     .mapple-map-phon{
-        width: 133%;
+        width: 103%;
         background-color: #F7EBDA;
         margin-top: -25px;
-        margin-left: -113px;
+        margin-left: 0px;
     }
 
 
@@ -1223,6 +1237,13 @@
 
 .mapple-phon-con2 h2, li{
     color: #004C48;
+}
+
+.buil1-mask-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 601.8px;
 }
 
 .no-desk {
@@ -1832,7 +1853,11 @@ z-index: -1;
     }
 
 .buil2-upper-img{
-    height: 671px;
+    
+        height: 100%;
+        max-height: 582px;
+        width: 100%;
+    
 }
 
 .buil2-h{
@@ -2508,11 +2533,13 @@ margin-top: 490px;
 
     .mapple_single_bg {
         margin-top: -5px !important;
+        z-index: -555;
+        position: relative;
     }
     
     .tab-content-section {
         position: absolute !important;
-        top: 130px !important;
+        top: 191px !important;
         padding-bottom: 378px !important;
     }
 
@@ -2731,6 +2758,7 @@ Mapple css media
     .lh-1{
 
         line-height: 22px !important;
+        color: #F7EBDA;
     }
 
     .pxp-4{
@@ -2884,4 +2912,60 @@ nav {
     top: 17px ;
    
     padding: 51px 48px;
+}
+
+
+@media (min-width: 991px) and (max-width: 1432px) {
+    .top_header_block_inner-sustain {
+        position: absolute;
+        background-repeat: no-repeat;
+        top: 4.4px;
+        left: 0;
+        background-image: url(../images/sustainability/sustain-mask.png);
+        width: 100%;
+        height: 1000px;
+        background-size: cover;
+    }
+
+    .top_header_block_inner-mapple {
+        position: absolute;
+        background-repeat: no-repeat;
+        top: 2px;
+        left: 0;
+        background-image: url(../images/mapple/maple-mask-1.png);
+        width: 100%;
+        height: 930px;
+        background-size: cover;
+        z-index: 7;
+    }
+
+    
+}
+
+@media (min-width: 991px) and (max-width: 1300px) {
+    .top_header_block_inner-lab {
+        position: absolute;
+        background-repeat: no-repeat;
+        top: -2px;
+        left: 0;
+        background-image: url(../images/lab/header-labs-mask.png);
+        width: 100.3%;
+        height: 1085px;
+        background-size: cover;
+        z-index: 3;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 1432px) {
+    .top_header_block_inner-lab {
+        position: absolute;
+        background-repeat: no-repeat;
+        top: 0.1px;
+        left: 0;
+        background-image: url(../images/lab/header-labs-mask.png);
+        width: 100.3%;
+        height: 1010px;
+        background-size: cover;
+        z-index: 3;
+    }
 }

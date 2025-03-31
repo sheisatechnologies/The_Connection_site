@@ -347,6 +347,14 @@ nav .ri-menu-line {
 }
 
 
+.overlay-six {
+ 
+  max-height: 85vh !important;
+ 
+}
+
+
+
 }
 
 
@@ -416,6 +424,7 @@ nav .ri-menu-line {
   margin-top: 5vh;
   margin-top: 0px;
   background-color: white;
+  overflow-y: hidden;
 }
 
 .overlay-fifth {

@@ -2542,7 +2542,7 @@ height: 100%;
     top: -902px;
     display: flex;
     justify-content: center !important;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     margin: 0 auto;
     place-content: center;

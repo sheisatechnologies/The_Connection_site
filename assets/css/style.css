@@ -920,7 +920,7 @@ nav .ri-menu-line {
     min-height: 30vh;
   }
   .mainHeading {
-    font-size: 10vw;
+    /* font-size: 10vw; */
   }
   .mainP {
     font-size: 18px;

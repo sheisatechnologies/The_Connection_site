@@ -460,6 +460,19 @@ nav .ri-menu-line {
 
 
 
+.seven-section {
+  position: relative;
+  height: 800px;
+  margin-top: 5vh;
+  margin-top: 0px;
+  background-color: white;
+  overflow-y: hidden;
+  background-image: url(../images/home/home-sustainability-image.jpg);
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+}
+
 
 .overlay-six {
   position: absolute;
@@ -536,16 +549,21 @@ nav .ri-menu-line {
   overflow: hidden;
   height: 756px;
  margin-top: 0px;
+ background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../images/home/lab-bg-img-desk1.jpg);
 }
+
 
 .bg-six {
 
   width: 120%;
   height: 950px;
    
-    background-position: center;
+    /* background-position: center;
     background-size: cover;
-    background-image: url(../images/home/lab-bg-img-desk1.jpg);
+    background-image: url(../images/home/lab-bg-img-desk1.jpg); */
 
 }
 

@@ -316,12 +316,12 @@ nav .ri-menu-line {
 
 .fourth-section {
   position: relative;
-  height: 1000px;
-  background-image: url(../images/home/bg-image-home-01.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  z-index: -1;
-  background-position: center top;
+    height: 1000px;
+    background-image: url(../images/home/bg-image-home-01.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -1;
+    background-position: center bottom;
 }
 
 .overlay-four {

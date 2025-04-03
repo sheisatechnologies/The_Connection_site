@@ -315,13 +315,15 @@ nav .ri-menu-line {
 /* --------------section-4------ */
 
 .fourth-section {
+
   position: relative;
-    height: 1000px;
-    background-image: url(../images/home/bg-image-home-01.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    z-index: -1;
-    background-position: center bottom;
+  height: 1000px;
+  background-image: url(../images/home/bg-image-home-01.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: -1;
+  background-position: center bottom;
+  
 }
 
 .overlay-four {
@@ -437,15 +439,15 @@ nav .ri-menu-line {
 /* -----fifth-section----- */
 .fifth-section {
   position: relative;
-    height: 800px;
-    margin-top: 5vh;
-    margin-top: 0px;
-    background-color: white;
-    overflow-y: hidden;
-    background-image: url(../images/home/bg-image-home-02.jpg);
-    background-attachment: fixed;
-    background-position: top;
-    background-size: cover;
+  height: 800px;
+  margin-top: 5vh;
+  margin-top: 0px;
+  background-color: white;
+  overflow-y: hidden;
+  background-image: url(../images/home/bg-image-home-02.jpg);
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
 }
 
 .overlay-fifth {
@@ -908,7 +910,7 @@ nav .ri-menu-line {
     height: 116vh !important;
 
 
-    background-size: contain;
+    background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
     justify-content: flex-start;
